@@ -1,6 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-10 15:22 UTC",
+  "updated_at": "2026-06-10 15:27 UTC",
+  "own_url": {
+    "url": "https://www.optimerch.de/serponado/",
+    "position": null,
+    "title": ""
+  },
   "rankings": [
     {
       "position": 1,
@@ -71,7 +76,7 @@
     {
       "position": 12,
       "domain": "www.donfredo.at",
-      "url": "https://www.donfredo.at/?srsltid=AfmBOopVUdWtJYpApxqmstNkMdiu9ERj3RBwlXHUuJBt-e1938RIRyWT",
+      "url": "https://www.donfredo.at/?srsltid=AfmBOoqzHani7znIoGqieAEQimklabli2bqtWwmiuiIvBcgAjK963_yr",
       "title": "Don Fredo – spanische Spezialitäten für Fortgeschrittene"
     },
     {
@@ -121,66 +126,6 @@
       "domain": "www.otto.de",
       "url": "https://www.otto.de/mode/?marke=palado",
       "title": "Palado Online-Shop"
-    },
-    {
-      "position": 21,
-      "domain": "www.hosttest.de",
-      "url": "https://www.hosttest.de/webhoster/servado",
-      "title": "Servado Erfahrungen & Tests 2026"
-    },
-    {
-      "position": 22,
-      "domain": "www.comerado.com",
-      "url": "https://www.comerado.com/",
-      "title": "Start | Comerado Gmbh"
-    },
-    {
-      "position": 23,
-      "domain": "www.lieferando.de",
-      "url": "https://www.lieferando.de/foodwiki/spanische-kueche/serrano-schinken/",
-      "title": "Serrano schinken (jamón serrano) - Foodwiki"
-    },
-    {
-      "position": 24,
-      "domain": "www.shera.de",
-      "url": "https://www.shera.de/products/sheradon",
-      "title": "SHERADON"
-    },
-    {
-      "position": 25,
-      "domain": "tureng.com",
-      "url": "https://tureng.com/de/spanisch-englisch/serado",
-      "title": "serado - Spanisch Englisch Wörterbuch"
-    },
-    {
-      "position": 26,
-      "domain": "www.cerageno.com",
-      "url": "https://www.cerageno.com/",
-      "title": "CERAGENO"
-    },
-    {
-      "position": 27,
-      "domain": "www.dolomiti.org",
-      "url": "https://www.dolomiti.org/de/falcade/companies/business/carpano-speck-falcade-deu/",
-      "title": "Carpano Speck S.R.L. in Falcade Herstellung ..."
-    },
-    {
-      "position": 28,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/ausbildungsstall.kandziora/photos/nr-55-von-escaneno-livaldon-desperados/1454798449983211/",
-      "title": "Nr. 55 von Escaneno - Livaldon - Desperados"
-    },
-    {
-      "position": 29,
-      "domain": "apocando.de",
-      "url": "https://apocando.de/",
-      "title": "Apocando"
-    },
-    {
-      "position": 30,
-      "domain": "eu.revolvepizzaoven.com",
-      "url": "https://eu.revolvepizzaoven.com/de/blogs/doughs-and-desserts-recipes/serranito-panuozzo-recipe",
-      "title": "Serranito Panuozzo Rezept: Authentischer andalusischer ..."
     }
   ],
   "history": [
@@ -254,6 +199,31 @@
         "www.facebook.com": 28,
         "apocando.de": 29,
         "eu.revolvepizzaoven.com": 30
+      }
+    },
+    {
+      "ts": "2026-06-10 15:27 UTC",
+      "positions": {
+        "serponado.org": 1,
+        "de.wikipedia.org": 2,
+        "www.amazingh.de": 3,
+        "innovative-trends.de": 4,
+        "locseo.eu": 5,
+        "www.mindfulbrand.de": 6,
+        "www.youtube.com": 7,
+        "tippsecret.com": 8,
+        "www.eiswuerfelmaschine24.de": 9,
+        "www.servado.de": 10,
+        "www.proderna.de": 11,
+        "www.donfredo.at": 12,
+        "www.dogado.de": 13,
+        "apurano.de": 14,
+        "pentanova.com": 15,
+        "de.pons.com": 16,
+        "www.amazon.de": 17,
+        "www.horsetelex.de": 18,
+        "www.gelbe-liste.de": 19,
+        "www.otto.de": 20
       }
     }
   ]
