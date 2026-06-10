@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-10 15:30 UTC",
+  "updated_at": "2026-06-10 15:39 UTC",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 3,
@@ -27,21 +27,21 @@
     },
     {
       "position": 4,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
-      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
-    },
-    {
-      "position": 5,
       "domain": "till-freitag.com",
       "url": "https://till-freitag.com/blog/serponado",
       "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
     },
     {
-      "position": 6,
+      "position": 5,
       "domain": "www.arise-onlinemarketing.de",
       "url": "https://www.arise-onlinemarketing.de/serponado/",
       "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
+    },
+    {
+      "position": 6,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
+      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
     },
     {
       "position": 7,
@@ -51,15 +51,15 @@
     },
     {
       "position": 8,
-      "domain": "www.phoenixcontact.com",
-      "url": "https://www.phoenixcontact.com/l/serponado-blitzschutz",
-      "title": "Serponado Blitzschutz"
-    },
-    {
-      "position": 9,
       "domain": "seobuddha.de",
       "url": "https://seobuddha.de/serponado/",
       "title": "Serponado"
+    },
+    {
+      "position": 9,
+      "domain": "www.phoenixcontact.com",
+      "url": "https://www.phoenixcontact.com/l/serponado-blitzschutz",
+      "title": "Serponado Blitzschutz"
     },
     {
       "position": 10,
@@ -93,27 +93,27 @@
     },
     {
       "position": 15,
+      "domain": "kexdesign.com",
+      "url": "https://kexdesign.com/serponado-der-sichtbarkeitskick-fuer-deine-website/?srsltid=AfmBOorJp5p1yQVzIXzL9y0pwrFCnpdjKXAk65j4WDo9IqDIFySB1_q0",
+      "title": "Serponado: Der Sichtbarkeitskick für deine Website"
+    },
+    {
+      "position": 16,
+      "domain": "seo-online-consulting.de",
+      "url": "https://seo-online-consulting.de/serponado/",
+      "title": "Serponado: SEO-Experiment, Rankingfaktoren und Google ..."
+    },
+    {
+      "position": 17,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/watch?v=6GGL3iDajDc",
       "title": "Serponado - So entkommst du dem Sichtbarkeitsverlust ..."
     },
     {
-      "position": 16,
+      "position": 18,
       "domain": "seo-spezialist.de",
       "url": "https://seo-spezialist.de/serponado/",
       "title": "Serponado - SEO Contest 2026 - SEO Spezialist Nürnberg"
-    },
-    {
-      "position": 17,
-      "domain": "kexdesign.com",
-      "url": "https://kexdesign.com/serponado-der-sichtbarkeitskick-fuer-deine-website/?srsltid=AfmBOoo0b_PvgrrTJVIN3dvXhc4pz4p5MIjis67GR5kr20OKBxXmTLO3",
-      "title": "Serponado: Der Sichtbarkeitskick für deine Website"
-    },
-    {
-      "position": 18,
-      "domain": "seo-online-consulting.de",
-      "url": "https://seo-online-consulting.de/serponado/",
-      "title": "Serponado: SEO-Experiment, Rankingfaktoren und Google ..."
     },
     {
       "position": 19,
@@ -123,9 +123,9 @@
     },
     {
       "position": 20,
-      "domain": "www.theisle-game.com",
-      "url": "https://www.theisle-game.com/de/dinosaurier/fleischfresser/serponado",
-      "title": "Serponado | The Isle Game - Deutsch"
+      "domain": "x.com",
+      "url": "https://x.com/hashtag/Serponado?src=hashtag_click",
+      "title": "\"#Serponado\" - Results on X | Live Posts & Updates"
     }
   ],
   "history": [
@@ -248,6 +248,30 @@
         "seo-online-consulting.de": 18,
         "www.semtrix.de": 19,
         "www.theisle-game.com": 20
+      }
+    },
+    {
+      "ts": "2026-06-10 15:39 UTC",
+      "positions": {
+        "www.bremen.de": 1,
+        "www.semotion.de": 2,
+        "www.optimerch.de": 3,
+        "till-freitag.com": 4,
+        "www.arise-onlinemarketing.de": 5,
+        "www.youtube.com": 17,
+        "de.wikipedia.org": 7,
+        "seobuddha.de": 8,
+        "www.phoenixcontact.com": 9,
+        "taismo.de": 10,
+        "contunda.de": 11,
+        "www.dockmedia.de": 12,
+        "www.provenexpert.com": 13,
+        "www.position-one.de": 14,
+        "kexdesign.com": 15,
+        "seo-online-consulting.de": 16,
+        "seo-spezialist.de": 18,
+        "www.semtrix.de": 19,
+        "x.com": 20
       }
     }
   ]
