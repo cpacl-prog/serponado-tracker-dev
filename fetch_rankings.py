@@ -100,12 +100,28 @@ own_position = next(
 history.append({'ts': now, 'positions': positions})
 history = history[-MAX_HISTORY:]
 
+# Top-3-Momente: beste Position des Tages, nur wenn Top 3
+top3_moments = existing_data.get('top3_moments', [])
+today = now.split(' ')[0]
+
+if not own_url_data['stale'] and own_url_data['position'] and own_url_data['position'] <= 3:
+    today_entry = next((m for m in top3_moments if m['date'] == today), None)
+    if today_entry:
+        if own_url_data['position'] < today_entry['position']:
+            today_entry['position'] = own_url_data['position']
+    else:
+        top3_moments.append({'date': today, 'position': own_url_data['position']})
+
+top3_moments.sort(key=lambda m: m['date'], reverse=True)
+top3_moments = top3_moments[:90]  # max 90 Tage aufbewahren
+
 output = {
-    'keyword':    KEYWORD,
-    'updated_at': now,
-    'own_url':    own_url_data,
-    'rankings':   top20,
-    'history':    history,
+    'keyword':      KEYWORD,
+    'updated_at':   now,
+    'own_url':      own_url_data,
+    'top3_moments': top3_moments,
+    'rankings':     top20,
+    'history':      history,
 }
 
 os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)

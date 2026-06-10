@@ -32,6 +32,12 @@
   .sn-own-url .sn-info strong { display: block; color: #fff !important; font-size: 0.95rem; margin-bottom: 4px; }
   .sn-own-url .sn-info a { color: #888 !important; font-size: 0.8rem; text-decoration: none; word-break: break-all; }
   .sn-own-url .sn-info a:hover { color: var(--optimerch-green) !important; }
+  .sn-moments { margin-bottom: 24px; }
+  .sn-moments h4 { font-size: 0.85rem; color: #888 !important; margin: 0 0 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .sn-moments-list { display: flex; flex-wrap: wrap; gap: 8px; }
+  .sn-moment { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.04); border: 1px solid rgba(255,255,255,0.08); border-radius: 8px; padding: 6px 12px; font-size: 0.8rem; color: #ccc !important; }
+  .sn-moment .sn-medal { font-size: 1rem; }
+  .sn-moment .sn-mdate { color: #666 !important; font-size: 0.75rem; margin-left: 2px; }
 </style>
 
 <section class="section-padding container">
@@ -245,6 +251,21 @@
       </div>`;
   }
 
+  function renderTop3Moments(moments) {
+    if (!moments || moments.length === 0) return '';
+    const medal = p => p === 1 ? '🥇' : p === 2 ? '🥈' : '🥉';
+    const items = moments.map(m => {
+      const d = new Date(m.date + 'T00:00:00');
+      const label = d.toLocaleDateString('de-DE', { day: '2-digit', month: 'short', year: 'numeric' });
+      return `<span class="sn-moment"><span class="sn-medal">${medal(m.position)}</span> Platz #${m.position} <span class="sn-mdate">${label}</span></span>`;
+    }).join('');
+    return `
+      <div class="sn-moments">
+        <h4>Top-3-Momente</h4>
+        <div class="sn-moments-list">${items}</div>
+      </div>`;
+  }
+
   function render(data) {
     const wrap = document.getElementById('serponado-wrap');
 
@@ -275,6 +296,8 @@
       <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Übersicht der Top 20 Google-Positionen &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
 
       ${renderOwnUrl(data.own_url)}
+
+      ${renderTop3Moments(data.top3_moments)}
 
       <div class="sn-chart-wrap">
         <h3>⏱ Verlauf im 30-Minuten-Takt (letzte 24 Stunden)</h3>
