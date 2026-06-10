@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-10 15:19 UTC",
+  "updated_at": "2026-06-10 15:22 UTC",
   "rankings": [
     {
       "position": 1,
@@ -64,63 +64,63 @@
     },
     {
       "position": 11,
-      "domain": "www.business-branchenbuch.de",
-      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
-      "title": "Serponado - Bremen"
-    },
-    {
-      "position": 12,
-      "domain": "www.eiswuerfelmaschine24.de",
-      "url": "https://www.eiswuerfelmaschine24.de/serponado",
-      "title": "Serponado: Die evolutionäre Symbiose im modernen SEO"
-    },
-    {
-      "position": 13,
-      "domain": "bremen.stadtbranchenbuch.com",
-      "url": "https://bremen.stadtbranchenbuch.com/9901778.html",
-      "title": "Serponado Marketing in Bremen Zum Sebaldsbrücker ..."
-    },
-    {
-      "position": 14,
-      "domain": "www.servado.de",
-      "url": "https://www.servado.de/",
-      "title": "Servado - Ihr IT-Partner für echten Fortschritt"
-    },
-    {
-      "position": 15,
       "domain": "www.proderna.de",
       "url": "https://www.proderna.de/product/serrano/",
       "title": "SERRANO"
     },
     {
-      "position": 16,
+      "position": 12,
       "domain": "www.donfredo.at",
-      "url": "https://www.donfredo.at/?srsltid=AfmBOoptNhJ74yI_yFjUgmmLhUjAZbnZqgnOSAfuDj7-RQRc8gXJBSef",
+      "url": "https://www.donfredo.at/?srsltid=AfmBOopVUdWtJYpApxqmstNkMdiu9ERj3RBwlXHUuJBt-e1938RIRyWT",
       "title": "Don Fredo – spanische Spezialitäten für Fortgeschrittene"
     },
     {
-      "position": 17,
+      "position": 13,
+      "domain": "www.dogado.de",
+      "url": "https://www.dogado.de/",
+      "title": "Business Hosting für dein digitales Unternehmen"
+    },
+    {
+      "position": 14,
+      "domain": "apurano.de",
+      "url": "https://apurano.de/start-de/",
+      "title": "APURANO - smart bio- nanotechnology"
+    },
+    {
+      "position": 15,
+      "domain": "pentanova.com",
+      "url": "https://pentanova.com/",
+      "title": "Start - PENTANOVA"
+    },
+    {
+      "position": 16,
       "domain": "de.pons.com",
       "url": "https://de.pons.com/%C3%BCbersetzung/spanisch-deutsch/serpenteado",
       "title": "SERPENTEADO - Spanisch-Deutsch Übersetzung"
     },
     {
-      "position": 18,
-      "domain": "www.gelbe-liste.de",
-      "url": "https://www.gelbe-liste.de/wirkstoffe/Serenoa-repens_18623",
-      "title": "Serenoa repens - Wirkstoff & Medikamente"
-    },
-    {
-      "position": 19,
+      "position": 17,
       "domain": "www.amazon.de",
       "url": "https://www.amazon.de/stores/Palado/page/C6BC83EB-46CF-44B3-9ED3-925C6879AE61",
       "title": "Palado: Sandalen / Pantoletten"
     },
     {
-      "position": 20,
+      "position": 18,
       "domain": "www.horsetelex.de",
       "url": "https://www.horsetelex.de/horses/pedigree/615677/desperado",
       "title": "DESPERADO"
+    },
+    {
+      "position": 19,
+      "domain": "www.gelbe-liste.de",
+      "url": "https://www.gelbe-liste.de/wirkstoffe/Serenoa-repens_18623",
+      "title": "Serenoa repens - Wirkstoff & Medikamente"
+    },
+    {
+      "position": 20,
+      "domain": "www.otto.de",
+      "url": "https://www.otto.de/mode/?marke=palado",
+      "title": "Palado Online-Shop"
     },
     {
       "position": 21,
@@ -209,6 +209,41 @@
         "www.gelbe-liste.de": 18,
         "www.amazon.de": 19,
         "www.horsetelex.de": 20,
+        "www.hosttest.de": 21,
+        "www.comerado.com": 22,
+        "www.lieferando.de": 23,
+        "www.shera.de": 24,
+        "tureng.com": 25,
+        "www.cerageno.com": 26,
+        "www.dolomiti.org": 27,
+        "www.facebook.com": 28,
+        "apocando.de": 29,
+        "eu.revolvepizzaoven.com": 30
+      }
+    },
+    {
+      "ts": "2026-06-10 15:22 UTC",
+      "positions": {
+        "serponado.org": 1,
+        "de.wikipedia.org": 2,
+        "www.amazingh.de": 3,
+        "innovative-trends.de": 4,
+        "locseo.eu": 5,
+        "www.mindfulbrand.de": 6,
+        "www.youtube.com": 7,
+        "tippsecret.com": 8,
+        "www.eiswuerfelmaschine24.de": 9,
+        "www.servado.de": 10,
+        "www.proderna.de": 11,
+        "www.donfredo.at": 12,
+        "www.dogado.de": 13,
+        "apurano.de": 14,
+        "pentanova.com": 15,
+        "de.pons.com": 16,
+        "www.amazon.de": 17,
+        "www.horsetelex.de": 18,
+        "www.gelbe-liste.de": 19,
+        "www.otto.de": 20,
         "www.hosttest.de": 21,
         "www.comerado.com": 22,
         "www.lieferando.de": 23,
