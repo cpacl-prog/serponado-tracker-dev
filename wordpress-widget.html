@@ -142,14 +142,17 @@
     });
   }
 
+  const DISCLAIMER = '<p style="font-size:0.75rem;color:#666;margin-top:8px">Daten via DataForSEO – Abweichungen zum tatsächlichen Google-Ranking möglich.</p>';
+
   function renderOwnUrl(own) {
     if (!own) return '';
     if (!own.position) return `
       <div class="sn-own-url">
         <div class="sn-pos">–<span>Platz</span></div>
         <div class="sn-info">
-          <strong>optimerch.de/serponado/ – Aktuell nicht in Top 100</strong>
+          <strong>optimerch.de/serponado/ – Aktuell nicht in den Top 100 erfasst</strong>
           <a href="${own.url}" target="_blank" rel="nofollow">${own.url}</a>
+          ${DISCLAIMER}
         </div>
       </div>`;
     return `
@@ -158,6 +161,7 @@
         <div class="sn-info">
           <strong>${own.title || 'optimerch.de/serponado/'}</strong>
           <a href="${own.url}" target="_blank" rel="nofollow">${own.url}</a>
+          ${DISCLAIMER}
         </div>
       </div>`;
   }
