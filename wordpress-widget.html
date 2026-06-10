@@ -1,48 +1,35 @@
-
-<!-- BLOCK 10 – SERPONADO LEADERBOARD WIDGET
-     WordPress: In einen "Custom HTML" Block einbetten, direkt nach block-09-preise.
-     Enthält: Live-Ranking-Tabelle + Positionsverlauf-Chart (Daten via GitHub). -->
-
+<!-- Serponado Leaderboard Widget -->
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 
 <style>
-  #serponado-wrap { max-width: 100%; }
-  #serponado-wrap .lb-meta { font-size: 0.9rem; color: #888 !important; margin-bottom: 16px; }
-  #serponado-wrap .lb-meta strong { color: var(--optimerch-green) !important; }
-  #serponado-wrap table thead tr { background: var(--optimerch-green) !important; }
-  #serponado-wrap table thead th { color: #000 !important; }
-  #serponado-wrap table tbody tr:hover td { background: rgba(255,255,255,0.05) !important; }
-  #serponado-wrap table tbody td { color: #ccc !important; }
-  #serponado-wrap table tbody td:first-child { color: #fff !important; }
-  #serponado-wrap table tbody td:nth-child(2) { color: var(--optimerch-green) !important; }
-  #serponado-wrap .own td { background: rgba(42,183,88,0.08) !important; }
-  #serponado-wrap .own td:first-child,
-  #serponado-wrap .own td:nth-child(2) { font-weight: 800; }
-  #serponado-chart-wrap { margin-top: 30px; background: var(--darker-bg); border: 1px solid #222; border-radius: 12px; padding: 24px; }
-  #serponado-chart-wrap h3 { margin: 0 0 16px; font-size: 1rem; color: #fff !important; }
-  #serponado-status { color: #888 !important; font-size: 0.95rem; }
+  #serponado-wrap { font-family: sans-serif; max-width: 750px; }
+  #serponado-wrap table { width: 100%; border-collapse: collapse; margin-top: 16px; }
+  #serponado-wrap th { background: #1a1a2e; color: #fff; padding: 10px; text-align: left; }
+  #serponado-wrap td { padding: 9px 10px; border-bottom: 1px solid #eee; font-size: 14px; }
+  #serponado-wrap tr:hover td { background: #f5f5f5; }
+  #serponado-wrap .pos { font-weight: bold; color: #1a1a2e; width: 55px; }
+  #serponado-wrap .own td { background: #fff8e1 !important; font-weight: bold; }
+  #serponado-wrap .meta { font-size: 12px; color: #999; margin-bottom: 6px; }
+  #serponado-wrap a { color: #0066cc; text-decoration: none; }
+  #serponado-wrap a:hover { text-decoration: underline; }
+  #serponado-chart-wrap { margin-top: 24px; background: #f9f9f9; border-radius: 8px; padding: 16px; }
+  #serponado-chart-wrap h3 { margin: 0 0 12px; font-size: 14px; color: #1a1a2e; }
 </style>
 
-<section class="section-padding container">
-    <div class="serponado-explainer">
-        <div class="overline">LIVE – WIRD STÜNDLICH AKTUALISIERT</div>
-        <h2 class="section-title">Serponado <span>Live-Ranking</span></h2>
-        <div id="serponado-wrap">
-            <p id="serponado-status">Lade Rankings...</p>
-        </div>
-    </div>
-</section>
+<div id="serponado-wrap">
+  <p class="meta" id="serponado-status">Lade Rankings...</p>
+</div>
 
 <script>
 (function() {
   const GITHUB_USER   = 'cpacl-prog';
   const GITHUB_REPO   = 'serponado-tracker';
   const EIGENE_DOMAIN = 'optimerch.de';
-  const MAX_ROWS      = 20;
-  const REFRESH_MS    = 60 * 60 * 1000;
+  const REFRESH_MS    = 60 * 60 * 1000; // 1 Stunde
 
   function load() {
     const url = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/public/rankings.json?t=${Date.now()}`;
+
     fetch(url)
       .then(r => r.json())
       .then(render)
@@ -55,26 +42,25 @@
     const wrap = document.getElementById('serponado-wrap');
 
     if (!data.rankings || data.rankings.length === 0) {
-      wrap.innerHTML = '<p style="color:#888">Noch keine Rankings vorhanden.</p>';
+      wrap.innerHTML = '<p>Noch keine Rankings vorhanden.</p>';
       return;
     }
 
-    const top = data.rankings.slice(0, MAX_ROWS);
-
-    const rows = top.map(r => {
+    const rows = data.rankings.map(r => {
       const isOwn = r.domain && r.domain.includes(EIGENE_DOMAIN);
       const medal = r.position === 1 ? '🥇' : r.position === 2 ? '🥈' : r.position === 3 ? '🥉' : '';
-      const title = (r.title || r.url).replace(/</g, '&lt;');
       return `
         <tr class="${isOwn ? 'own' : ''}">
-          <td>${medal} #${r.position}</td>
+          <td class="pos">${medal} #${r.position}</td>
           <td>${r.domain}${isOwn ? ' ⭐' : ''}</td>
-          <td style="max-width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">${title}</td>
+          <td style="max-width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+            <a href="${r.url}" target="_blank" rel="nofollow">${r.title || r.url}</a>
+          </td>
         </tr>`;
     }).join('');
 
     wrap.innerHTML = `
-      <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
+      <p class="meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
       <table>
         <thead><tr><th>Platz</th><th>Domain</th><th>Seite</th></tr></thead>
         <tbody>${rows}</tbody>
@@ -90,7 +76,7 @@
   function renderChart(history) {
     if (history.length < 2) {
       document.getElementById('serponado-chart-wrap').innerHTML +=
-        '<p style="font-size:0.85rem;color:#666">Noch zu wenig Daten für den Verlauf.</p>';
+        '<p style="font-size:13px;color:#999">Noch zu wenig Daten für den Verlauf.</p>';
       return;
     }
 
@@ -104,8 +90,8 @@
         datasets: [{
           label: 'Position',
           data: values,
-          borderColor: '#2ab758',
-          backgroundColor: 'rgba(42,183,88,0.1)',
+          borderColor: '#1a1a2e',
+          backgroundColor: 'rgba(26,26,46,0.08)',
           pointRadius: 3,
           tension: 0.3,
           fill: true,
@@ -117,13 +103,11 @@
           y: {
             reverse: true,
             min: 1,
-            title: { display: true, text: 'Platz', color: '#888' },
-            ticks: { stepSize: 1, color: '#888' },
-            grid: { color: 'rgba(255,255,255,0.05)' }
+            title: { display: true, text: 'Platz' },
+            ticks: { stepSize: 1 }
           },
           x: {
-            ticks: { maxTicksLimit: 12, maxRotation: 45, color: '#888' },
-            grid: { color: 'rgba(255,255,255,0.05)' }
+            ticks: { maxTicksLimit: 12, maxRotation: 45 }
           }
         },
         plugins: {
