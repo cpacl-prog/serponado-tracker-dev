@@ -1,0 +1,39 @@
+name: Fetch Serponado Rankings
+
+on:
+  schedule:
+    - cron: '0 9 * * *'  # täglich 11:00 Uhr MESZ (UTC+2) / 10:00 Uhr MEZ (UTC+1)
+  workflow_dispatch:       # manueller Start jederzeit möglich
+
+permissions:
+  contents: write
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Fetch Rankings from DataForSEO
+        env:
+          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: python fetch_rankings.py
+
+      - name: Commit & Push rankings.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/rankings.json
+          git diff --staged --quiet || git commit -m "Update rankings $(date '+%Y-%m-%d %H:%M UTC')"
+          git push
