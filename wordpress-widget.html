@@ -25,8 +25,8 @@
 
 <section class="section-padding container">
     <div class="serponado-explainer">
-        <div class="overline">LIVE – WIRD STÜNDLICH AKTUALISIERT</div>
-        <h2 class="section-title">Serponado <span>Live-Ranking</span></h2>
+        <div class="overline">LIVE – TOP 30 · WIRD STÜNDLICH AKTUALISIERT</div>
+        <h2 class="section-title">Serponado <span>Live-Ranking Top 30</span></h2>
         <div id="serponado-wrap">
             <p id="serponado-status">Lade Rankings...</p>
         </div>
@@ -153,7 +153,7 @@
     }).join('');
 
     wrap.innerHTML = `
-      <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
+      <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Übersicht der Top 30 Google-Positionen &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
 
       <div class="sn-chart-wrap">
         <h3>⏱ Stündlicher Verlauf (letzte 24 Stunden)</h3>
@@ -166,7 +166,7 @@
       </div>
 
       <table>
-        <thead><tr><th>Platz</th><th>Domain</th><th>Seite</th></tr></thead>
+        <thead><tr><th>Platz</th><th>Domain (Top 30)</th><th>Seite</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>`;
 
