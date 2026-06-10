@@ -1,6 +1,6 @@
 <!-- BLOCK 10 – SERPONADO LEADERBOARD WIDGET
      WordPress: In einen "Custom HTML" Block einbetten, direkt nach block-09-preise.
-     Enthält: Live-Ranking-Tabelle + Positionsverlauf-Chart (Daten via GitHub). -->
+     Enthält: Eigene URL-Position, Live-Ranking-Tabelle + Positionsverlauf-Chart (Daten via GitHub). -->
 
 <script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 
@@ -21,12 +21,27 @@
   .sn-chart-wrap { background: var(--darker-bg); border: 1px solid #222; border-radius: 12px; padding: 24px; margin-bottom: 20px; }
   .sn-chart-wrap h3 { margin: 0 0 16px; font-size: 1rem; color: #fff !important; }
   #serponado-status { color: #888 !important; font-size: 0.95rem; }
+  .sn-own-url {
+    display: flex; align-items: center; gap: 16px;
+    background: rgba(42,183,88,0.08); border: 1px solid rgba(42,183,88,0.3);
+    border-radius: 12px; padding: 18px 22px; margin-bottom: 24px;
+  }
+  .sn-own-url .sn-pos {
+    font-size: 2.2rem; font-weight: 900; color: var(--optimerch-green) !important;
+    line-height: 1; min-width: 60px; text-align: center;
+  }
+  .sn-own-url .sn-pos span { display: block; font-size: 0.7rem; font-weight: 400; color: #888 !important; margin-top: 2px; }
+  .sn-own-url .sn-info { flex: 1; }
+  .sn-own-url .sn-info strong { display: block; color: #fff !important; font-size: 0.95rem; margin-bottom: 4px; }
+  .sn-own-url .sn-info a { color: #888 !important; font-size: 0.8rem; text-decoration: none; word-break: break-all; }
+  .sn-own-url .sn-info a:hover { color: var(--optimerch-green) !important; }
+  .sn-not-found { color: #888 !important; font-size: 0.9rem; }
 </style>
 
 <section class="section-padding container">
     <div class="serponado-explainer">
-        <div class="overline">LIVE – TOP 30 · WIRD STÜNDLICH AKTUALISIERT</div>
-        <h2 class="section-title">Serponado <span>Live-Ranking Top 30</span></h2>
+        <div class="overline">LIVE – TOP 20 · WIRD STÜNDLICH AKTUALISIERT</div>
+        <h2 class="section-title">Serponado <span>Live-Ranking Top 20</span></h2>
         <div id="serponado-wrap">
             <p id="serponado-status">Lade Rankings...</p>
         </div>
@@ -38,7 +53,7 @@
   const GITHUB_USER   = 'cpacl-prog';
   const GITHUB_REPO   = 'serponado-tracker';
   const EIGENE_DOMAIN = 'optimerch.de';
-  const MAX_ROWS      = 30;
+  const MAX_ROWS      = 20;
   const REFRESH_MS    = 60 * 60 * 1000;
   const FAVICON_URL   = 'https://www.optimerch.de/wp-content/uploads/2021/04/optimerch-favicon-kreis.webp';
 
@@ -107,7 +122,7 @@
         tooltip: {
           filter: item => item.dataset.label.includes(EIGENE_DOMAIN),
           callbacks: {
-            label: ctx => `${ctx.dataset.label}: Platz ${ctx.parsed.y ?? 'nicht in Top 30'}`
+            label: ctx => `${ctx.dataset.label}: Platz ${ctx.parsed.y ?? 'nicht in Top 20'}`
           }
         }
       }
@@ -120,12 +135,31 @@
         '<p style="font-size:0.85rem;color:#666">Noch zu wenig Daten.</p>';
       return;
     }
-    const labels = entries.map(labelFn);
     new Chart(document.getElementById(canvasId), {
       type: 'line',
-      data: { labels, datasets: buildDatasets(entries) },
+      data: { labels: entries.map(labelFn), datasets: buildDatasets(entries) },
       options: chartOptions()
     });
+  }
+
+  function renderOwnUrl(own) {
+    if (!own) return '';
+    if (!own.position) return `
+      <div class="sn-own-url">
+        <div class="sn-pos">–<span>Platz</span></div>
+        <div class="sn-info">
+          <strong>optimerch.de/serponado/ – Aktuell nicht in Top 100</strong>
+          <a href="${own.url}" target="_blank" rel="nofollow">${own.url}</a>
+        </div>
+      </div>`;
+    return `
+      <div class="sn-own-url">
+        <div class="sn-pos">#${own.position}<span>Platz</span></div>
+        <div class="sn-info">
+          <strong>${own.title || 'optimerch.de/serponado/'}</strong>
+          <a href="${own.url}" target="_blank" rel="nofollow">${own.url}</a>
+        </div>
+      </div>`;
   }
 
   function render(data) {
@@ -136,9 +170,9 @@
       return;
     }
 
-    const valid   = (data.history || []).filter(h => h.positions);
-    const hourly  = valid.slice(-24);
-    const daily   = aggregateDaily(valid);
+    const valid  = (data.history || []).filter(h => h.positions);
+    const hourly = valid.slice(-24);
+    const daily  = aggregateDaily(valid);
 
     const rows = data.rankings.slice(0, MAX_ROWS).map(r => {
       const isOwn  = r.domain && r.domain.includes(EIGENE_DOMAIN);
@@ -153,7 +187,9 @@
     }).join('');
 
     wrap.innerHTML = `
-      <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Übersicht der Top 30 Google-Positionen &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
+      <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Übersicht der Top 20 Google-Positionen &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
+
+      ${renderOwnUrl(data.own_url)}
 
       <div class="sn-chart-wrap">
         <h3>⏱ Stündlicher Verlauf (letzte 24 Stunden)</h3>
@@ -166,7 +202,7 @@
       </div>
 
       <table>
-        <thead><tr><th>Platz</th><th>Domain (Top 30)</th><th>Seite</th></tr></thead>
+        <thead><tr><th>Platz</th><th>Domain (Top 20)</th><th>Seite</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>`;
 

@@ -9,7 +9,8 @@ PASSWORD = os.environ['DATAFORSEO_PASSWORD']
 KEYWORD  = 'Serponado'
 OUTPUT   = 'public/rankings.json'
 OWN_DOMAIN  = 'optimerch.de'
-MAX_DISPLAY = 30
+OWN_URL     = 'optimerch.de/serponado'
+MAX_DISPLAY = 20
 MAX_HISTORY = 576  # 24 Tage à 24 Stunden
 
 payload = [{
@@ -54,8 +55,19 @@ rankings = [
 
 now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
-top30 = rankings[:MAX_DISPLAY]
-positions = {r['domain']: r['position'] for r in top30 if r['domain']}
+top20 = rankings[:MAX_DISPLAY]
+positions = {r['domain']: r['position'] for r in top20 if r['domain']}
+
+# Spezifische URL separat tracken
+own_url_result = next(
+    (r for r in rankings if r['url'] and OWN_URL in r['url']),
+    None
+)
+own_url_data = {
+    'url':      'https://www.optimerch.de/serponado/',
+    'position': own_url_result['position'] if own_url_result else None,
+    'title':    own_url_result['title'] if own_url_result else '',
+}
 
 own_position = next(
     (r['position'] for r in rankings if r['domain'] and OWN_DOMAIN in r['domain']),
@@ -78,7 +90,8 @@ history = history[-MAX_HISTORY:]
 output = {
     'keyword':    KEYWORD,
     'updated_at': now,
-    'rankings':   top30,
+    'own_url':    own_url_data,
+    'rankings':   top20,
     'history':    history,
 }
 
@@ -86,4 +99,4 @@ os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
 with open(OUTPUT, 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"✅ {len(rankings)} Ergebnisse gespeichert. {OWN_DOMAIN}: Position {own_position}")
+print(f"✅ {len(rankings)} Ergebnisse gespeichert. {OWN_DOMAIN}: Position {own_position} | /serponado/: Position {own_url_data['position']}")
