@@ -1,0 +1,64 @@
+<!-- Serponado Leaderboard Widget -->
+<!-- WICHTIG: DEIN-GITHUB-USERNAME und DEIN-REPO-NAME anpassen! -->
+
+<style>
+  #serponado-board { font-family: sans-serif; max-width: 700px; }
+  #serponado-board table { width: 100%; border-collapse: collapse; }
+  #serponado-board th { background: #1a1a2e; color: #fff; padding: 10px; text-align: left; }
+  #serponado-board td { padding: 9px 10px; border-bottom: 1px solid #eee; font-size: 14px; }
+  #serponado-board tr:hover td { background: #f5f5f5; }
+  #serponado-board .pos { font-weight: bold; color: #1a1a2e; width: 50px; }
+  #serponado-board .own { background: #fff8e1 !important; }
+  #serponado-board .meta { font-size: 12px; color: #999; margin-bottom: 10px; }
+  #serponado-board a { color: #0066cc; text-decoration: none; }
+  #serponado-board a:hover { text-decoration: underline; }
+</style>
+
+<div id="serponado-board">
+  <p class="meta">Lade Rankings...</p>
+</div>
+
+<script>
+(function() {
+  // ↓ Anpassen
+  const GITHUB_USER  = 'DEIN-GITHUB-USERNAME';
+  const GITHUB_REPO  = 'serponado-tracker';
+  const EIGENE_DOMAIN = 'optimerch.de'; // eigene Domain hervorheben
+
+  const url = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/public/rankings.json?t=${Date.now()}`;
+
+  fetch(url)
+    .then(r => r.json())
+    .then(data => {
+      const board = document.getElementById('serponado-board');
+
+      if (!data.rankings || data.rankings.length === 0) {
+        board.innerHTML = '<p>Noch keine Rankings vorhanden.</p>';
+        return;
+      }
+
+      const rows = data.rankings.map(r => {
+        const isOwn  = r.domain && r.domain.includes(EIGENE_DOMAIN);
+        const medal  = r.position === 1 ? '🥇' : r.position === 2 ? '🥈' : r.position === 3 ? '🥉' : '';
+        return `
+          <tr class="${isOwn ? 'own' : ''}">
+            <td class="pos">${medal} #${r.position}</td>
+            <td>${r.domain}${isOwn ? ' ⭐' : ''}</td>
+            <td style="max-width:300px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;">
+              <a href="${r.url}" target="_blank" rel="nofollow">${r.title || r.url}</a>
+            </td>
+          </tr>`;
+      }).join('');
+
+      board.innerHTML = `
+        <p class="meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
+        <table>
+          <thead><tr><th>Platz</th><th>Domain</th><th>Seite</th></tr></thead>
+          <tbody>${rows}</tbody>
+        </table>`;
+    })
+    .catch(() => {
+      document.getElementById('serponado-board').innerHTML = '<p>Rankings konnten nicht geladen werden.</p>';
+    });
+})();
+</script>
