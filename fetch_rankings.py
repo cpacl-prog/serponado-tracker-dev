@@ -17,9 +17,9 @@ payload = [{
     "keyword":       KEYWORD,
     "location_code": 2276,
     "language_code": "de",
+    "se_domain":     "google.de",
     "device":        "desktop",
-    "os":            "windows",
-    "depth":         100
+    "depth":         200
 }]
 
 try:
@@ -58,31 +58,44 @@ now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 top20 = rankings[:MAX_DISPLAY]
 positions = {r['domain']: r['position'] for r in top20 if r['domain']}
 
+# Bestehende Daten laden (History + letzter own_url-Stand)
+existing_data = {}
+history = []
+if os.path.exists(OUTPUT):
+    try:
+        with open(OUTPUT, 'r', encoding='utf-8') as f:
+            existing_data = json.load(f)
+            history = existing_data.get('history', [])
+    except (json.JSONDecodeError, IOError):
+        pass
+
 # Spezifische URL separat tracken
 own_url_result = next(
     (r for r in rankings if r['url'] and OWN_URL in r['url']),
     None
 )
-own_url_data = {
-    'url':      'https://www.optimerch.de/serponado/',
-    'position': own_url_result['position'] if own_url_result else None,
-    'title':    own_url_result['title'] if own_url_result else '',
-}
+
+if own_url_result:
+    own_url_data = {
+        'url':      'https://www.optimerch.de/serponado/',
+        'position': own_url_result['position'],
+        'title':    own_url_result['title'],
+        'stale':    False,
+    }
+else:
+    # Letzte bekannte Position behalten statt leer anzuzeigen
+    last = existing_data.get('own_url', {})
+    own_url_data = {
+        'url':      'https://www.optimerch.de/serponado/',
+        'position': last.get('position'),
+        'title':    last.get('title', ''),
+        'stale':    True,
+    }
 
 own_position = next(
     (r['position'] for r in rankings if r['domain'] and OWN_DOMAIN in r['domain']),
     None
 )
-
-# Bestehende History laden
-history = []
-if os.path.exists(OUTPUT):
-    try:
-        with open(OUTPUT, 'r', encoding='utf-8') as f:
-            existing = json.load(f)
-            history = existing.get('history', [])
-    except (json.JSONDecodeError, IOError):
-        pass
 
 history.append({'ts': now, 'positions': positions})
 history = history[-MAX_HISTORY:]
@@ -99,4 +112,5 @@ os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
 with open(OUTPUT, 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"✅ {len(rankings)} Ergebnisse gespeichert. {OWN_DOMAIN}: Position {own_position} | /serponado/: Position {own_url_data['position']}")
+stale_note = ' (zuletzt gesehen)' if own_url_data['stale'] else ''
+print(f"✅ {len(rankings)} Ergebnisse gespeichert. {OWN_DOMAIN}: Position {own_position} | /serponado/: Position {own_url_data['position']}{stale_note}")

@@ -226,14 +226,17 @@
       <div class="sn-own-url">
         <div class="sn-pos">–<span>Platz</span></div>
         <div class="sn-info">
-          <strong>optimerch.de/serponado/ – Aktuell nicht in den Top 100 erfasst</strong>
+          <strong>optimerch.de/serponado/ – Aktuell nicht in den Top 200 erfasst</strong>
           <a href="${own.url}" target="_blank" rel="nofollow">${own.url}</a>
           ${DISCLAIMER}
         </div>
       </div>`;
+    const staleNote = own.stale
+      ? `<span style="font-size:0.75rem;font-weight:400;color:#888"> · zuletzt gesehen</span>`
+      : '';
     return `
       <div class="sn-own-url">
-        <div class="sn-pos">#${own.position}<span>Platz</span></div>
+        <div class="sn-pos">#${own.position}<span>Platz${staleNote}</span></div>
         <div class="sn-info">
           <strong>${own.title || 'optimerch.de/serponado/'}</strong>
           <a href="${own.url}" target="_blank" rel="nofollow">${own.url}</a>
