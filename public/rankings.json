@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-10 16:00 UTC",
+  "updated_at": "2026-06-10 16:02 UTC",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": null,
@@ -10,39 +10,39 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "serponado.org",
+      "url": "https://serponado.org/",
+      "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
+    },
+    {
+      "position": 2,
       "domain": "de.wikipedia.org",
       "url": "https://de.wikipedia.org/wiki/SERPonado",
       "title": "SERPonado"
     },
     {
-      "position": 2,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
       "position": 3,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 4,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314079/seobuddha-GmbH-erklaert-Serponado-das-Contest-Keyword-des-groessten-deutschsprachigen-SEO-Wettbewerbs-2026.html",
-      "title": "seobuddha GmbH erklärt Serponado – das Contest ..."
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
       "position": 5,
-      "domain": "seo-online-consulting.de",
-      "url": "https://seo-online-consulting.de/serponado/",
-      "title": "Serponado: SEO-Experiment, Rankingfaktoren und Google ..."
+      "domain": "www.mindfulbrand.de",
+      "url": "https://www.mindfulbrand.de/serponado/serponado.html",
+      "title": "Serponado - Der SEO Wirbelsturm"
     },
     {
       "position": 6,
-      "domain": "seomarketing-web.com",
-      "url": "https://seomarketing-web.com/serponado",
-      "title": "Serponado: Was bedeutet das SEO-Keyword 2026 ? Etymologie"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 7,
@@ -52,81 +52,81 @@
     },
     {
       "position": 8,
-      "domain": "www.mindfulbrand.de",
-      "url": "https://www.mindfulbrand.de/serponado/serponado.html",
-      "title": "Serponado - Der SEO Wirbelsturm"
-    },
-    {
-      "position": 9,
-      "domain": "serponado.org",
-      "url": "https://serponado.org/",
-      "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
-    },
-    {
-      "position": 10,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
-    },
-    {
-      "position": 11,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado",
-      "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
-    },
-    {
-      "position": 12,
-      "domain": "www.business-branchenbuch.de",
-      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
-      "title": "Serponado - Bremen"
-    },
-    {
-      "position": 13,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
-      "position": 14,
       "domain": "www.eiswuerfelmaschine24.de",
       "url": "https://www.eiswuerfelmaschine24.de/serponado",
       "title": "Serponado: Die evolutionäre Symbiose im modernen SEO"
     },
     {
-      "position": 15,
-      "domain": "serponado.com",
-      "url": "https://serponado.com/",
-      "title": "Serponado: Bedeutung, Definition und SEO-Strategie"
-    },
-    {
-      "position": 16,
-      "domain": "www.amazon.de",
-      "url": "https://www.amazon.de/Ser%C3%A1/dp/B0GQGBJTF8",
-      "title": "Será? von Pau Cisfado bei Amazon Music"
-    },
-    {
-      "position": 17,
-      "domain": "www.proderna.de",
-      "url": "https://www.proderna.de/product/serrano/",
-      "title": "SERRANO"
-    },
-    {
-      "position": 18,
+      "position": 9,
       "domain": "www.servado.de",
       "url": "https://www.servado.de/",
       "title": "Servado - Ihr IT-Partner für echten Fortschritt"
     },
     {
+      "position": 10,
+      "domain": "www.proderna.de",
+      "url": "https://www.proderna.de/product/serrano/",
+      "title": "SERRANO"
+    },
+    {
+      "position": 11,
+      "domain": "apurano.de",
+      "url": "https://apurano.de/start-de/",
+      "title": "APURANO - smart bio- nanotechnology"
+    },
+    {
+      "position": 12,
+      "domain": "pentanova.com",
+      "url": "https://pentanova.com/",
+      "title": "Start - PENTANOVA"
+    },
+    {
+      "position": 13,
+      "domain": "www.amazon.de",
+      "url": "https://www.amazon.de/stores/Palado/page/C6BC83EB-46CF-44B3-9ED3-925C6879AE61",
+      "title": "Palado: Sandalen / Pantoletten"
+    },
+    {
+      "position": 14,
+      "domain": "www.horsetelex.de",
+      "url": "https://www.horsetelex.de/horses/pedigree/615677/desperado",
+      "title": "DESPERADO"
+    },
+    {
+      "position": 15,
+      "domain": "www.otto.de",
+      "url": "https://www.otto.de/mode/?marke=palado",
+      "title": "Palado Online-Shop"
+    },
+    {
+      "position": 16,
+      "domain": "www.gelbe-liste.de",
+      "url": "https://www.gelbe-liste.de/wirkstoffe/Serenoa-repens_18623",
+      "title": "Serenoa repens - Wirkstoff & Medikamente"
+    },
+    {
+      "position": 17,
+      "domain": "www.hosttest.de",
+      "url": "https://www.hosttest.de/webhoster/servado",
+      "title": "Servado Erfahrungen & Tests 2026"
+    },
+    {
+      "position": 18,
+      "domain": "www.comerado.com",
+      "url": "https://www.comerado.com/",
+      "title": "Start | Comerado Gmbh"
+    },
+    {
       "position": 19,
-      "domain": "open.spotify.com",
-      "url": "https://open.spotify.com/intl-de/track/3QRtAkvVZ4Ha94zZpFio6X",
-      "title": "Sereno – Musik und Lyrics von Bradockdan, Victor Henry"
+      "domain": "www.lieferando.de",
+      "url": "https://www.lieferando.de/foodwiki/spanische-kueche/serrano-schinken/",
+      "title": "Serrano schinken (jamón serrano) - Foodwiki"
     },
     {
       "position": 20,
-      "domain": "de.pons.com",
-      "url": "https://de.pons.com/%C3%BCbersetzung/spanisch-deutsch/ser+zurdo",
-      "title": "SER ZURDO - Spanisch-Deutsch Übersetzung"
+      "domain": "www.shera.de",
+      "url": "https://www.shera.de/products/sheradon",
+      "title": "SHERADON"
     }
   ],
   "history": [
@@ -372,6 +372,31 @@
         "www.servado.de": 18,
         "open.spotify.com": 19,
         "de.pons.com": 20
+      }
+    },
+    {
+      "ts": "2026-06-10 16:02 UTC",
+      "positions": {
+        "serponado.org": 1,
+        "de.wikipedia.org": 2,
+        "innovative-trends.de": 3,
+        "www.amazingh.de": 4,
+        "www.mindfulbrand.de": 5,
+        "www.youtube.com": 6,
+        "tippsecret.com": 7,
+        "www.eiswuerfelmaschine24.de": 8,
+        "www.servado.de": 9,
+        "www.proderna.de": 10,
+        "apurano.de": 11,
+        "pentanova.com": 12,
+        "www.amazon.de": 13,
+        "www.horsetelex.de": 14,
+        "www.otto.de": 15,
+        "www.gelbe-liste.de": 16,
+        "www.hosttest.de": 17,
+        "www.comerado.com": 18,
+        "www.lieferando.de": 19,
+        "www.shera.de": 20
       }
     }
   ]
