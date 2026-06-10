@@ -2,7 +2,7 @@ name: Fetch Serponado Rankings
 
 on:
   schedule:
-    - cron: '0 9 * * *'  # täglich 11:00 Uhr MESZ (UTC+2) / 10:00 Uhr MEZ (UTC+1)
+    - cron: '0 * * * *'  # jede Stunde
   workflow_dispatch:       # manueller Start jederzeit möglich
 
 permissions:

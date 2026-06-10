@@ -8,10 +8,13 @@ LOGIN    = os.environ['DATAFORSEO_LOGIN']
 PASSWORD = os.environ['DATAFORSEO_PASSWORD']
 KEYWORD  = 'Serponado'
 OUTPUT   = 'public/rankings.json'
+OWN_DOMAIN = 'optimerch.de'
+MAX_DISPLAY = 20
+MAX_HISTORY = 168  # 7 Tage à 24 Stunden
 
 payload = [{
     "keyword":       KEYWORD,
-    "location_code": 2276,   # Deutschland
+    "location_code": 2276,
     "language_code": "de",
     "device":        "desktop",
     "os":            "windows",
@@ -49,14 +52,35 @@ rankings = [
     for item in organic
 ]
 
+now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+
+own_position = next(
+    (r['position'] for r in rankings if r['domain'] and OWN_DOMAIN in r['domain']),
+    None
+)
+
+# Bestehende History laden
+history = []
+if os.path.exists(OUTPUT):
+    try:
+        with open(OUTPUT, 'r', encoding='utf-8') as f:
+            existing = json.load(f)
+            history = existing.get('history', [])
+    except (json.JSONDecodeError, IOError):
+        pass
+
+history.append({'ts': now, 'pos': own_position})
+history = history[-MAX_HISTORY:]
+
 output = {
     'keyword':    KEYWORD,
-    'updated_at': datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC'),
-    'rankings':   rankings[:50]  # Top 50
+    'updated_at': now,
+    'rankings':   rankings[:MAX_DISPLAY],
+    'history':    history,
 }
 
 os.makedirs(os.path.dirname(OUTPUT), exist_ok=True)
 with open(OUTPUT, 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
-print(f"✅ {len(rankings)} Ergebnisse gespeichert in {OUTPUT}")
+print(f"✅ {len(rankings)} Ergebnisse gespeichert. {OWN_DOMAIN}: Position {own_position}")
