@@ -63,6 +63,24 @@
   const faviconImg = new Image(14, 14);
   faviconImg.src = FAVICON_URL;
 
+  const glowPlugin = {
+    id: 'ownLineGlow',
+    beforeDatasetDraw(chart, args) {
+      const ds = chart.data.datasets[args.index];
+      if (!ds.label.includes(EIGENE_DOMAIN)) return;
+      const ctx = chart.ctx;
+      ctx.save();
+      ctx.shadowColor = OWN_COLOR;
+      ctx.shadowBlur  = 14;
+    },
+    afterDatasetDraw(chart, args) {
+      const ds = chart.data.datasets[args.index];
+      if (!ds.label.includes(EIGENE_DOMAIN)) return;
+      chart.ctx.restore();
+    }
+  };
+  Chart.register(glowPlugin);
+
   let colorMap = {};
 
   function hexToRgba(hex, alpha) {
