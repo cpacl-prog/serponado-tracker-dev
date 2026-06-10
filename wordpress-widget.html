@@ -8,7 +8,7 @@
   #serponado-wrap { max-width: 100%; }
   #serponado-wrap .lb-meta { font-size: 0.9rem; color: #888 !important; margin-bottom: 16px; }
   #serponado-wrap .lb-meta strong { color: var(--optimerch-green) !important; }
-  #serponado-wrap table { width: 100%; border-collapse: collapse; }
+  #serponado-wrap table { width: 100%; border-collapse: collapse; margin-top: 16px; }
   #serponado-wrap table thead tr { background: var(--optimerch-green) !important; }
   #serponado-wrap table thead th { color: #000 !important; padding: 10px; text-align: left; }
   #serponado-wrap table tbody td { color: #ccc !important; padding: 9px 10px; border-bottom: 1px solid rgba(255,255,255,0.07); }
@@ -18,8 +18,8 @@
   #serponado-wrap .own td { background: rgba(42,183,88,0.08) !important; }
   #serponado-wrap .own td:first-child,
   #serponado-wrap .own td:nth-child(2) { font-weight: 800; }
-  #serponado-chart-wrap { margin-top: 30px; background: var(--darker-bg); border: 1px solid #222; border-radius: 12px; padding: 24px; }
-  #serponado-chart-wrap h3 { margin: 0 0 16px; font-size: 1rem; color: #fff !important; }
+  .sn-chart-wrap { background: var(--darker-bg); border: 1px solid #222; border-radius: 12px; padding: 24px; margin-bottom: 20px; }
+  .sn-chart-wrap h3 { margin: 0 0 16px; font-size: 1rem; color: #fff !important; }
   #serponado-status { color: #888 !important; font-size: 0.95rem; }
 </style>
 
@@ -38,8 +38,12 @@
   const GITHUB_USER   = 'cpacl-prog';
   const GITHUB_REPO   = 'serponado-tracker';
   const EIGENE_DOMAIN = 'optimerch.de';
-  const MAX_ROWS      = 20;
+  const MAX_ROWS      = 30;
   const REFRESH_MS    = 60 * 60 * 1000;
+  const FAVICON_URL   = 'https://www.optimerch.de/wp-content/uploads/2021/04/optimerch-favicon-kreis.webp';
+
+  const faviconImg = new Image(14, 14);
+  faviconImg.src = FAVICON_URL;
 
   function load() {
     const url = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/public/rankings.json?t=${Date.now()}`;
@@ -51,6 +55,79 @@
       });
   }
 
+  function aggregateDaily(history) {
+    const byDate = {};
+    history.forEach(h => {
+      const date = h.ts.split(' ')[0];
+      byDate[date] = h;
+    });
+    return Object.keys(byDate).sort().slice(-24).map(d => byDate[d]);
+  }
+
+  function buildDatasets(entries) {
+    const domainSet = new Set();
+    entries.forEach(h => Object.keys(h.positions).forEach(d => domainSet.add(d)));
+    return Array.from(domainSet).map(domain => {
+      const isOwn = domain.includes(EIGENE_DOMAIN);
+      return {
+        label:            domain,
+        data:             entries.map(h => h.positions[domain] || null),
+        borderColor:      isOwn ? '#2ab758' : 'rgba(255,255,255,0.12)',
+        backgroundColor:  isOwn ? 'rgba(42,183,88,0.08)' : 'transparent',
+        borderWidth:      isOwn ? 2.5 : 1,
+        pointStyle:       isOwn ? faviconImg : 'circle',
+        pointRadius:      isOwn ? 8 : 2,
+        pointHoverRadius: isOwn ? 10 : 4,
+        tension:          0.3,
+        fill:             isOwn,
+        spanGaps:         true,
+        order:            isOwn ? 0 : 1,
+      };
+    });
+  }
+
+  function chartOptions() {
+    return {
+      responsive: true,
+      interaction: { mode: 'nearest', axis: 'x', intersect: false },
+      scales: {
+        y: {
+          reverse: true, min: 1, max: MAX_ROWS,
+          title: { display: true, text: 'Platz', color: '#888' },
+          ticks: { stepSize: 5, color: '#888' },
+          grid:  { color: 'rgba(255,255,255,0.05)' }
+        },
+        x: {
+          ticks: { maxTicksLimit: 12, maxRotation: 45, color: '#888' },
+          grid:  { color: 'rgba(255,255,255,0.05)' }
+        }
+      },
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          filter: item => item.dataset.label.includes(EIGENE_DOMAIN),
+          callbacks: {
+            label: ctx => `${ctx.dataset.label}: Platz ${ctx.parsed.y ?? 'nicht in Top 30'}`
+          }
+        }
+      }
+    };
+  }
+
+  function renderChart(canvasId, entries, labelFn) {
+    if (entries.length < 2) {
+      document.getElementById(canvasId).parentElement.innerHTML +=
+        '<p style="font-size:0.85rem;color:#666">Noch zu wenig Daten.</p>';
+      return;
+    }
+    const labels = entries.map(labelFn);
+    new Chart(document.getElementById(canvasId), {
+      type: 'line',
+      data: { labels, datasets: buildDatasets(entries) },
+      options: chartOptions()
+    });
+  }
+
   function render(data) {
     const wrap = document.getElementById('serponado-wrap');
 
@@ -59,12 +136,14 @@
       return;
     }
 
-    const top = data.rankings.slice(0, MAX_ROWS);
+    const valid   = (data.history || []).filter(h => h.positions);
+    const hourly  = valid.slice(-24);
+    const daily   = aggregateDaily(valid);
 
-    const rows = top.map(r => {
-      const isOwn = r.domain && r.domain.includes(EIGENE_DOMAIN);
-      const medal = r.position === 1 ? '🥇' : r.position === 2 ? '🥈' : r.position === 3 ? '🥉' : '';
-      const title = (r.title || r.url).replace(/</g, '&lt;');
+    const rows = data.rankings.slice(0, MAX_ROWS).map(r => {
+      const isOwn  = r.domain && r.domain.includes(EIGENE_DOMAIN);
+      const medal  = r.position === 1 ? '🥇' : r.position === 2 ? '🥈' : r.position === 3 ? '🥉' : '';
+      const title  = (r.title || r.url).replace(/</g, '&lt;');
       return `
         <tr class="${isOwn ? 'own' : ''}">
           <td>${medal} #${r.position}</td>
@@ -75,67 +154,24 @@
 
     wrap.innerHTML = `
       <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
+
+      <div class="sn-chart-wrap">
+        <h3>⏱ Stündlicher Verlauf (letzte 24 Stunden)</h3>
+        <canvas id="sn-chart-hourly" height="110"></canvas>
+      </div>
+
+      <div class="sn-chart-wrap">
+        <h3>📅 Tagesverlauf (letzte 24 Tage)</h3>
+        <canvas id="sn-chart-daily" height="110"></canvas>
+      </div>
+
       <table>
         <thead><tr><th>Platz</th><th>Domain</th><th>Seite</th></tr></thead>
         <tbody>${rows}</tbody>
-      </table>
-      <div id="serponado-chart-wrap">
-        <h3>📈 ${EIGENE_DOMAIN} – Positionsverlauf</h3>
-        <canvas id="serponado-chart" height="100"></canvas>
-      </div>`;
+      </table>`;
 
-    renderChart(data.history || []);
-  }
-
-  function renderChart(history) {
-    if (history.length < 2) {
-      document.getElementById('serponado-chart-wrap').innerHTML +=
-        '<p style="font-size:0.85rem;color:#666">Noch zu wenig Daten für den Verlauf.</p>';
-      return;
-    }
-
-    const labels = history.map(h => h.ts.replace(' UTC', ''));
-    const values = history.map(h => h.pos);
-
-    new Chart(document.getElementById('serponado-chart'), {
-      type: 'line',
-      data: {
-        labels,
-        datasets: [{
-          label: 'Position',
-          data: values,
-          borderColor: '#2ab758',
-          backgroundColor: 'rgba(42,183,88,0.1)',
-          pointRadius: 3,
-          tension: 0.3,
-          fill: true,
-        }]
-      },
-      options: {
-        responsive: true,
-        scales: {
-          y: {
-            reverse: true,
-            min: 1,
-            title: { display: true, text: 'Platz', color: '#888' },
-            ticks: { stepSize: 1, color: '#888' },
-            grid: { color: 'rgba(255,255,255,0.05)' }
-          },
-          x: {
-            ticks: { maxTicksLimit: 12, maxRotation: 45, color: '#888' },
-            grid: { color: 'rgba(255,255,255,0.05)' }
-          }
-        },
-        plugins: {
-          legend: { display: false },
-          tooltip: {
-            callbacks: {
-              label: ctx => ctx.parsed.y ? `Platz ${ctx.parsed.y}` : 'nicht gefunden'
-            }
-          }
-        }
-      }
-    });
+    renderChart('sn-chart-hourly', hourly, h => h.ts.replace(' UTC', '').split(' ')[1]);
+    renderChart('sn-chart-daily',  daily,  h => h.ts.split(' ')[0]);
   }
 
   load();

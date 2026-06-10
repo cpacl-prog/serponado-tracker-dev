@@ -8,9 +8,9 @@ LOGIN    = os.environ['DATAFORSEO_LOGIN']
 PASSWORD = os.environ['DATAFORSEO_PASSWORD']
 KEYWORD  = 'Serponado'
 OUTPUT   = 'public/rankings.json'
-OWN_DOMAIN = 'optimerch.de'
-MAX_DISPLAY = 20
-MAX_HISTORY = 168  # 7 Tage à 24 Stunden
+OWN_DOMAIN  = 'optimerch.de'
+MAX_DISPLAY = 30
+MAX_HISTORY = 576  # 24 Tage à 24 Stunden
 
 payload = [{
     "keyword":       KEYWORD,
@@ -54,6 +54,9 @@ rankings = [
 
 now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
 
+top30 = rankings[:MAX_DISPLAY]
+positions = {r['domain']: r['position'] for r in top30 if r['domain']}
+
 own_position = next(
     (r['position'] for r in rankings if r['domain'] and OWN_DOMAIN in r['domain']),
     None
@@ -69,13 +72,13 @@ if os.path.exists(OUTPUT):
     except (json.JSONDecodeError, IOError):
         pass
 
-history.append({'ts': now, 'pos': own_position})
+history.append({'ts': now, 'positions': positions})
 history = history[-MAX_HISTORY:]
 
 output = {
     'keyword':    KEYWORD,
     'updated_at': now,
-    'rankings':   rankings[:MAX_DISPLAY],
+    'rankings':   top30,
     'history':    history,
 }
 
