@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-11 16:38 (Berlin)",
+  "updated_at": "2026-06-11 17:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 7,
@@ -17,57 +17,57 @@
     },
     {
       "position": 2,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Serponado"
-    },
-    {
-      "position": 3,
       "domain": "de.wikipedia.org",
       "url": "https://de.wikipedia.org/wiki/SERPonado",
       "title": "SERPonado"
     },
     {
+      "position": 3,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
       "position": 4,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314142/Serponado-eu-startet-als-oeffentliches-SEO-Labor-mit-kostenlosem-Keyword-Tornado-Generator.html",
+      "title": "Serponado.eu startet als öffentliches SEO-Labor mit ..."
+    },
+    {
+      "position": 5,
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado",
+      "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
+    },
+    {
+      "position": 6,
       "domain": "www.auf-den-berg.de",
       "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
       "title": "Auf den Serponado"
     },
     {
-      "position": 5,
+      "position": 7,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 6,
+      "position": 8,
       "domain": "locseo.eu",
       "url": "https://locseo.eu/serponado-geschichte",
       "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
-      "position": 7,
-      "domain": "seomarketing-web.com",
-      "url": "https://seomarketing-web.com/serponado",
-      "title": "Serponado SEO-Contest 2026| Die Echtzeit-Fallstudie"
-    },
-    {
-      "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
-    },
-    {
       "position": 9,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
-      "title": "Serponado"
+      "domain": "serponado.org",
+      "url": "https://serponado.org/",
+      "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
     },
     {
       "position": 10,
-      "domain": "www.mindfulbrand.de",
-      "url": "https://www.mindfulbrand.de/serponado/serponado.html",
-      "title": "Serponado - Der SEO Wirbelsturm"
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
     }
   ],
   "history": [
@@ -467,6 +467,21 @@
         "seomarketing-web.com": 7,
         "rahmengeben.de": 8,
         "www.mindfulbrand.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-11 17:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "de.wikipedia.org": 2,
+        "www.dockmedia.de": 3,
+        "www.openpr.de": 4,
+        "www.oev-experience.de": 5,
+        "www.auf-den-berg.de": 6,
+        "www.youtube.com": 7,
+        "locseo.eu": 8,
+        "serponado.org": 9,
+        "innovative-trends.de": 10
       }
     }
   ]
