@@ -42,8 +42,8 @@
 
 <section class="section-padding container">
     <div class="serponado-explainer">
-        <div class="overline">LIVE – TOP 20 · WIRD ALLE 30 MIN AKTUALISIERT</div>
-        <h2 class="section-title">Serponado <span>Live-Ranking Top 20</span></h2>
+        <div class="overline">LIVE – TOP 10 · WIRD ALLE 30 MIN AKTUALISIERT</div>
+        <h2 class="section-title">Serponado <span>Live-Ranking Top 10</span></h2>
         <div id="serponado-wrap">
             <p id="serponado-status">Lade Rankings...</p>
         </div>
@@ -55,7 +55,7 @@
   const GITHUB_USER   = 'cpacl-prog';
   const GITHUB_REPO   = 'serponado-tracker';
   const EIGENE_DOMAIN = 'optimerch.de';
-  const MAX_ROWS      = 20;
+  const MAX_ROWS      = 10;
   const REFRESH_MS    = 30 * 60 * 1000;
   const FAVICON_URL   = 'https://www.optimerch.de/wp-content/uploads/2021/04/optimerch-favicon-kreis.webp';
   const OWN_COLOR     = '#2ab758';
@@ -168,7 +168,7 @@
         tooltip: {
           filter: item => item.dataset.label.includes(EIGENE_DOMAIN),
           callbacks: {
-            label: ctx => `${ctx.dataset.label}: Platz ${ctx.parsed.y ?? 'nicht in Top 20'}`
+            label: ctx => `${ctx.dataset.label}: Platz ${ctx.parsed.y ?? 'nicht in Top 10'}`
           }
         }
       }
@@ -232,7 +232,7 @@
       <div class="sn-own-url">
         <div class="sn-pos">–<span>Platz</span></div>
         <div class="sn-info">
-          <strong>optimerch.de/serponado/ – Aktuell nicht in den Top 200 erfasst</strong>
+          <strong>optimerch.de/serponado/ – Aktuell nicht in den Top 100 erfasst</strong>
           <a href="${own.url}" target="_blank" rel="nofollow">${own.url}</a>
           ${DISCLAIMER}
         </div>
@@ -301,7 +301,7 @@
     }).join('');
 
     wrap.innerHTML = `
-      <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Übersicht der Top 20 Google-Positionen &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
+      <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Übersicht der Top 10 Google-Positionen &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
 
       ${renderOwnUrl(ownData)}
 
@@ -320,7 +320,7 @@
       </div>
 
       <table>
-        <thead><tr><th>Platz</th><th>Domain (Top 20)</th><th>Seite</th></tr></thead>
+        <thead><tr><th>Platz</th><th>Domain (Top 10)</th><th>Seite</th></tr></thead>
         <tbody>${rows}</tbody>
       </table>`;
 

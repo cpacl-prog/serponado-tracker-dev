@@ -11,7 +11,7 @@ KEYWORD  = 'Serponado'
 OUTPUT   = 'public/rankings.json'
 OWN_DOMAIN  = 'optimerch.de'
 OWN_URL     = 'optimerch.de/serponado'
-MAX_DISPLAY = 20
+MAX_DISPLAY = 10
 MAX_HISTORY = 1440  # 30 Tage à 48 Halbstunden
 
 payload = [{
