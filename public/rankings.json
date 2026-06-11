@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-11 08:38 (Berlin)",
+  "updated_at": "2026-06-11 09:03 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": null,
@@ -47,15 +47,15 @@
     },
     {
       "position": 7,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314079/seobuddha-GmbH-erklaert-Serponado-das-Contest-Keyword-des-groessten-deutschsprachigen-SEO-Wettbewerbs-2026.html",
+      "title": "seobuddha GmbH erklärt Serponado – das Contest ..."
     },
     {
       "position": 8,
-      "domain": "innovative-trends.de",
-      "url": "https://innovative-trends.de/tag/serponado/",
-      "title": "Serponado"
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
       "position": 9,
@@ -65,27 +65,27 @@
     },
     {
       "position": 10,
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 11,
       "domain": "seomarketing-web.com",
       "url": "https://seomarketing-web.com/serponado",
       "title": "Serponado: Was bedeutet das SEO-Keyword 2026 ? Etymologie"
     },
     {
-      "position": 11,
+      "position": 12,
       "domain": "serponado.org",
       "url": "https://serponado.org/",
       "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
     },
     {
-      "position": 12,
+      "position": 13,
       "domain": "rahmengeben.de",
       "url": "https://rahmengeben.de/serponado/",
       "title": "Serponado - rahmengeben"
-    },
-    {
-      "position": 13,
-      "domain": "tippsecret.com",
-      "url": "https://tippsecret.com/wettanbieter-test/serponado-test-erfahrungen-und-bewertung",
-      "title": "Serponado Test: Erfahrungen & Bewertung Juni 2026"
     },
     {
       "position": 14,
@@ -95,39 +95,39 @@
     },
     {
       "position": 15,
+      "domain": "serponado.de",
+      "url": "https://serponado.de/",
+      "title": "Serponado – Offizielle Infoseite zum SEO Contest 2026"
+    },
+    {
+      "position": 16,
+      "domain": "serponado-tool.com",
+      "url": "https://serponado-tool.com/",
+      "title": "Serponado – Die AI-SEO-Suite, die über die SERPs fegt"
+    },
+    {
+      "position": 17,
       "domain": "www.business-branchenbuch.de",
       "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
       "title": "Serponado - Bremen"
     },
     {
-      "position": 16,
+      "position": 18,
       "domain": "locseo.eu",
       "url": "https://locseo.eu/serponado-bedeutung",
       "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
-      "position": 17,
-      "domain": "serponado.city",
-      "url": "https://serponado.city/ueber-uns/kontakt/",
-      "title": "Kontakt Serponado – Sprich direkt mit Dr. SEO"
-    },
-    {
-      "position": 18,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
-    },
-    {
       "position": 19,
-      "domain": "callica.de",
-      "url": "https://callica.de/serponado/",
-      "title": "SERPONADO: Definition, Bedeutung und SEO-Potenzial 2026"
+      "domain": "serponado.city",
+      "url": "https://serponado.city/ueber-uns/presse/",
+      "title": "Unsere Presse - SERPonado"
     },
     {
       "position": 20,
-      "domain": "linkboosting.com",
-      "url": "https://linkboosting.com/was-ist-serponado/",
-      "title": "Was ist Serponado? Häufige Fragen zu Serponado (FAQ)"
+      "domain": "www.news24-7.de",
+      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
+      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für ..."
     }
   ],
   "history": [
@@ -176,6 +176,30 @@
         "www.info8.de": 18,
         "callica.de": 19,
         "linkboosting.com": 20
+      }
+    },
+    {
+      "ts": "2026-06-11 09:03 (Berlin)",
+      "positions": {
+        "de.wikipedia.org": 1,
+        "www.dockmedia.de": 2,
+        "www.auf-den-berg.de": 3,
+        "www.oev-experience.de": 4,
+        "www.youtube.com": 5,
+        "www.amazingh.de": 6,
+        "www.openpr.de": 7,
+        "locseo.eu": 18,
+        "seo-online-consulting.de": 9,
+        "innovative-trends.de": 10,
+        "seomarketing-web.com": 11,
+        "serponado.org": 12,
+        "rahmengeben.de": 13,
+        "www.mindfulbrand.de": 14,
+        "serponado.de": 15,
+        "serponado-tool.com": 16,
+        "www.business-branchenbuch.de": 17,
+        "serponado.city": 19,
+        "www.news24-7.de": 20
       }
     }
   ]
