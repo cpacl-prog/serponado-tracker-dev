@@ -1,73 +1,73 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-11 12:38 (Berlin)",
+  "updated_at": "2026-06-11 13:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
-    "position": 8,
+    "position": 7,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": true
+    "stale": false
   },
   "top3_moments": [],
   "rankings": [
     {
       "position": 1,
-      "domain": "de.wikipedia.org",
-      "url": "https://de.wikipedia.org/wiki/SERPonado",
-      "title": "SERPonado"
+      "domain": "www.bremen.de",
+      "url": "https://www.bremen.de/visitenkarte/serponado",
+      "title": "Serponado"
     },
     {
       "position": 2,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 4,
+      "domain": "www.arise-onlinemarketing.de",
+      "url": "https://www.arise-onlinemarketing.de/serponado/",
+      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
+    },
+    {
+      "position": 5,
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 6,
+      "domain": "www.position-one.de",
+      "url": "https://www.position-one.de/glossar/serponado",
+      "title": "Serponado - SEO Glossar"
+    },
+    {
+      "position": 7,
+      "domain": "www.optimerch.de",
+      "url": "https://www.optimerch.de/serponado/",
+      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+    },
+    {
+      "position": 8,
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
+    },
+    {
+      "position": 9,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 3,
-      "domain": "www.auf-den-berg.de",
-      "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
-      "title": "Auf den Serponado"
-    },
-    {
-      "position": 4,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
-    },
-    {
-      "position": 5,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 6,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 7,
-      "domain": "seomarketing-web.com",
-      "url": "https://seomarketing-web.com/serponado",
-      "title": "Serponado: Was bedeutet das SEO-Keyword 2026 ? Etymologie"
-    },
-    {
-      "position": 8,
-      "domain": "innovative-trends.de",
-      "url": "https://innovative-trends.de/tag/serponado/",
-      "title": "Serponado"
-    },
-    {
-      "position": 9,
-      "domain": "seo-online-consulting.de",
-      "url": "https://seo-online-consulting.de/serponado/",
-      "title": "Serponado: SEO-Experiment, Rankingfaktoren und Google ..."
-    },
-    {
       "position": 10,
-      "domain": "serponado.org",
-      "url": "https://serponado.org/",
-      "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/wirtschaft/serponado/",
+      "title": "Serponado: Nachhaltige SEO-Methode – Anleitung & Tipps"
+    },
+    {
+      "position": 11,
+      "domain": "kexdesign.com",
+      "url": "https://kexdesign.com/serponado-der-sichtbarkeitskick-fuer-deine-website/?srsltid=AfmBOoqup2VxatGKL0IGXGhrFPLe0uSrNxYJ8hGjZc6TiH1vPy9LTNhB",
+      "title": "Serponado: Der Sichtbarkeitskick für deine Website"
     }
   ],
   "history": [
@@ -336,6 +336,21 @@
         "innovative-trends.de": 8,
         "seo-online-consulting.de": 9,
         "serponado.org": 10
+      }
+    },
+    {
+      "ts": "2026-06-11 13:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "taismo.de": 2,
+        "www.arise-onlinemarketing.de": 4,
+        "seobuddha.de": 5,
+        "www.position-one.de": 6,
+        "www.optimerch.de": 7,
+        "till-freitag.com": 8,
+        "www.dockmedia.de": 9,
+        "nachhaltigkeit-mit-kopf.de": 10,
+        "kexdesign.com": 11
       }
     }
   ]
