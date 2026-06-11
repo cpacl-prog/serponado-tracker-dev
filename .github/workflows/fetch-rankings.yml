@@ -11,6 +11,10 @@ permissions:
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
+concurrency:
+  group: rankings-update
+  cancel-in-progress: false  # Runs werden nacheinander ausgeführt, nicht parallel
+
 jobs:
   fetch:
     runs-on: ubuntu-latest
@@ -39,5 +43,5 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/rankings.json
           git diff --staged --quiet || git commit -m "Update rankings $(date '+%Y-%m-%d %H:%M UTC')"
-          git pull --rebase origin main
+          git pull --rebase -X theirs origin main
           git push
