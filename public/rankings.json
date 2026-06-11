@@ -1,13 +1,158 @@
 {
   "keyword": "Serponado",
-  "updated_at": "noch nicht abgerufen",
+  "updated_at": "2026-06-11 08:11 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": null,
     "title": "",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [],
-  "rankings": [],
-  "history": []
+  "rankings": [
+    {
+      "position": 1,
+      "domain": "www.auf-den-berg.de",
+      "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
+      "title": "Auf den Serponado"
+    },
+    {
+      "position": 2,
+      "domain": "de.wikipedia.org",
+      "url": "https://de.wikipedia.org/wiki/SERPonado",
+      "title": "SERPonado"
+    },
+    {
+      "position": 3,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 4,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+    },
+    {
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+    },
+    {
+      "position": 6,
+      "domain": "seomarketing-web.com",
+      "url": "https://seomarketing-web.com/serponado",
+      "title": "Serponado: Was bedeutet das SEO-Keyword 2026 ? Etymologie"
+    },
+    {
+      "position": 7,
+      "domain": "www.mindfulbrand.de",
+      "url": "https://www.mindfulbrand.de/serponado/serponado.html",
+      "title": "Serponado - Der SEO Wirbelsturm"
+    },
+    {
+      "position": 8,
+      "domain": "serponado.de",
+      "url": "https://serponado.de/",
+      "title": "Serponado – Offizielle Infoseite zum SEO Contest 2026"
+    },
+    {
+      "position": 9,
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+    },
+    {
+      "position": 10,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+    },
+    {
+      "position": 11,
+      "domain": "x.com",
+      "url": "https://x.com/Inno_Trends/status/2064648891534827742",
+      "title": "SEO-Contest 2026 von Seobility und Agenturtipp gestartet"
+    },
+    {
+      "position": 12,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 13,
+      "domain": "kexdesign.com",
+      "url": "https://kexdesign.com/serponado-der-sichtbarkeitskick-fuer-deine-website/?srsltid=AfmBOopY-tYkVPKelkY41Nmf-uonmVL1fV3Gg5Xi1BZo9OrL7oAZZDsN",
+      "title": "Serponado: Der Sichtbarkeitskick für deine Website"
+    },
+    {
+      "position": 14,
+      "domain": "www.phoenixcontact.com",
+      "url": "https://www.phoenixcontact.com/l/serponado-blitzschutz",
+      "title": "Serponado Blitzschutz"
+    },
+    {
+      "position": 15,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=1NjJwX301zk",
+      "title": "Serponado – Deutscher Schlager Song 2026 | Mallorca ..."
+    },
+    {
+      "position": 16,
+      "domain": "contunda.de",
+      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
+      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
+    },
+    {
+      "position": 17,
+      "domain": "ostseemagazin.net",
+      "url": "https://ostseemagazin.net/serponado/",
+      "title": "Serponado ☀️ Das geheimnisvolle Ostseephänomen"
+    },
+    {
+      "position": 18,
+      "domain": "www.semtrix.de",
+      "url": "https://www.semtrix.de/serponado/",
+      "title": "Serponado - Die Jagd nach dem SERP-Tornado"
+    },
+    {
+      "position": 19,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 20,
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado-io-felix-grote-vibe-coding",
+      "title": "serponado.io – Felix Grote vibe-coded den…"
+    }
+  ],
+  "history": [
+    {
+      "ts": "2026-06-11 08:11 (Berlin)",
+      "positions": {
+        "www.auf-den-berg.de": 1,
+        "de.wikipedia.org": 2,
+        "taismo.de": 3,
+        "www.youtube.com": 15,
+        "locseo.eu": 10,
+        "seomarketing-web.com": 6,
+        "www.mindfulbrand.de": 7,
+        "serponado.de": 8,
+        "www.info8.de": 9,
+        "x.com": 11,
+        "www.dockmedia.de": 12,
+        "kexdesign.com": 13,
+        "www.phoenixcontact.com": 14,
+        "contunda.de": 16,
+        "ostseemagazin.net": 17,
+        "www.semtrix.de": 18,
+        "www.amazingh.de": 19,
+        "till-freitag.com": 20
+      }
+    }
+  ]
 }
