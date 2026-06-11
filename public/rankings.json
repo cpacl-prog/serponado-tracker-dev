@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-11 22:38 (Berlin)",
+  "updated_at": "2026-06-11 23:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 7,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": true
+    "stale": false
   },
   "top3_moments": [],
   "rankings": [
@@ -23,51 +23,51 @@
     },
     {
       "position": 3,
-      "domain": "de.wikipedia.org",
-      "url": "https://de.wikipedia.org/wiki/SERPonado",
-      "title": "SERPonado"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
+      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
     },
     {
       "position": 4,
-      "domain": "www.auf-den-berg.de",
-      "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
-      "title": "Auf den Serponado"
+      "domain": "www.arise-onlinemarketing.de",
+      "url": "https://www.arise-onlinemarketing.de/serponado/",
+      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
     },
     {
       "position": 5,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 6,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
-      "position": 7,
-      "domain": "seomarketing-web.com",
-      "url": "https://seomarketing-web.com/serponado",
-      "title": "Serponado SEO-Contest 2026| Die Echtzeit-Fallstudie"
-    },
-    {
-      "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
-    },
-    {
-      "position": 9,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
       "title": "Serponado"
     },
     {
+      "position": 6,
+      "domain": "ostseemagazin.net",
+      "url": "https://ostseemagazin.net/serponado/",
+      "title": "Serponado ☀️ Das geheimnisvolle Ostseephänomen"
+    },
+    {
+      "position": 7,
+      "domain": "www.optimerch.de",
+      "url": "https://www.optimerch.de/serponado/",
+      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+    },
+    {
+      "position": 8,
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
+    },
+    {
+      "position": 9,
+      "domain": "www.semotion.de",
+      "url": "https://www.semotion.de/serponado/",
+      "title": "Serponado – Das Keyword des SEO Contests 2026 einfach ..."
+    },
+    {
       "position": 10,
-      "domain": "www.mindfulbrand.de",
-      "url": "https://www.mindfulbrand.de/serponado/serponado.html",
-      "title": "Serponado - Der SEO Wirbelsturm"
+      "domain": "www.position-one.de",
+      "url": "https://www.position-one.de/glossar/serponado",
+      "title": "Serponado - SEO Glossar"
     }
   ],
   "history": [
@@ -646,6 +646,21 @@
         "seomarketing-web.com": 7,
         "rahmengeben.de": 8,
         "www.mindfulbrand.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-11 23:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "taismo.de": 2,
+        "www.youtube.com": 3,
+        "www.arise-onlinemarketing.de": 4,
+        "seobuddha.de": 5,
+        "ostseemagazin.net": 6,
+        "www.optimerch.de": 7,
+        "till-freitag.com": 8,
+        "www.semotion.de": 9,
+        "www.position-one.de": 10
       }
     }
   ]
