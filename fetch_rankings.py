@@ -20,12 +20,12 @@ payload = [{
     "language_code": "de",
     "se_domain":     "google.de",
     "device":        "desktop",
-    "depth":         200
+    "depth":         100
 }]
 
 try:
     response = requests.post(
-        'https://api.dataforseo.com/v3/serp/google/organic/live/advanced',
+        'https://api.dataforseo.com/v3/serp/google/organic/live/regular',
         auth=(LOGIN, PASSWORD),
         json=payload,
         timeout=60
