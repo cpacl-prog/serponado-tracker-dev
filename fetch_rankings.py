@@ -2,7 +2,8 @@ import os
 import json
 import sys
 import requests
-from datetime import datetime, timezone
+from datetime import datetime
+from zoneinfo import ZoneInfo
 
 LOGIN    = os.environ['DATAFORSEO_LOGIN']
 PASSWORD = os.environ['DATAFORSEO_PASSWORD']
@@ -53,7 +54,7 @@ rankings = [
     for item in organic
 ]
 
-now = datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')
+now = datetime.now(ZoneInfo('Europe/Berlin')).strftime('%Y-%m-%d %H:%M (Berlin)')
 
 top20 = rankings[:MAX_DISPLAY]
 positions = {r['domain']: r['position'] for r in top20 if r['domain']}
