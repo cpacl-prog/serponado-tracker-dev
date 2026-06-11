@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-10 22:33 UTC",
+  "updated_at": "2026-06-11 05:21 UTC",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": null,
@@ -30,7 +30,7 @@
     {
       "position": 4,
       "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
+      "url": "https://www.oev-experience.de/serponado",
       "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
     },
     {
@@ -41,33 +41,33 @@
     },
     {
       "position": 6,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314079/seobuddha-GmbH-erklaert-Serponado-das-Contest-Keyword-des-groessten-deutschsprachigen-SEO-Wettbewerbs-2026.html",
-      "title": "seobuddha GmbH erklärt Serponado – das Contest ..."
-    },
-    {
-      "position": 7,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
+      "position": 7,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314079/seobuddha-GmbH-erklaert-Serponado-das-Contest-Keyword-des-groessten-deutschsprachigen-SEO-Wettbewerbs-2026.html",
+      "title": "seobuddha GmbH erklärt Serponado – das Contest ..."
+    },
+    {
       "position": 8,
-      "domain": "seomarketing-web.com",
-      "url": "https://seomarketing-web.com/serponado",
-      "title": "Serponado: Was bedeutet das SEO-Keyword 2026 ? Etymologie"
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
       "position": 9,
-      "domain": "probandtastisch.de",
-      "url": "https://probandtastisch.de/serponado",
-      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
+      "domain": "seo-online-consulting.de",
+      "url": "https://seo-online-consulting.de/serponado/",
+      "title": "Serponado: SEO-Experiment, Rankingfaktoren und Google ..."
     },
     {
       "position": 10,
-      "domain": "serponado.org",
-      "url": "https://serponado.org/",
-      "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 11,
@@ -89,9 +89,9 @@
     },
     {
       "position": 14,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
+      "domain": "www.serponado.com",
+      "url": "https://www.serponado.com/",
+      "title": "Serponado: Bedeutung, Definition und SEO-Strategie"
     },
     {
       "position": 15,
@@ -101,21 +101,21 @@
     },
     {
       "position": 16,
-      "domain": "serponado.com",
-      "url": "https://serponado.com/",
-      "title": "Serponado: Bedeutung, Definition und SEO-Strategie"
+      "domain": "www.mindfulbrand.de",
+      "url": "https://www.mindfulbrand.de/serponado/serponado.html",
+      "title": "Serponado - Der SEO Wirbelsturm"
     },
     {
       "position": 17,
-      "domain": "serponado-tool.com",
-      "url": "https://serponado-tool.com/",
-      "title": "Serponado – Die AI-SEO-Suite, die über die SERPs fegt"
-    },
-    {
-      "position": 18,
       "domain": "serponado-2026.de",
       "url": "https://serponado-2026.de/",
       "title": "Serponado 2026 – SEO Contest & Ranking-Test"
+    },
+    {
+      "position": 18,
+      "domain": "mein-serponado.de",
+      "url": "https://mein-serponado.de/",
+      "title": "Serponado - Mein Serponado"
     },
     {
       "position": 19,
@@ -495,6 +495,28 @@
         "serponado.com": 16,
         "serponado-tool.com": 17,
         "serponado-2026.de": 18,
+        "www.business-branchenbuch.de": 19,
+        "www.info8.de": 20
+      }
+    },
+    {
+      "ts": "2026-06-11 05:21 UTC",
+      "positions": {
+        "de.wikipedia.org": 1,
+        "www.dockmedia.de": 2,
+        "www.auf-den-berg.de": 3,
+        "www.oev-experience.de": 4,
+        "www.youtube.com": 5,
+        "www.amazingh.de": 6,
+        "www.openpr.de": 7,
+        "locseo.eu": 13,
+        "seo-online-consulting.de": 11,
+        "innovative-trends.de": 12,
+        "www.serponado.com": 14,
+        "tippsecret.com": 15,
+        "www.mindfulbrand.de": 16,
+        "serponado-2026.de": 17,
+        "mein-serponado.de": 18,
         "www.business-branchenbuch.de": 19,
         "www.info8.de": 20
       }
