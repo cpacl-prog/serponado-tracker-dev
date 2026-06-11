@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-11 12:08 (Berlin)",
+  "updated_at": "2026-06-11 12:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 8,
@@ -11,33 +11,33 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.bremen.de",
-      "url": "https://www.bremen.de/visitenkarte/serponado",
-      "title": "Serponado"
-    },
-    {
-      "position": 2,
       "domain": "de.wikipedia.org",
       "url": "https://de.wikipedia.org/wiki/SERPonado",
       "title": "SERPonado"
     },
     {
-      "position": 3,
+      "position": 2,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
+      "position": 3,
+      "domain": "www.auf-den-berg.de",
+      "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
+      "title": "Auf den Serponado"
+    },
+    {
       "position": 4,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
     },
     {
       "position": 5,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado",
-      "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 6,
@@ -47,27 +47,27 @@
     },
     {
       "position": 7,
-      "domain": "www.auf-den-berg.de",
-      "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
-      "title": "Auf den Serponado"
-    },
-    {
-      "position": 8,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 9,
       "domain": "seomarketing-web.com",
       "url": "https://seomarketing-web.com/serponado",
       "title": "Serponado: Was bedeutet das SEO-Keyword 2026 ? Etymologie"
     },
     {
+      "position": 8,
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 9,
+      "domain": "seo-online-consulting.de",
+      "url": "https://seo-online-consulting.de/serponado/",
+      "title": "Serponado: SEO-Experiment, Rankingfaktoren und Google ..."
+    },
+    {
       "position": 10,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314079/seobuddha-GmbH-erklaert-Serponado-das-Contest-Keyword-des-groessten-deutschsprachigen-SEO-Wettbewerbs-2026.html",
-      "title": "seobuddha GmbH erklärt Serponado – das Contest ..."
+      "domain": "serponado.org",
+      "url": "https://serponado.org/",
+      "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
     }
   ],
   "history": [
@@ -321,6 +321,21 @@
         "www.youtube.com": 8,
         "seomarketing-web.com": 9,
         "www.openpr.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-11 12:38 (Berlin)",
+      "positions": {
+        "de.wikipedia.org": 1,
+        "www.dockmedia.de": 2,
+        "www.auf-den-berg.de": 3,
+        "www.oev-experience.de": 4,
+        "www.youtube.com": 5,
+        "www.amazingh.de": 6,
+        "seomarketing-web.com": 7,
+        "innovative-trends.de": 8,
+        "seo-online-consulting.de": 9,
+        "serponado.org": 10
       }
     }
   ]
