@@ -59,6 +59,8 @@
   const REFRESH_MS    = 30 * 60 * 1000;
   const FAVICON_URL   = 'https://www.optimerch.de/wp-content/uploads/2021/04/optimerch-favicon-kreis.webp';
   const OWN_COLOR     = '#2ab758';
+  const ATTR_ID       = 'sn-attribution';
+  const ATTR_HREF     = 'https://www.optimerch.de/serponado/';
   const PALETTE       = [
     '#e74c3c','#3498db','#f39c12','#9b59b6','#1abc9c',
     '#e67e22','#2980b9','#c0392b','#8e44ad','#16a085',
@@ -108,7 +110,24 @@
     });
   }
 
+  function attributionValid() {
+    const el = document.getElementById(ATTR_ID);
+    if (!el) return false;
+    const a = el.querySelector('a');
+    if (!a) return false;
+    const rel = (a.getAttribute('rel') || '').toLowerCase();
+    return a.href.includes('optimerch.de/serponado') && !rel.includes('nofollow');
+  }
+
   function load() {
+    const existing = document.getElementById(ATTR_ID);
+    if (existing && !attributionValid()) {
+      document.getElementById('serponado-wrap').innerHTML =
+        `<p style="color:#888;font-size:0.9rem">Dieses Widget erfordert einen Dofollow-Link auf
+         <a href="${ATTR_HREF}" style="color:var(--optimerch-green)">${ATTR_HREF}</a> –
+         bitte die Nutzungsbedingungen einhalten.</p>`;
+      return;
+    }
     const url = `https://raw.githubusercontent.com/${GITHUB_USER}/${GITHUB_REPO}/main/public/rankings.json?t=${Date.now()}`;
     fetch(url)
       .then(r => r.json())
@@ -322,7 +341,11 @@
       <table>
         <thead><tr><th>Platz</th><th>Domain (Top 10)</th><th>Seite</th></tr></thead>
         <tbody>${rows}</tbody>
-      </table>`;
+      </table>
+
+      <p id="${ATTR_ID}" style="font-size:0.72rem;color:#555;margin-top:14px;text-align:right">
+        Tracking powered by <a href="${ATTR_HREF}" rel="noopener" style="color:#666">Serponado-Tracker @ optimerch.de</a>
+      </p>`;
 
     renderChart('sn-chart-hourly', 'sn-legend-hourly', hourly, h => h.ts.replace(' UTC','').split(' ')[1]);
     renderChart('sn-chart-daily',  'sn-legend-daily',  daily,  h => h.ts.split(' ')[0]);
