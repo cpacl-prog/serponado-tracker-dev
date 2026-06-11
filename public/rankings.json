@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 01:08 (Berlin)",
+  "updated_at": "2026-06-12 01:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 7,
@@ -47,27 +47,27 @@
     },
     {
       "position": 7,
-      "domain": "seo-online-consulting.de",
-      "url": "https://seo-online-consulting.de/serponado/",
-      "title": "Serponado: SEO-Contest 2026, Rankings & Erfahrungen"
-    },
-    {
-      "position": 8,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 9,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
-    },
-    {
-      "position": 10,
       "domain": "www.auf-den-berg.de",
       "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
       "title": "Auf den Serponado"
+    },
+    {
+      "position": 8,
+      "domain": "probandtastisch.de",
+      "url": "https://probandtastisch.de/serponado",
+      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
+    },
+    {
+      "position": 9,
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 10,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     }
   ],
   "history": [
@@ -736,6 +736,21 @@
         "www.youtube.com": 8,
         "rahmengeben.de": 9,
         "www.auf-den-berg.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 01:38 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "de.wikipedia.org": 2,
+        "www.dockmedia.de": 3,
+        "www.openpr.de": 4,
+        "www.oev-experience.de": 5,
+        "www.amazingh.de": 6,
+        "www.auf-den-berg.de": 7,
+        "probandtastisch.de": 8,
+        "innovative-trends.de": 9,
+        "www.youtube.com": 10
       }
     }
   ]
