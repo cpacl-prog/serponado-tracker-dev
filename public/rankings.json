@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-11 15:08 (Berlin)",
+  "updated_at": "2026-06-11 15:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 7,
@@ -11,63 +11,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "de.wikipedia.org",
-      "url": "https://de.wikipedia.org/wiki/SERPonado",
-      "title": "SERPonado"
-    },
-    {
-      "position": 2,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 3,
       "domain": "www.auf-den-berg.de",
       "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
       "title": "Auf den Serponado"
     },
     {
+      "position": 2,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 3,
+      "domain": "de.wikipedia.org",
+      "url": "https://de.wikipedia.org/wiki/SERPonado",
+      "title": "SERPonado"
+    },
+    {
       "position": 4,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
-    },
-    {
-      "position": 5,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 6,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 7,
-      "domain": "innovative-trends.de",
-      "url": "https://innovative-trends.de/tag/serponado/",
-      "title": "Serponado"
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
-      "position": 8,
-      "domain": "serponado.org",
-      "url": "https://serponado.org/",
-      "title": "Serponado, SEO-Agentur aus Bremen für LLM-Sichtbarkeit"
-    },
-    {
-      "position": 9,
+      "position": 6,
       "domain": "seomarketing-web.com",
       "url": "https://seomarketing-web.com/serponado",
       "title": "Serponado SEO-Contest 2026| Die Echtzeit-Fallstudie"
     },
     {
+      "position": 7,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado - rahmengeben"
+    },
+    {
+      "position": 8,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "title": "Serponado"
+    },
+    {
+      "position": 9,
+      "domain": "www.mindfulbrand.de",
+      "url": "https://www.mindfulbrand.de/serponado/serponado.html",
+      "title": "Serponado - Der SEO Wirbelsturm"
+    },
+    {
       "position": 10,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+      "domain": "serponado.de",
+      "url": "https://serponado.de/",
+      "title": "Serponado – Offizielle Infoseite zum SEO Contest 2026"
     }
   ],
   "history": [
@@ -424,6 +424,20 @@
         "serponado.org": 8,
         "seomarketing-web.com": 9,
         "locseo.eu": 10
+      }
+    },
+    {
+      "ts": "2026-06-11 15:38 (Berlin)",
+      "positions": {
+        "www.auf-den-berg.de": 1,
+        "taismo.de": 2,
+        "de.wikipedia.org": 3,
+        "www.youtube.com": 8,
+        "locseo.eu": 5,
+        "seomarketing-web.com": 6,
+        "rahmengeben.de": 7,
+        "www.mindfulbrand.de": 9,
+        "serponado.de": 10
       }
     }
   ]
