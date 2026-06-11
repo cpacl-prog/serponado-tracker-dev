@@ -280,6 +280,14 @@
 
     buildColorMap(valid);
 
+    // own_url aus rankings[] ableiten wenn möglich, sonst gespeichertes Feld
+    const ownEntry = (data.rankings || []).find(r =>
+      r.domain && r.domain.includes(EIGENE_DOMAIN)
+    );
+    const ownData = ownEntry
+      ? { position: ownEntry.position, url: ownEntry.url, title: ownEntry.title, stale: false }
+      : (data.own_url || null);
+
     const rows = data.rankings.slice(0, MAX_ROWS).map(r => {
       const isOwn = r.domain && r.domain.includes(EIGENE_DOMAIN);
       const medal = r.position === 1 ? '🥇' : r.position === 2 ? '🥈' : r.position === 3 ? '🥉' : '';
@@ -295,7 +303,7 @@
     wrap.innerHTML = `
       <p class="lb-meta">🔍 Keyword: <strong>${data.keyword}</strong> &nbsp;|&nbsp; Übersicht der Top 20 Google-Positionen &nbsp;|&nbsp; Stand: ${data.updated_at}</p>
 
-      ${renderOwnUrl(data.own_url)}
+      ${renderOwnUrl(ownData)}
 
       ${renderTop3Moments(data.top3_moments)}
 
