@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 09:38 (Berlin)",
+  "updated_at": "2026-06-12 10:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -11,63 +11,63 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "www.bremen.de",
+      "url": "https://www.bremen.de/visitenkarte/serponado",
+      "title": "Serponado"
+    },
+    {
+      "position": 2,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 2,
+      "position": 3,
+      "domain": "de.wikipedia.org",
+      "url": "https://de.wikipedia.org/wiki/SERPonado",
+      "title": "SERPonado"
+    },
+    {
+      "position": 4,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314202/Serponado-Effekt-treibt-durch-Suchmaschinen-Bots-heimlich-die-Cloud-Kosten-in-die-Hoehe.html",
+      "title": "Serponado-Effekt treibt durch Suchmaschinen-Bots ..."
+    },
+    {
+      "position": 5,
       "domain": "www.oev-experience.de",
       "url": "https://www.oev-experience.de/serponado.html",
       "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
     },
     {
-      "position": 3,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 4,
+      "position": 6,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
-      "position": 5,
-      "domain": "seomarketing-web.com",
-      "url": "https://seomarketing-web.com/serponado",
-      "title": "Serponado SEO-Contest 2026| Die Echtzeit-Fallstudie"
-    },
-    {
-      "position": 6,
+      "position": 7,
       "domain": "probandtastisch.de",
       "url": "https://probandtastisch.de/serponado",
       "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
-      "position": 7,
-      "domain": "www.trustprofile.com",
-      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
-      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
-    },
-    {
       "position": 8,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 9,
-      "domain": "www.serponado.net",
-      "url": "https://www.serponado.net/",
-      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
+      "domain": "seo-online-consulting.de",
+      "url": "https://seo-online-consulting.de/serponado/",
+      "title": "Serponado: SEO-Contest 2026, Rankings & Erfahrungen"
     },
     {
       "position": 10,
-      "domain": "www.news24-7.de",
-      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
-      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für ..."
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     }
   ],
   "history": [
@@ -991,6 +991,21 @@
         "www.info8.de": 8,
         "www.serponado.net": 9,
         "www.news24-7.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 10:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "www.dockmedia.de": 2,
+        "de.wikipedia.org": 3,
+        "www.openpr.de": 4,
+        "www.oev-experience.de": 5,
+        "www.amazingh.de": 6,
+        "probandtastisch.de": 7,
+        "innovative-trends.de": 8,
+        "seo-online-consulting.de": 9,
+        "www.youtube.com": 10
       }
     }
   ]
