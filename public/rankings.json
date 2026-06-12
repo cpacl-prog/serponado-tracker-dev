@@ -1,73 +1,73 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 09:08 (Berlin)",
+  "updated_at": "2026-06-12 09:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [],
   "rankings": [
     {
       "position": 1,
-      "domain": "www.bremen.de",
-      "url": "https://www.bremen.de/visitenkarte/serponado",
-      "title": "Serponado"
-    },
-    {
-      "position": 2,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
-    },
-    {
-      "position": 3,
-      "domain": "www.position-one.de",
-      "url": "https://www.position-one.de/glossar/serponado",
-      "title": "Serponado - SEO Glossar"
-    },
-    {
-      "position": 4,
-      "domain": "www.arise-onlinemarketing.de",
-      "url": "https://www.arise-onlinemarketing.de/serponado/",
-      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
-    },
-    {
-      "position": 5,
-      "domain": "www.optimerch.de",
-      "url": "https://www.optimerch.de/serponado/",
-      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
-    },
-    {
-      "position": 6,
-      "domain": "www.instagram.com",
-      "url": "https://www.instagram.com/p/DZclb0RAAZm/",
-      "title": "Ein Blick auf unsere SERPONADO-Seite 🌪️ 👀 Schon ..."
-    },
-    {
-      "position": 7,
-      "domain": "de.trustpilot.com",
-      "url": "https://de.trustpilot.com/review/serponado.org",
-      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
-    },
-    {
-      "position": 8,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Serponado"
-    },
-    {
-      "position": 9,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
-      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
-    },
-    {
-      "position": 10,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 2,
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
+    },
+    {
+      "position": 3,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+    },
+    {
+      "position": 4,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 5,
+      "domain": "seomarketing-web.com",
+      "url": "https://seomarketing-web.com/serponado",
+      "title": "Serponado SEO-Contest 2026| Die Echtzeit-Fallstudie"
+    },
+    {
+      "position": 6,
+      "domain": "probandtastisch.de",
+      "url": "https://probandtastisch.de/serponado",
+      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
+    },
+    {
+      "position": 7,
+      "domain": "www.trustprofile.com",
+      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
+      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
+    },
+    {
+      "position": 8,
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+    },
+    {
+      "position": 9,
+      "domain": "www.serponado.net",
+      "url": "https://www.serponado.net/",
+      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
+    },
+    {
+      "position": 10,
+      "domain": "www.news24-7.de",
+      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
+      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für ..."
     }
   ],
   "history": [
@@ -976,6 +976,21 @@
         "taismo.de": 8,
         "www.youtube.com": 9,
         "www.dockmedia.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 09:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "www.oev-experience.de": 2,
+        "www.youtube.com": 3,
+        "www.amazingh.de": 4,
+        "seomarketing-web.com": 5,
+        "probandtastisch.de": 6,
+        "www.trustprofile.com": 7,
+        "www.info8.de": 8,
+        "www.serponado.net": 9,
+        "www.news24-7.de": 10
       }
     }
   ]
