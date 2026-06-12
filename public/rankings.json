@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 04:38 (Berlin)",
+  "updated_at": "2026-06-12 05:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 7,
@@ -17,15 +17,15 @@
     },
     {
       "position": 2,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 3,
       "domain": "de.wikipedia.org",
       "url": "https://de.wikipedia.org/wiki/SERPonado",
       "title": "SERPonado"
+    },
+    {
+      "position": 3,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
       "position": 4,
@@ -59,15 +59,15 @@
     },
     {
       "position": 9,
-      "domain": "innovative-trends.de",
-      "url": "https://innovative-trends.de/tag/serponado/",
-      "title": "Serponado"
+      "domain": "isabell-leinhos.de",
+      "url": "https://isabell-leinhos.de/serponado/",
+      "title": "Serponado – Bedeutung, Definition & SEO-Contest 2026"
     },
     {
       "position": 10,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da!  (Die Wahrheit)"
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
     }
   ],
   "history": [
@@ -841,6 +841,21 @@
         "www.auf-den-berg.de": 8,
         "innovative-trends.de": 9,
         "www.youtube.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 05:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "de.wikipedia.org": 2,
+        "www.dockmedia.de": 3,
+        "www.openpr.de": 4,
+        "www.oev-experience.de": 5,
+        "www.amazingh.de": 6,
+        "probandtastisch.de": 7,
+        "www.auf-den-berg.de": 8,
+        "isabell-leinhos.de": 9,
+        "innovative-trends.de": 10
       }
     }
   ]
