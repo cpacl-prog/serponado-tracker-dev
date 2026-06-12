@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 21:08 (Berlin)",
+  "updated_at": "2026-06-12 21:33 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 3,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [
     {
@@ -28,51 +28,51 @@
     },
     {
       "position": 3,
-      "domain": "www.optimerch.de",
-      "url": "https://www.optimerch.de/serponado/",
-      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+      "domain": "de.wikipedia.org",
+      "url": "https://de.wikipedia.org/wiki/SERPonado",
+      "title": "SERPonado"
     },
     {
       "position": 4,
-      "domain": "www.semotion.de",
-      "url": "https://www.semotion.de/serponado/",
-      "title": "Serponado – Das Keyword des SEO Contests 2026 einfach ..."
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314202/Serponado-Effekt-treibt-durch-Suchmaschinen-Bots-heimlich-die-Cloud-Kosten-in-die-Hoehe.html",
+      "title": "Serponado-Effekt treibt durch Suchmaschinen-Bots ..."
     },
     {
       "position": 5,
-      "domain": "www.websedit.de",
-      "url": "https://www.websedit.de/serponado",
-      "title": "Serponado Anonymous - SEO Contest 2026"
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
     },
     {
       "position": 6,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
       "position": 7,
-      "domain": "www.instagram.com",
-      "url": "https://www.instagram.com/p/DZclb0RAAZm/",
-      "title": "Ein Blick auf unsere SERPONADO-Seite 🌪️ 👀 Schon ..."
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 8,
-      "domain": "www.arise-onlinemarketing.de",
-      "url": "https://www.arise-onlinemarketing.de/serponado/",
-      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
+      "domain": "probandtastisch.de",
+      "url": "https://probandtastisch.de/serponado",
+      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
       "position": 9,
-      "domain": "de.trustpilot.com",
-      "url": "https://de.trustpilot.com/review/serponado.org",
-      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 10,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Serponado"
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
     }
   ],
   "history": [
@@ -1346,6 +1346,20 @@
         "www.arise-onlinemarketing.de": 8,
         "de.trustpilot.com": 9,
         "taismo.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 21:33 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "www.dockmedia.de": 2,
+        "de.wikipedia.org": 3,
+        "www.openpr.de": 10,
+        "www.oev-experience.de": 5,
+        "www.amazingh.de": 6,
+        "innovative-trends.de": 7,
+        "probandtastisch.de": 8,
+        "www.youtube.com": 9
       }
     }
   ]
