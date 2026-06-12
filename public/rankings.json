@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 06:38 (Berlin)",
+  "updated_at": "2026-06-12 07:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 7,
@@ -29,15 +29,15 @@
     },
     {
       "position": 4,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314202/Serponado-Effekt-treibt-durch-Suchmaschinen-Bots-heimlich-die-Cloud-Kosten-in-die-Hoehe.html",
-      "title": "Serponado-Effekt treibt durch Suchmaschinen-Bots ..."
-    },
-    {
-      "position": 5,
       "domain": "www.oev-experience.de",
       "url": "https://www.oev-experience.de/serponado.html",
       "title": "Serponado – Das digitale Wetterphänomen der Sichtbarkeit"
+    },
+    {
+      "position": 5,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314142/Serponado-eu-startet-als-oeffentliches-SEO-Labor-mit-kostenlosem-Keyword-Tornado-Generator.html",
+      "title": "Serponado.eu startet als öffentliches SEO-Labor mit ..."
     },
     {
       "position": 6,
@@ -47,9 +47,9 @@
     },
     {
       "position": 7,
-      "domain": "www.auf-den-berg.de",
-      "url": "https://www.auf-den-berg.de/web_weit_wandern/serponado/",
-      "title": "Auf den Serponado"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 8,
@@ -898,6 +898,21 @@
         "www.oev-experience.de": 5,
         "www.amazingh.de": 6,
         "www.auf-den-berg.de": 7,
+        "probandtastisch.de": 8,
+        "innovative-trends.de": 9,
+        "seo-online-consulting.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 07:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "de.wikipedia.org": 2,
+        "www.dockmedia.de": 3,
+        "www.oev-experience.de": 4,
+        "www.openpr.de": 5,
+        "www.amazingh.de": 6,
+        "www.youtube.com": 7,
         "probandtastisch.de": 8,
         "innovative-trends.de": 9,
         "seo-online-consulting.de": 10
