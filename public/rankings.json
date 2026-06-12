@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 17:08 (Berlin)",
+  "updated_at": "2026-06-12 17:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -17,15 +17,15 @@
     },
     {
       "position": 2,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
-    },
-    {
-      "position": 3,
       "domain": "www.position-one.de",
       "url": "https://www.position-one.de/glossar/serponado",
       "title": "Serponado - SEO Glossar"
+    },
+    {
+      "position": 3,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 4,
@@ -41,33 +41,33 @@
     },
     {
       "position": 6,
-      "domain": "www.instagram.com",
-      "url": "https://www.instagram.com/p/DZclb0RAAZm/",
-      "title": "Ein Blick auf unsere SERPONADO-Seite 🌪️ 👀 Schon ..."
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
     },
     {
       "position": 7,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
+      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
+    },
+    {
+      "position": 8,
       "domain": "www.websedit.de",
       "url": "https://www.websedit.de/serponado",
       "title": "Serponado Anonymous - SEO Contest 2026"
     },
     {
-      "position": 8,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Serponado"
-    },
-    {
       "position": 9,
-      "domain": "www.semotion.de",
-      "url": "https://www.semotion.de/serponado/",
-      "title": "Serponado – Das Keyword des SEO Contests 2026 einfach ..."
-    },
-    {
-      "position": 10,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
+    },
+    {
+      "position": 10,
+      "domain": "www.semotion.de",
+      "url": "https://www.semotion.de/serponado/",
+      "title": "Serponado – Das Keyword des SEO Contests 2026 einfach ..."
     }
   ],
   "history": [
@@ -1225,6 +1225,21 @@
         "taismo.de": 8,
         "www.semotion.de": 9,
         "de.trustpilot.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 17:38 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "www.position-one.de": 2,
+        "taismo.de": 3,
+        "www.arise-onlinemarketing.de": 4,
+        "www.optimerch.de": 5,
+        "till-freitag.com": 6,
+        "www.youtube.com": 7,
+        "www.websedit.de": 8,
+        "de.trustpilot.com": 9,
+        "www.semotion.de": 10
       }
     }
   ]
