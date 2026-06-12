@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-13 00:08 (Berlin)",
+  "updated_at": "2026-06-13 00:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
-    "position": 3,
+    "position": 5,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": true
+    "stale": false
   },
   "top3_moments": [
     {
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "www.websedit.de",
+      "url": "https://www.websedit.de/serponado",
+      "title": "Serponado Anonymous - SEO Contest 2026"
+    },
+    {
+      "position": 2,
       "domain": "www.bremen.de",
       "url": "https://www.bremen.de/visitenkarte/serponado",
       "title": "Serponado"
     },
     {
-      "position": 2,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
-    },
-    {
       "position": 3,
-      "domain": "de.wikipedia.org",
-      "url": "https://de.wikipedia.org/wiki/SERPonado",
-      "title": "SERPonado"
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
     },
     {
       "position": 4,
-      "domain": "de.trustpilot.com",
-      "url": "https://de.trustpilot.com/review/serponado.org",
-      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
-    },
-    {
-      "position": 5,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314202/Serponado-Effekt-treibt-durch-Suchmaschinen-Bots-heimlich-die-Cloud-Kosten-in-die-Hoehe.html",
-      "title": "Serponado-Effekt treibt durch Suchmaschinen-Bots ..."
-    },
-    {
-      "position": 6,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
-    },
-    {
-      "position": 7,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 8,
-      "domain": "probandtastisch.de",
-      "url": "https://probandtastisch.de/serponado",
-      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
-    },
-    {
-      "position": 9,
-      "domain": "innovative-trends.de",
-      "url": "https://innovative-trends.de/tag/serponado/",
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
       "title": "Serponado"
     },
     {
+      "position": 5,
+      "domain": "www.optimerch.de",
+      "url": "https://www.optimerch.de/serponado/",
+      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+    },
+    {
+      "position": 6,
+      "domain": "www.arise-onlinemarketing.de",
+      "url": "https://www.arise-onlinemarketing.de/serponado/",
+      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
+    },
+    {
+      "position": 7,
+      "domain": "www.semotion.de",
+      "url": "https://www.semotion.de/serponado/",
+      "title": "Serponado – Das Keyword des SEO Contests 2026 einfach ..."
+    },
+    {
+      "position": 8,
+      "domain": "www.position-one.de",
+      "url": "https://www.position-one.de/glossar/serponado",
+      "title": "Serponado - SEO Glossar"
+    },
+    {
+      "position": 9,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
+      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
+    },
+    {
       "position": 10,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
+      "title": "Serponado"
     }
   ],
   "history": [
@@ -1445,6 +1445,21 @@
         "probandtastisch.de": 8,
         "innovative-trends.de": 9,
         "rahmengeben.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-13 00:38 (Berlin)",
+      "positions": {
+        "www.websedit.de": 1,
+        "www.bremen.de": 2,
+        "till-freitag.com": 3,
+        "taismo.de": 4,
+        "www.optimerch.de": 5,
+        "www.arise-onlinemarketing.de": 6,
+        "www.semotion.de": 7,
+        "www.position-one.de": 8,
+        "www.youtube.com": 9,
+        "seobuddha.de": 10
       }
     }
   ]
