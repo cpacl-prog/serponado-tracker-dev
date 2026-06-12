@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-12 15:38 (Berlin)",
+  "updated_at": "2026-06-12 16:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -59,9 +59,9 @@
     },
     {
       "position": 9,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 10,
@@ -1180,6 +1180,21 @@
         "www.amazingh.de": 6,
         "probandtastisch.de": 7,
         "innovative-trends.de": 8,
+        "rahmengeben.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-12 16:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "www.dockmedia.de": 2,
+        "de.wikipedia.org": 3,
+        "www.openpr.de": 4,
+        "www.oev-experience.de": 5,
+        "www.amazingh.de": 6,
+        "probandtastisch.de": 7,
+        "innovative-trends.de": 8,
+        "www.youtube.com": 9,
         "rahmengeben.de": 10
       }
     }
