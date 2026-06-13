@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-13 16:08 (Berlin)",
+  "updated_at": "2026-06-13 16:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -48,7 +48,7 @@
       "position": 6,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da!  (Die Wahrheit)"
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 7,
@@ -1912,6 +1912,21 @@
     },
     {
       "ts": "2026-06-13 16:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.wikipedia.org": 2,
+        "de.trustpilot.com": 3,
+        "www.oev-experience.de": 4,
+        "www.amazingh.de": 5,
+        "www.youtube.com": 6,
+        "probandtastisch.de": 7,
+        "nachhaltigkeit-mit-kopf.de": 8,
+        "rahmengeben.de": 9,
+        "tippsecret.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-13 16:38 (Berlin)",
       "positions": {
         "www.dockmedia.de": 1,
         "de.wikipedia.org": 2,
