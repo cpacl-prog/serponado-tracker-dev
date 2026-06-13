@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-13 22:10 (Berlin)",
+  "updated_at": "2026-06-13 22:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -58,15 +58,15 @@
     },
     {
       "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
-    },
-    {
-      "position": 9,
       "domain": "nachhaltigkeit-mit-kopf.de",
       "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
       "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
+    },
+    {
+      "position": 9,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado - rahmengeben"
     },
     {
       "position": 10,
@@ -2132,6 +2132,21 @@
         "www.youtube.com": 7,
         "rahmengeben.de": 8,
         "nachhaltigkeit-mit-kopf.de": 9,
+        "tippsecret.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-13 22:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.wikipedia.org": 2,
+        "de.trustpilot.com": 3,
+        "www.oev-experience.de": 4,
+        "www.amazingh.de": 5,
+        "probandtastisch.de": 6,
+        "www.youtube.com": 7,
+        "nachhaltigkeit-mit-kopf.de": 8,
+        "rahmengeben.de": 9,
         "tippsecret.com": 10
       }
     }
