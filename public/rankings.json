@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-13 02:08 (Berlin)",
+  "updated_at": "2026-06-13 02:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": true
+    "stale": false
   },
   "top3_moments": [
     {
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "www.websedit.de",
+      "url": "https://www.websedit.de/serponado",
+      "title": "Serponado Anonymous - SEO Contest 2026"
+    },
+    {
+      "position": 2,
+      "domain": "www.bremen.de",
+      "url": "https://www.bremen.de/visitenkarte/serponado",
+      "title": "Serponado"
+    },
+    {
+      "position": 3,
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
+    },
+    {
+      "position": 4,
       "domain": "taismo.de",
       "url": "https://taismo.de/seo-magazin/serponado/",
       "title": "Serponado"
     },
     {
-      "position": 2,
-      "domain": "de.wikipedia.org",
-      "url": "https://de.wikipedia.org/wiki/SERPonado",
-      "title": "SERPonado"
-    },
-    {
-      "position": 3,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 4,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
       "position": 5,
-      "domain": "probandtastisch.de",
-      "url": "https://probandtastisch.de/serponado",
-      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
+      "domain": "www.optimerch.de",
+      "url": "https://www.optimerch.de/serponado/",
+      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
     },
     {
       "position": 6,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
+      "domain": "www.instagram.com",
+      "url": "https://www.instagram.com/p/DZclb0RAAZm/",
+      "title": "Ein Blick auf unsere SERPONADO-Seite 🌪️ 👀 Schon ..."
     },
     {
       "position": 7,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
-      "title": "Serponado"
+      "domain": "www.arise-onlinemarketing.de",
+      "url": "https://www.arise-onlinemarketing.de/serponado/",
+      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
     },
     {
       "position": 8,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+      "domain": "ostseemagazin.net",
+      "url": "https://ostseemagazin.net/serponado/",
+      "title": "Serponado ☀️ Das geheimnisvolle Ostseephänomen"
     },
     {
       "position": 9,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 10,
-      "domain": "der-serponado.de",
-      "url": "https://der-serponado.de/",
-      "title": "Serponado – Der Superheld aus Serrano | Schnell wie ein ..."
+      "domain": "de.trustpilot.com",
+      "url": "https://de.trustpilot.com/review/serponado.org",
+      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     }
   ],
   "history": [
@@ -1500,6 +1500,21 @@
         "rahmengeben.de": 6,
         "www.info8.de": 8,
         "der-serponado.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-13 02:38 (Berlin)",
+      "positions": {
+        "www.websedit.de": 1,
+        "www.bremen.de": 2,
+        "till-freitag.com": 3,
+        "taismo.de": 4,
+        "www.optimerch.de": 5,
+        "www.instagram.com": 6,
+        "www.arise-onlinemarketing.de": 7,
+        "ostseemagazin.net": 8,
+        "seobuddha.de": 9,
+        "de.trustpilot.com": 10
       }
     }
   ]
