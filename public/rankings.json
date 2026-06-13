@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-13 21:38 (Berlin)",
+  "updated_at": "2026-06-13 22:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -22,21 +22,21 @@
     },
     {
       "position": 2,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
-    },
-    {
-      "position": 3,
       "domain": "de.wikipedia.org",
       "url": "https://de.wikipedia.org/wiki/SERPonado",
       "title": "SERPonado"
     },
     {
+      "position": 3,
+      "domain": "de.trustpilot.com",
+      "url": "https://de.trustpilot.com/review/serponado.org",
+      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
+    },
+    {
       "position": 4,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
     },
     {
       "position": 5,
@@ -52,27 +52,27 @@
     },
     {
       "position": 7,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 8,
-      "domain": "www.news24-7.de",
-      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
-      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für ..."
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
     },
     {
       "position": 9,
-      "domain": "serponado.de",
-      "url": "https://serponado.de/",
-      "title": "Serponado – Offizielle Infoseite zum SEO Contest 2026"
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado - rahmengeben"
     },
     {
       "position": 10,
-      "domain": "www.serponado-seo.de",
-      "url": "https://www.serponado-seo.de/",
-      "title": "Serponado | Mehr als ein SEO-Tornado"
+      "domain": "tippsecret.com",
+      "url": "https://tippsecret.com/wettanbieter-test/serponado-test-erfahrungen-und-bewertung",
+      "title": "Serponado Test: Erfahrungen & Bewertung Juni 2026"
     }
   ],
   "history": [
@@ -2103,6 +2103,21 @@
         "www.news24-7.de": 8,
         "serponado.de": 9,
         "www.serponado-seo.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-13 22:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.wikipedia.org": 2,
+        "de.trustpilot.com": 3,
+        "www.oev-experience.de": 4,
+        "www.amazingh.de": 5,
+        "probandtastisch.de": 6,
+        "www.youtube.com": 7,
+        "nachhaltigkeit-mit-kopf.de": 8,
+        "rahmengeben.de": 9,
+        "tippsecret.com": 10
       }
     }
   ]
