@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-13 12:38 (Berlin)",
+  "updated_at": "2026-06-13 13:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -16,45 +16,45 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.bremen.de",
-      "url": "https://www.bremen.de/visitenkarte/serponado",
-      "title": "Serponado"
-    },
-    {
-      "position": 2,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 3,
+      "position": 2,
       "domain": "de.wikipedia.org",
       "url": "https://de.wikipedia.org/wiki/SERPonado",
       "title": "SERPonado"
     },
     {
-      "position": 4,
+      "position": 3,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
-      "position": 5,
+      "position": 4,
       "domain": "www.oev-experience.de",
       "url": "https://www.oev-experience.de/serponado.html",
       "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
     },
     {
-      "position": 6,
+      "position": 5,
       "domain": "www.openpr.de",
       "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
       "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
     },
     {
-      "position": 7,
+      "position": 6,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 7,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 8,
@@ -64,15 +64,15 @@
     },
     {
       "position": 9,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 10,
       "domain": "rahmengeben.de",
       "url": "https://rahmengeben.de/serponado/",
       "title": "Serponado - rahmengeben"
+    },
+    {
+      "position": 10,
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
     }
   ],
   "history": [
@@ -1821,6 +1821,21 @@
         "probandtastisch.de": 8,
         "www.youtube.com": 9,
         "rahmengeben.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-13 13:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.wikipedia.org": 2,
+        "de.trustpilot.com": 3,
+        "www.oev-experience.de": 4,
+        "www.openpr.de": 5,
+        "www.amazingh.de": 6,
+        "www.youtube.com": 7,
+        "probandtastisch.de": 8,
+        "rahmengeben.de": 9,
+        "nachhaltigkeit-mit-kopf.de": 10
       }
     }
   ]
