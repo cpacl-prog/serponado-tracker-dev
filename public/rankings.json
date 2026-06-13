@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-13 02:38 (Berlin)",
+  "updated_at": "2026-06-13 03:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [
     {
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.websedit.de",
-      "url": "https://www.websedit.de/serponado",
-      "title": "Serponado Anonymous - SEO Contest 2026"
-    },
-    {
-      "position": 2,
       "domain": "www.bremen.de",
       "url": "https://www.bremen.de/visitenkarte/serponado",
       "title": "Serponado"
     },
     {
+      "position": 2,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
       "position": 3,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
+      "domain": "de.wikipedia.org",
+      "url": "https://de.wikipedia.org/wiki/SERPonado",
+      "title": "SERPonado"
     },
     {
       "position": 4,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Serponado"
+      "domain": "de.trustpilot.com",
+      "url": "https://de.trustpilot.com/review/serponado.org",
+      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
       "position": 5,
-      "domain": "www.optimerch.de",
-      "url": "https://www.optimerch.de/serponado/",
-      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
     },
     {
       "position": 6,
-      "domain": "www.instagram.com",
-      "url": "https://www.instagram.com/p/DZclb0RAAZm/",
-      "title": "Ein Blick auf unsere SERPONADO-Seite 🌪️ 👀 Schon ..."
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
       "position": 7,
-      "domain": "www.arise-onlinemarketing.de",
-      "url": "https://www.arise-onlinemarketing.de/serponado/",
-      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
     },
     {
       "position": 8,
-      "domain": "ostseemagazin.net",
-      "url": "https://ostseemagazin.net/serponado/",
-      "title": "Serponado ☀️ Das geheimnisvolle Ostseephänomen"
+      "domain": "probandtastisch.de",
+      "url": "https://probandtastisch.de/serponado",
+      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
       "position": 9,
-      "domain": "seobuddha.de",
-      "url": "https://seobuddha.de/serponado/",
+      "domain": "innovative-trends.de",
+      "url": "https://innovative-trends.de/tag/serponado/",
       "title": "Serponado"
     },
     {
       "position": 10,
-      "domain": "de.trustpilot.com",
-      "url": "https://de.trustpilot.com/review/serponado.org",
-      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     }
   ],
   "history": [
@@ -1515,6 +1515,21 @@
         "ostseemagazin.net": 8,
         "seobuddha.de": 9,
         "de.trustpilot.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-13 03:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "www.dockmedia.de": 2,
+        "de.wikipedia.org": 3,
+        "de.trustpilot.com": 4,
+        "www.oev-experience.de": 5,
+        "www.amazingh.de": 6,
+        "www.openpr.de": 7,
+        "probandtastisch.de": 8,
+        "innovative-trends.de": 9,
+        "www.youtube.com": 10
       }
     }
   ]
