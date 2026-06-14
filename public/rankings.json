@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 2,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
-      "position": 3,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
-    },
-    {
-      "position": 4,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
-    },
-    {
-      "position": 5,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 6,
+      "position": 2,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
+      "position": 3,
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+    },
+    {
+      "position": 4,
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
+      "title": "SERPonado | Berlin"
+    },
+    {
+      "position": 5,
+      "domain": "www.news24-7.de",
+      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
+      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für ..."
+    },
+    {
+      "position": 6,
+      "domain": "www.serponado.com",
+      "url": "https://www.serponado.com/definition/",
+      "title": "Serponado Definition: Herkunft, Bedeutung und Erklärung"
+    },
+    {
       "position": 7,
-      "domain": "probandtastisch.de",
-      "url": "https://probandtastisch.de/serponado",
-      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
+      "domain": "www.serponado.net",
+      "url": "https://www.serponado.net/",
+      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
     },
     {
       "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado - rahmengeben"
+      "domain": "mein-serponado.de",
+      "url": "https://mein-serponado.de/",
+      "title": "Serponado - Mein Serponado"
     },
     {
       "position": 9,
-      "domain": "tippsecret.com",
-      "url": "https://tippsecret.com/wettanbieter-test/serponado-test-erfahrungen-und-bewertung",
-      "title": "Serponado Test: Erfahrungen & Bewertung Juni 2026"
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
       "position": 10,
-      "domain": "nachhaltigkeit-mit-kopf.de",
-      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
-      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
+      "domain": "serponado.city",
+      "url": "https://serponado.city/faq/",
+      "title": "Häufige Fragen & Antworten zu SERPonado | FAQ"
     }
   ],
   "history": [
@@ -2791,16 +2791,16 @@
     {
       "ts": "2026-06-14 20:08 (Berlin)",
       "positions": {
-        "www.dockmedia.de": 1,
-        "de.trustpilot.com": 2,
-        "www.oev-experience.de": 3,
-        "www.openpr.de": 4,
-        "www.amazingh.de": 5,
-        "www.youtube.com": 6,
-        "probandtastisch.de": 7,
-        "rahmengeben.de": 8,
-        "tippsecret.com": 9,
-        "nachhaltigkeit-mit-kopf.de": 10
+        "de.trustpilot.com": 1,
+        "www.youtube.com": 2,
+        "www.info8.de": 3,
+        "www.facebook.com": 4,
+        "www.news24-7.de": 5,
+        "www.serponado.com": 6,
+        "www.serponado.net": 7,
+        "mein-serponado.de": 8,
+        "locseo.eu": 9,
+        "serponado.city": 10
       }
     }
   ]
