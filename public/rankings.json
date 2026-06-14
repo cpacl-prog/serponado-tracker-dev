@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-14 10:55 (Berlin)",
+  "updated_at": "2026-06-14 11:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -30,7 +30,7 @@
       "position": 3,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da!  (Die Wahrheit)"
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 4,
@@ -2506,6 +2506,19 @@
     },
     {
       "ts": "2026-06-14 10:55 (Berlin)",
+      "positions": {
+        "taismo.de": 1,
+        "probandtastisch.de": 2,
+        "www.youtube.com": 8,
+        "locseo.eu": 7,
+        "rahmengeben.de": 5,
+        "www.info8.de": 6,
+        "www.business-branchenbuch.de": 9,
+        "www.eiswuerfelmaschine24.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-14 11:08 (Berlin)",
       "positions": {
         "taismo.de": 1,
         "probandtastisch.de": 2,
