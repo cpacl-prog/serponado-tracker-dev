@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-14 19:08 (Berlin)",
+  "updated_at": "2026-06-14 19:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 2,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
-      "position": 2,
+      "position": 3,
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
+    },
+    {
+      "position": 4,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+    },
+    {
+      "position": 5,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 6,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 3,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+      "position": 7,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado - rahmengeben"
     },
     {
-      "position": 4,
+      "position": 8,
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
+    },
+    {
+      "position": 9,
       "domain": "www.facebook.com",
       "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
       "title": "SERPonado | Berlin"
     },
     {
-      "position": 5,
-      "domain": "www.news24-7.de",
-      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
-      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für ..."
-    },
-    {
-      "position": 6,
-      "domain": "www.serponado.com",
-      "url": "https://www.serponado.com/definition/",
-      "title": "Serponado Definition: Herkunft, Bedeutung und Erklärung"
-    },
-    {
-      "position": 7,
-      "domain": "www.serponado.net",
-      "url": "https://www.serponado.net/",
-      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
-    },
-    {
-      "position": 8,
-      "domain": "mein-serponado.de",
-      "url": "https://mein-serponado.de/",
-      "title": "Serponado - Mein Serponado"
-    },
-    {
-      "position": 9,
-      "domain": "isabell-leinhos.de",
-      "url": "https://isabell-leinhos.de/serponado/",
-      "title": "Serponado – Bedeutung, Definition & SEO-Contest 2026"
-    },
-    {
       "position": 10,
-      "domain": "serponado.city",
-      "url": "https://serponado.city/faq/",
-      "title": "Häufige Fragen & Antworten zu SERPonado | FAQ"
+      "domain": "tippsecret.com",
+      "url": "https://tippsecret.com/wettanbieter-test/serponado-test-erfahrungen-und-bewertung",
+      "title": "Serponado Test: Erfahrungen & Bewertung Juni 2026"
     }
   ],
   "history": [
@@ -2771,6 +2771,21 @@
         "mein-serponado.de": 8,
         "isabell-leinhos.de": 9,
         "serponado.city": 10
+      }
+    },
+    {
+      "ts": "2026-06-14 19:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.oev-experience.de": 3,
+        "www.openpr.de": 4,
+        "www.amazingh.de": 5,
+        "www.youtube.com": 6,
+        "rahmengeben.de": 7,
+        "nachhaltigkeit-mit-kopf.de": 8,
+        "www.facebook.com": 9,
+        "tippsecret.com": 10
       }
     }
   ]
