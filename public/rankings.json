@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-14 15:08 (Berlin)",
+  "updated_at": "2026-06-14 15:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Serponado"
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
       "position": 2,
+      "domain": "de.trustpilot.com",
+      "url": "https://de.trustpilot.com/review/serponado.org",
+      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
+    },
+    {
+      "position": 3,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 4,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 3,
+      "position": 5,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+    },
+    {
+      "position": 6,
       "domain": "probandtastisch.de",
       "url": "https://probandtastisch.de/serponado",
       "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
-      "position": 4,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
-      "position": 5,
+      "position": 7,
       "domain": "rahmengeben.de",
       "url": "https://rahmengeben.de/serponado/",
       "title": "Serponado - rahmengeben"
     },
     {
-      "position": 6,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
-    },
-    {
-      "position": 7,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
-    },
-    {
       "position": 8,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_kTtrTEkJmBecOGTolyEPMZd7GRGnz8xmo",
-      "title": "Serponado (RAP VERSION)"
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
       "position": 9,
-      "domain": "www.business-branchenbuch.de",
-      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
-      "title": "Serponado - Bremen"
+      "domain": "tippsecret.com",
+      "url": "https://tippsecret.com/wettanbieter-test/serponado-test-erfahrungen-und-bewertung",
+      "title": "Serponado Test: Erfahrungen & Bewertung Juni 2026"
     },
     {
       "position": 10,
-      "domain": "www.eiswuerfelmaschine24.de",
-      "url": "https://www.eiswuerfelmaschine24.de/serponado",
-      "title": "Serponado: Die evolutionäre Symbiose im modernen SEO"
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
+      "title": "SERPonado | Berlin"
     }
   ],
   "history": [
@@ -2640,6 +2640,21 @@
         "www.info8.de": 6,
         "www.business-branchenbuch.de": 9,
         "www.eiswuerfelmaschine24.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-14 15:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.amazingh.de": 3,
+        "www.youtube.com": 4,
+        "www.openpr.de": 5,
+        "probandtastisch.de": 6,
+        "rahmengeben.de": 7,
+        "locseo.eu": 8,
+        "tippsecret.com": 9,
+        "www.facebook.com": 10
       }
     }
   ]
