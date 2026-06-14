@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 00:08 (Berlin)",
+  "updated_at": "2026-06-15 00:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -48,7 +48,7 @@
       "position": 6,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da!  (Die Wahrheit)"
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 7,
@@ -58,21 +58,21 @@
     },
     {
       "position": 8,
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
+    },
+    {
+      "position": 9,
       "domain": "lokalerzeitung.de",
       "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
       "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
     },
     {
-      "position": 9,
+      "position": 10,
       "domain": "www.facebook.com",
       "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
       "title": "SERPonado | Berlin"
-    },
-    {
-      "position": 10,
-      "domain": "nachhaltigkeit-mit-kopf.de",
-      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
-      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
     }
   ],
   "history": [
@@ -2934,6 +2934,21 @@
         "lokalerzeitung.de": 8,
         "www.facebook.com": 9,
         "nachhaltigkeit-mit-kopf.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 00:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.amazingh.de": 3,
+        "www.openpr.de": 4,
+        "locseo.eu": 5,
+        "www.youtube.com": 6,
+        "rahmengeben.de": 7,
+        "nachhaltigkeit-mit-kopf.de": 8,
+        "lokalerzeitung.de": 9,
+        "www.facebook.com": 10
       }
     }
   ]
