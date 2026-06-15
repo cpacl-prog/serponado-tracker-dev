@@ -46,7 +46,7 @@ except (KeyError, IndexError, TypeError) as e:
 
 rankings = [
     {
-        'position': item.get('rank_absolute'),
+        'position': item.get('rank_group'),
         'domain':   item.get('domain'),
         'url':      item.get('url'),
         'title':    item.get('title', ''),
