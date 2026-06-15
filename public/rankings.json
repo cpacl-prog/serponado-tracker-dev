@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 10:38 (Berlin)",
+  "updated_at": "2026-06-15 11:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -3228,6 +3228,21 @@
     },
     {
       "ts": "2026-06-15 10:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 3,
+        "de.trustpilot.com": 4,
+        "www.amazingh.de": 5,
+        "www.openpr.de": 6,
+        "locseo.eu": 7,
+        "rahmengeben.de": 8,
+        "www.youtube.com": 9,
+        "lokalerzeitung.de": 10,
+        "www.facebook.com": 11,
+        "nachhaltigkeit-mit-kopf.de": 12
+      }
+    },
+    {
+      "ts": "2026-06-15 11:08 (Berlin)",
       "positions": {
         "www.dockmedia.de": 3,
         "de.trustpilot.com": 4,
