@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 13:38 (Berlin)",
+  "updated_at": "2026-06-15 14:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -40,9 +40,9 @@
     },
     {
       "position": 5,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 6,
@@ -52,27 +52,27 @@
     },
     {
       "position": 7,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
       "position": 8,
-      "domain": "lokalerzeitung.de",
-      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
-      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
-    },
-    {
-      "position": 9,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin"
-    },
-    {
-      "position": 10,
       "domain": "www.trustprofile.com",
       "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
       "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
+    },
+    {
+      "position": 9,
+      "domain": "www.auskunft.de",
+      "url": "https://www.auskunft.de/firma/fBboalrm",
+      "title": "Serponado in Bremen"
+    },
+    {
+      "position": 10,
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
+      "title": "SERPonado | Berlin"
     }
   ],
   "history": [
@@ -3383,6 +3383,21 @@
         "lokalerzeitung.de": 8,
         "www.facebook.com": 9,
         "www.trustprofile.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 14:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.amazingh.de": 3,
+        "www.openpr.de": 4,
+        "www.youtube.com": 5,
+        "rahmengeben.de": 6,
+        "locseo.eu": 7,
+        "www.trustprofile.com": 8,
+        "www.auskunft.de": 9,
+        "www.facebook.com": 10
       }
     }
   ]
