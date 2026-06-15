@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 16:08 (Berlin)",
+  "updated_at": "2026-06-15 16:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -22,45 +22,45 @@
     },
     {
       "position": 2,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
-      "position": 3,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
-      "position": 4,
+      "position": 3,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
-      "position": 5,
+      "position": 4,
       "domain": "www.openpr.de",
       "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
       "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
     },
     {
-      "position": 6,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 7,
+      "position": 5,
       "domain": "rahmengeben.de",
       "url": "https://rahmengeben.de/serponado/",
       "title": "Serponado – der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 8,
+      "position": 6,
       "domain": "locseo.eu",
       "url": "https://locseo.eu/serponado-geschichte",
       "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+    },
+    {
+      "position": 7,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da!  (Die Wahrheit)"
+    },
+    {
+      "position": 8,
+      "domain": "lokalerzeitung.de",
+      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
+      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
     },
     {
       "position": 9,
@@ -70,9 +70,9 @@
     },
     {
       "position": 10,
-      "domain": "www.auskunft.de",
-      "url": "https://www.auskunft.de/firma/fBboalrm",
-      "title": "Serponado in Bremen"
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
+      "title": "SERPonado | Berlin"
     }
   ],
   "history": [
@@ -3454,6 +3454,21 @@
         "locseo.eu": 8,
         "www.trustprofile.com": 9,
         "www.auskunft.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 16:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.amazingh.de": 3,
+        "www.openpr.de": 4,
+        "rahmengeben.de": 5,
+        "locseo.eu": 6,
+        "www.youtube.com": 7,
+        "lokalerzeitung.de": 8,
+        "www.trustprofile.com": 9,
+        "www.facebook.com": 10
       }
     }
   ]
