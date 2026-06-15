@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 07:38 (Berlin)",
+  "updated_at": "2026-06-15 08:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
-    "position": 5,
+    "position": 4,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": true
+    "stale": false
   },
   "top3_moments": [
     {
@@ -15,64 +15,64 @@
   ],
   "rankings": [
     {
+      "position": 1,
+      "domain": "www.bremen.de",
+      "url": "https://www.bremen.de/visitenkarte/serponado",
+      "title": "Serponado"
+    },
+    {
+      "position": 2,
+      "domain": "www.semotion.de",
+      "url": "https://www.semotion.de/serponado/",
+      "title": "Serponado 2026: Warum Google gerade verrücktspielt"
+    },
+    {
       "position": 3,
+      "domain": "www.websedit.de",
+      "url": "https://www.websedit.de/serponado",
+      "title": "Serponado Anonymous - SEO Contest 2026"
+    },
+    {
+      "position": 4,
+      "domain": "www.optimerch.de",
+      "url": "https://www.optimerch.de/serponado/",
+      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+    },
+    {
+      "position": 5,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 6,
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? SEO-Contest 2026…"
+    },
+    {
+      "position": 7,
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
+      "title": "Serponado"
+    },
+    {
+      "position": 8,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 4,
+      "position": 9,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
-      "position": 5,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 6,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
-    },
-    {
-      "position": 7,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 8,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 9,
-      "domain": "lokalerzeitung.de",
-      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
-      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
-    },
-    {
       "position": 10,
-      "domain": "www.serponado.com",
-      "url": "https://www.serponado.com/strategie/",
-      "title": "Serponado-Strategie: So entsteht nachhaltige Sichtbarkeit"
-    },
-    {
-      "position": 11,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin"
-    },
-    {
-      "position": 12,
-      "domain": "nachhaltigkeit-mit-kopf.de",
-      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
-      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
+      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
     }
   ],
   "history": [
@@ -3153,6 +3153,21 @@
         "www.serponado.com": 10,
         "www.facebook.com": 11,
         "nachhaltigkeit-mit-kopf.de": 12
+      }
+    },
+    {
+      "ts": "2026-06-15 08:08 (Berlin)",
+      "positions": {
+        "www.bremen.de": 1,
+        "www.semotion.de": 2,
+        "www.websedit.de": 3,
+        "www.optimerch.de": 4,
+        "taismo.de": 5,
+        "till-freitag.com": 6,
+        "seobuddha.de": 7,
+        "www.dockmedia.de": 8,
+        "de.trustpilot.com": 9,
+        "www.youtube.com": 10
       }
     }
   ]
