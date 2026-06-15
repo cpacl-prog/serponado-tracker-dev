@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-16 01:21 (Berlin)",
+  "updated_at": "2026-06-16 01:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -34,15 +34,15 @@
     },
     {
       "position": 4,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado: der SERP-Tornado einfach erklärt, mit Contest ..."
-    },
-    {
-      "position": 5,
       "domain": "www.info8.de",
       "url": "https://www.info8.de/serponado-definition-bedeutung/",
       "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+    },
+    {
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
       "position": 6,
@@ -52,27 +52,27 @@
     },
     {
       "position": 7,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
-    },
-    {
-      "position": 8,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
       "title": "Serponado"
     },
     {
-      "position": 9,
+      "position": 8,
       "domain": "www.business-branchenbuch.de",
       "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
       "title": "Serponado - Bremen"
     },
     {
-      "position": 10,
+      "position": 9,
       "domain": "www.eiswuerfelmaschine24.de",
       "url": "https://www.eiswuerfelmaschine24.de/serponado",
       "title": "Serponado: Die evolutionäre Symbiose im modernen SEO"
+    },
+    {
+      "position": 10,
+      "domain": "isabell-leinhos.de",
+      "url": "https://isabell-leinhos.de/serponado/",
+      "title": "Serponado – Bedeutung, Definition & SEO-Contest 2026"
     }
   ],
   "history": [
@@ -3744,6 +3744,19 @@
         "www.facebook.com": 6,
         "www.business-branchenbuch.de": 9,
         "www.eiswuerfelmaschine24.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-16 01:38 (Berlin)",
+      "positions": {
+        "taismo.de": 1,
+        "locseo.eu": 5,
+        "www.youtube.com": 7,
+        "www.info8.de": 4,
+        "www.facebook.com": 6,
+        "www.business-branchenbuch.de": 8,
+        "www.eiswuerfelmaschine24.de": 9,
+        "isabell-leinhos.de": 10
       }
     }
   ]
