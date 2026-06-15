@@ -15,17 +15,21 @@ MAX_DISPLAY = 10
 MAX_HISTORY = 1440  # 30 Tage à 48 Halbstunden
 
 payload = [{
-    "keyword":       KEYWORD,
-    "location_code": 2276,
-    "language_code": "de",
-    "se_domain":     "google.de",
-    "device":        "desktop",
-    "depth":         100
+    "keyword":                    KEYWORD,
+    "location_code":              2276,
+    "language_code":              "de",
+    "se_domain":                  "google.de",
+    "device":                     "desktop",
+    "os":                         "windows",
+    "depth":                      100,
+    "browser_screen_width":       1920,
+    "browser_screen_height":      1080,
+    "browser_screen_scale_factor": 1
 }]
 
 try:
     response = requests.post(
-        'https://api.dataforseo.com/v3/serp/google/organic/live/regular',
+        'https://api.dataforseo.com/v3/serp/google/organic/live/advanced',
         auth=(LOGIN, PASSWORD),
         json=payload,
         timeout=60
