@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 19:38 (Berlin)",
+  "updated_at": "2026-06-15 20:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -28,21 +28,21 @@
     },
     {
       "position": 3,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
-      "position": 4,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
-      "position": 5,
+      "position": 4,
       "domain": "www.openpr.de",
       "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
       "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+    },
+    {
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
       "position": 6,
@@ -52,27 +52,27 @@
     },
     {
       "position": 7,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+      "domain": "lokalerzeitung.de",
+      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
+      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
     },
     {
       "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 9,
       "domain": "www.startupmag.de",
       "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
       "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
     },
     {
-      "position": 10,
+      "position": 9,
       "domain": "www.trustprofile.com",
       "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
       "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
+    },
+    {
+      "position": 10,
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
+      "title": "SERPonado | Berlin"
     }
   ],
   "history": [
@@ -3572,6 +3572,21 @@
         "rahmengeben.de": 8,
         "www.startupmag.de": 9,
         "www.trustprofile.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 20:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.amazingh.de": 3,
+        "www.openpr.de": 4,
+        "locseo.eu": 5,
+        "www.youtube.com": 6,
+        "lokalerzeitung.de": 7,
+        "www.startupmag.de": 8,
+        "www.trustprofile.com": 9,
+        "www.facebook.com": 10
       }
     }
   ]
