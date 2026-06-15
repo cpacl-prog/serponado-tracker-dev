@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 22:08 (Berlin)",
+  "updated_at": "2026-06-15 22:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -22,27 +22,27 @@
     },
     {
       "position": 2,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da!  (Die Wahrheit)"
-    },
-    {
-      "position": 3,
       "domain": "locseo.eu",
       "url": "https://locseo.eu/serponado-geschichte",
       "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
-      "position": 4,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
+      "position": 3,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 5,
+      "position": 4,
       "domain": "www.info8.de",
       "url": "https://www.info8.de/serponado-definition-bedeutung/",
       "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+    },
+    {
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
       "position": 6,
@@ -52,15 +52,15 @@
     },
     {
       "position": 7,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
-    },
-    {
-      "position": 8,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
       "title": "Serponado"
+    },
+    {
+      "position": 8,
+      "domain": "www.business-branchenbuch.de",
+      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
+      "title": "Serponado - Bremen"
     },
     {
       "position": 9,
@@ -3643,6 +3643,19 @@
         "rahmengeben.de": 4,
         "www.info8.de": 5,
         "www.facebook.com": 6,
+        "www.eiswuerfelmaschine24.de": 9,
+        "isabell-leinhos.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 22:38 (Berlin)",
+      "positions": {
+        "taismo.de": 1,
+        "locseo.eu": 5,
+        "www.youtube.com": 7,
+        "www.info8.de": 4,
+        "www.facebook.com": 6,
+        "www.business-branchenbuch.de": 8,
         "www.eiswuerfelmaschine24.de": 9,
         "isabell-leinhos.de": 10
       }
