@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 03:08 (Berlin)",
+  "updated_at": "2026-06-15 03:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -40,15 +40,15 @@
     },
     {
       "position": 5,
-      "domain": "probandtastisch.de",
-      "url": "https://probandtastisch.de/serponado",
-      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
-    },
-    {
-      "position": 6,
       "domain": "locseo.eu",
       "url": "https://locseo.eu/serponado-geschichte",
       "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+    },
+    {
+      "position": 6,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado – der SERP-Tornado einfach erklärt"
     },
     {
       "position": 7,
@@ -58,21 +58,21 @@
     },
     {
       "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 9,
       "domain": "lokalerzeitung.de",
       "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
       "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
     },
     {
-      "position": 10,
+      "position": 9,
       "domain": "www.facebook.com",
       "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
       "title": "SERPonado | Berlin"
+    },
+    {
+      "position": 10,
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
     }
   ],
   "history": [
@@ -3022,6 +3022,21 @@
         "rahmengeben.de": 8,
         "lokalerzeitung.de": 9,
         "www.facebook.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 03:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.amazingh.de": 3,
+        "www.openpr.de": 4,
+        "locseo.eu": 5,
+        "rahmengeben.de": 6,
+        "www.youtube.com": 7,
+        "lokalerzeitung.de": 8,
+        "www.facebook.com": 9,
+        "nachhaltigkeit-mit-kopf.de": 10
       }
     }
   ]
