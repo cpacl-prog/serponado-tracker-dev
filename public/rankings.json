@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 08:38 (Berlin)",
+  "updated_at": "2026-06-15 09:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -40,27 +40,27 @@
     },
     {
       "position": 7,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
-      "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 9,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
+      "position": 8,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+    },
+    {
+      "position": 9,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado – der SERP-Tornado einfach erklärt"
+    },
+    {
       "position": 10,
-      "domain": "lokalerzeitung.de",
-      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
-      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
+      "domain": "www.startupmag.de",
+      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
+      "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
     },
     {
       "position": 11,
@@ -70,9 +70,9 @@
     },
     {
       "position": 12,
-      "domain": "nachhaltigkeit-mit-kopf.de",
-      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
-      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
+      "domain": "www.trustprofile.com",
+      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
+      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
     }
   ],
   "history": [
@@ -3183,6 +3183,21 @@
         "lokalerzeitung.de": 10,
         "www.facebook.com": 11,
         "nachhaltigkeit-mit-kopf.de": 12
+      }
+    },
+    {
+      "ts": "2026-06-15 09:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 3,
+        "de.trustpilot.com": 4,
+        "www.amazingh.de": 5,
+        "www.openpr.de": 6,
+        "www.youtube.com": 7,
+        "locseo.eu": 8,
+        "rahmengeben.de": 9,
+        "www.startupmag.de": 10,
+        "www.facebook.com": 11,
+        "www.trustprofile.com": 12
       }
     }
   ]
