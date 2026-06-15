@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 20:38 (Berlin)",
+  "updated_at": "2026-06-15 21:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -41,14 +41,14 @@
     {
       "position": 5,
       "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
       "position": 6,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
+      "domain": "www.startupmag.de",
+      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
+      "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
     },
     {
       "position": 7,
@@ -3598,6 +3598,21 @@
         "www.openpr.de": 4,
         "locseo.eu": 5,
         "rahmengeben.de": 6,
+        "www.youtube.com": 7,
+        "lokalerzeitung.de": 8,
+        "nachhaltigkeit-mit-kopf.de": 9,
+        "www.facebook.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 21:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "de.trustpilot.com": 2,
+        "www.amazingh.de": 3,
+        "www.openpr.de": 4,
+        "locseo.eu": 5,
+        "www.startupmag.de": 6,
         "www.youtube.com": 7,
         "lokalerzeitung.de": 8,
         "nachhaltigkeit-mit-kopf.de": 9,
