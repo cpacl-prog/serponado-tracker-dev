@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 07:08 (Berlin)",
+  "updated_at": "2026-06-15 07:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -28,21 +28,21 @@
     },
     {
       "position": 5,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
-    },
-    {
-      "position": 6,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
-      "position": 7,
+      "position": 6,
       "domain": "www.openpr.de",
       "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
       "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+    },
+    {
+      "position": 7,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado – der SERP-Tornado einfach erklärt"
     },
     {
       "position": 8,
@@ -52,15 +52,15 @@
     },
     {
       "position": 9,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
+      "domain": "lokalerzeitung.de",
+      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
+      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
     },
     {
       "position": 10,
-      "domain": "nachhaltigkeit-mit-kopf.de",
-      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
-      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
+      "domain": "www.serponado.com",
+      "url": "https://www.serponado.com/strategie/",
+      "title": "Serponado-Strategie: So entsteht nachhaltige Sichtbarkeit"
     },
     {
       "position": 11,
@@ -70,9 +70,9 @@
     },
     {
       "position": 12,
-      "domain": "tippsecret.com",
-      "url": "https://tippsecret.com/wettanbieter-test/serponado-test-erfahrungen-und-bewertung",
-      "title": "Serponado Test: Erfahrungen & Bewertung Juni 2026"
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
     }
   ],
   "history": [
@@ -3138,6 +3138,21 @@
         "nachhaltigkeit-mit-kopf.de": 10,
         "www.facebook.com": 11,
         "tippsecret.com": 12
+      }
+    },
+    {
+      "ts": "2026-06-15 07:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 3,
+        "de.trustpilot.com": 4,
+        "www.amazingh.de": 5,
+        "www.openpr.de": 6,
+        "rahmengeben.de": 7,
+        "www.youtube.com": 8,
+        "lokalerzeitung.de": 9,
+        "www.serponado.com": 10,
+        "www.facebook.com": 11,
+        "nachhaltigkeit-mit-kopf.de": 12
       }
     }
   ]
