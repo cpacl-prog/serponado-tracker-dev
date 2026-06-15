@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 08:08 (Berlin)",
+  "updated_at": "2026-06-15 08:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [
     {
@@ -15,64 +15,64 @@
   ],
   "rankings": [
     {
-      "position": 1,
-      "domain": "www.bremen.de",
-      "url": "https://www.bremen.de/visitenkarte/serponado",
-      "title": "Serponado"
-    },
-    {
-      "position": 2,
-      "domain": "www.semotion.de",
-      "url": "https://www.semotion.de/serponado/",
-      "title": "Serponado 2026: Warum Google gerade verrücktspielt"
-    },
-    {
       "position": 3,
-      "domain": "www.websedit.de",
-      "url": "https://www.websedit.de/serponado",
-      "title": "Serponado Anonymous - SEO Contest 2026"
-    },
-    {
-      "position": 4,
-      "domain": "www.optimerch.de",
-      "url": "https://www.optimerch.de/serponado/",
-      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
-    },
-    {
-      "position": 5,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Serponado"
-    },
-    {
-      "position": 6,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? SEO-Contest 2026…"
-    },
-    {
-      "position": 7,
-      "domain": "seobuddha.de",
-      "url": "https://seobuddha.de/serponado/",
-      "title": "Serponado"
-    },
-    {
-      "position": 8,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 9,
+      "position": 4,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
-      "position": 10,
+      "position": 5,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 6,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+    },
+    {
+      "position": 7,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+    },
+    {
+      "position": 8,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado – der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 9,
       "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=Blp1tSGpRlc",
-      "title": "Serponado SEO: Wie du 2026 überall rankst (Google & KI)"
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+    },
+    {
+      "position": 10,
+      "domain": "lokalerzeitung.de",
+      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
+      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
+    },
+    {
+      "position": 11,
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
+      "title": "SERPonado | Berlin"
+    },
+    {
+      "position": 12,
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
     }
   ],
   "history": [
@@ -3168,6 +3168,21 @@
         "www.dockmedia.de": 8,
         "de.trustpilot.com": 9,
         "www.youtube.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 08:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 3,
+        "de.trustpilot.com": 4,
+        "www.amazingh.de": 5,
+        "www.openpr.de": 6,
+        "locseo.eu": 7,
+        "rahmengeben.de": 8,
+        "www.youtube.com": 9,
+        "lokalerzeitung.de": 10,
+        "www.facebook.com": 11,
+        "nachhaltigkeit-mit-kopf.de": 12
       }
     }
   ]
