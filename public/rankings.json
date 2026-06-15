@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 23:08 (Berlin)",
+  "updated_at": "2026-06-15 23:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
-    "position": 5,
+    "position": 4,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": true
+    "stale": false
   },
   "top3_moments": [
     {
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
-      "position": 2,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Don Serponado und der SEO Contest 2026"
-    },
-    {
-      "position": 3,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 4,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
-    },
-    {
-      "position": 5,
-      "domain": "der-serponado.de",
-      "url": "https://der-serponado.de/",
-      "title": "Serponado – Der Superheld aus Serrano | Schnell wie ein ..."
-    },
-    {
-      "position": 6,
-      "domain": "serponado.de",
-      "url": "https://serponado.de/don-serponado",
-      "title": "Serponado — Die offizielle Seite"
-    },
-    {
-      "position": 7,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
-    },
-    {
-      "position": 8,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "domain": "serponado.org",
+      "url": "https://serponado.org/",
       "title": "Serponado"
     },
     {
+      "position": 2,
+      "domain": "www.semotion.de",
+      "url": "https://www.semotion.de/serponado/",
+      "title": "Serponado 2026: Warum Google gerade verrücktspielt"
+    },
+    {
+      "position": 3,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 4,
+      "domain": "www.optimerch.de",
+      "url": "https://www.optimerch.de/serponado/",
+      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+    },
+    {
+      "position": 5,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/6hOLJrKDnAw",
+      "title": "Serponado – Mallorca Schlager 2026 von Lena Solé"
+    },
+    {
+      "position": 6,
+      "domain": "www.bremen.de",
+      "url": "https://www.bremen.de/visitenkarte/serponado",
+      "title": "Serponado"
+    },
+    {
+      "position": 7,
+      "domain": "www.arise-onlinemarketing.de",
+      "url": "https://www.arise-onlinemarketing.de/serponado/",
+      "title": "Serponado | Das SEO-Unwetter, das Google erschüttert"
+    },
+    {
+      "position": 8,
+      "domain": "www.websedit.de",
+      "url": "https://www.websedit.de/serponado",
+      "title": "Serponado Anonymous - SEO Contest 2026"
+    },
+    {
       "position": 9,
-      "domain": "isabell-leinhos.de",
-      "url": "https://isabell-leinhos.de/serponado/",
-      "title": "Serponado – Bedeutung, Definition & SEO-Contest 2026"
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 10,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin"
+      "domain": "serponado.de",
+      "url": "https://serponado.de/don-serponado",
+      "title": "Serponado — Die offizielle Seite"
     }
   ],
   "history": [
@@ -3671,6 +3671,21 @@
         "serponado.de": 6,
         "isabell-leinhos.de": 9,
         "www.facebook.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-15 23:38 (Berlin)",
+      "positions": {
+        "serponado.org": 1,
+        "www.semotion.de": 2,
+        "www.dockmedia.de": 3,
+        "www.optimerch.de": 4,
+        "www.youtube.com": 5,
+        "www.bremen.de": 6,
+        "www.arise-onlinemarketing.de": 7,
+        "www.websedit.de": 8,
+        "seobuddha.de": 9,
+        "serponado.de": 10
       }
     }
   ]
