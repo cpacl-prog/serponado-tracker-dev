@@ -16,7 +16,7 @@ MAX_HISTORY = 1440  # 30 Tage à 48 Halbstunden
 
 payload = [{
     "keyword":                    KEYWORD,
-    "location_name":              "Berlin,Berlin,Germany",
+    "location_name":              "Dortmund,North Rhine-Westphalia,Germany",
     "language_code":              "de",
     "se_domain":                  "google.de",
     "device":                     "desktop",
