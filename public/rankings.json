@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-16 00:08 (Berlin)",
+  "updated_at": "2026-06-16 00:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -22,57 +22,57 @@
     },
     {
       "position": 2,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 3,
       "domain": "contunda.de",
       "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
       "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
     },
     {
+      "position": 3,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
       "position": 4,
-      "domain": "de.trustpilot.com",
-      "url": "https://de.trustpilot.com/review/serponado.org",
-      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
-    },
-    {
-      "position": 5,
-      "domain": "serponado.de",
-      "url": "https://serponado.de/",
-      "title": "Serponado – Offizielle Infoseite zum SEO Contest 2026"
-    },
-    {
-      "position": 6,
-      "domain": "www.serponado.net",
-      "url": "https://www.serponado.net/",
-      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
-    },
-    {
-      "position": 7,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da!  (Die Wahrheit)"
-    },
-    {
-      "position": 8,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
-      "position": 9,
       "domain": "www.openpr.de",
       "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
       "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
     },
     {
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+    },
+    {
+      "position": 6,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado: der SERP-Tornado einfach erklärt, mit Contest ..."
+    },
+    {
+      "position": 7,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+    },
+    {
+      "position": 8,
+      "domain": "www.startupmag.de",
+      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
+      "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
+    },
+    {
+      "position": 9,
+      "domain": "lokalerzeitung.de",
+      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
+      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
+    },
+    {
       "position": 10,
-      "domain": "mein-serponado.de",
-      "url": "https://mein-serponado.de/",
-      "title": "Serponado - Mein Serponado"
+      "domain": "nachhaltigkeit-mit-kopf.de",
+      "url": "https://nachhaltigkeit-mit-kopf.de/serponado/",
+      "title": "Serponado: SERP-Tornado & Ranking-Phänomen im SEO ..."
     }
   ],
   "history": [
@@ -3701,6 +3701,21 @@
         "locseo.eu": 8,
         "www.openpr.de": 9,
         "mein-serponado.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-16 00:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "contunda.de": 2,
+        "www.amazingh.de": 3,
+        "www.openpr.de": 4,
+        "locseo.eu": 5,
+        "rahmengeben.de": 6,
+        "www.youtube.com": 7,
+        "www.startupmag.de": 8,
+        "lokalerzeitung.de": 9,
+        "nachhaltigkeit-mit-kopf.de": 10
       }
     }
   ]
