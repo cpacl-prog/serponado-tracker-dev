@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-15 05:38 (Berlin)",
+  "updated_at": "2026-06-15 06:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 5,
@@ -15,64 +15,64 @@
   ],
   "rankings": [
     {
-      "position": 3,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+      "position": 1,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 4,
-      "domain": "de.trustpilot.com",
-      "url": "https://de.trustpilot.com/review/serponado.org",
-      "title": "Lesen Sie Kundenbewertungen zu serponado.org"
-    },
-    {
-      "position": 5,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 6,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
-    },
-    {
-      "position": 7,
       "domain": "locseo.eu",
       "url": "https://locseo.eu/serponado-geschichte",
       "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
-      "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado – der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 9,
+      "position": 5,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 10,
-      "domain": "lokalerzeitung.de",
-      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
-      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
+      "position": 6,
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado – der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 11,
+      "position": 7,
       "domain": "www.facebook.com",
       "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
       "title": "SERPonado | Berlin"
     },
     {
+      "position": 8,
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
+    },
+    {
+      "position": 9,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+    },
+    {
+      "position": 10,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "title": "Serponado"
+    },
+    {
+      "position": 11,
+      "domain": "www.business-branchenbuch.de",
+      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
+      "title": "Serponado - Bremen"
+    },
+    {
       "position": 12,
-      "domain": "www.trustprofile.com",
-      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
-      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
+      "domain": "www.eiswuerfelmaschine24.de",
+      "url": "https://www.eiswuerfelmaschine24.de/serponado",
+      "title": "Serponado: Die evolutionäre Symbiose im modernen SEO"
     }
   ],
   "history": [
@@ -3095,6 +3095,19 @@
         "lokalerzeitung.de": 10,
         "www.facebook.com": 11,
         "www.trustprofile.com": 12
+      }
+    },
+    {
+      "ts": "2026-06-15 06:08 (Berlin)",
+      "positions": {
+        "taismo.de": 1,
+        "locseo.eu": 9,
+        "www.youtube.com": 10,
+        "rahmengeben.de": 6,
+        "www.facebook.com": 7,
+        "www.info8.de": 8,
+        "www.business-branchenbuch.de": 11,
+        "www.eiswuerfelmaschine24.de": 12
       }
     }
   ]
