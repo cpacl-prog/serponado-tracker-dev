@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-16 15:08 (Berlin)",
+  "updated_at": "2026-06-16 15:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -4141,6 +4141,19 @@
     },
     {
       "ts": "2026-06-16 15:08 (Berlin)",
+      "positions": {
+        "taismo.de": 1,
+        "locseo.eu": 5,
+        "www.youtube.com": 7,
+        "www.info8.de": 4,
+        "www.facebook.com": 6,
+        "www.business-branchenbuch.de": 8,
+        "www.eiswuerfelmaschine24.de": 9,
+        "isabell-leinhos.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-16 15:38 (Berlin)",
       "positions": {
         "taismo.de": 1,
         "locseo.eu": 5,
