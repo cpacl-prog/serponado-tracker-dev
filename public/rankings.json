@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-16 08:38 (Berlin)",
+  "updated_at": "2026-06-16 09:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -22,33 +22,33 @@
     },
     {
       "position": 2,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Don Serponado und der SEO Contest 2026"
+    },
+    {
+      "position": 3,
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
+    },
+    {
+      "position": 4,
       "domain": "de.trustpilot.com",
       "url": "https://de.trustpilot.com/review/serponado.org",
       "title": "Lesen Sie Kundenbewertungen zu serponado.org"
     },
     {
-      "position": 3,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
-      "position": 4,
+      "position": 5,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
-      "position": 5,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
-    },
-    {
       "position": 6,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+      "domain": "contunda.de",
+      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
+      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
     },
     {
       "position": 7,
@@ -58,21 +58,21 @@
     },
     {
       "position": 8,
-      "domain": "www.startupmag.de",
-      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
-      "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
     },
     {
       "position": 9,
-      "domain": "lokalerzeitung.de",
-      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
-      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado: der SERP-Tornado einfach erklärt, mit Contest ..."
     },
     {
       "position": 10,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin"
+      "domain": "www.startupmag.de",
+      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
+      "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
     }
   ],
   "history": [
@@ -3959,6 +3959,21 @@
         "www.startupmag.de": 8,
         "lokalerzeitung.de": 9,
         "www.facebook.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-16 09:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "taismo.de": 2,
+        "www.oev-experience.de": 3,
+        "de.trustpilot.com": 4,
+        "www.amazingh.de": 5,
+        "contunda.de": 6,
+        "www.youtube.com": 7,
+        "www.openpr.de": 8,
+        "rahmengeben.de": 9,
+        "www.startupmag.de": 10
       }
     }
   ]
