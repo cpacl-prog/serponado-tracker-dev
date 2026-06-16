@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-16 19:08 (Berlin)",
+  "updated_at": "2026-06-16 19:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "www.semotion.de",
+      "url": "https://www.semotion.de/serponado/",
+      "title": "Serponado 2026: Warum Google gerade verrücktspielt"
+    },
+    {
+      "position": 2,
+      "domain": "serponado.org",
+      "url": "https://serponado.org/",
+      "title": "Serponado"
+    },
+    {
+      "position": 3,
+      "domain": "www.seo-kueche.de",
+      "url": "https://www.seo-kueche.de/serponado/",
+      "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
+    },
+    {
+      "position": 4,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 2,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Don Serponado und der SEO Contest 2026"
-    },
-    {
-      "position": 3,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
-    },
-    {
-      "position": 4,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
       "position": 5,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+      "domain": "www.bremen.de",
+      "url": "https://www.bremen.de/visitenkarte/serponado",
+      "title": "Serponado"
     },
     {
       "position": 6,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+      "domain": "feelgoodcamper.de",
+      "url": "https://feelgoodcamper.de/pages/serponado?srsltid=AfmBOopSilL9fHWNHW3tH3mJ9xaNThdfqEFzDnDmVqt3o228KNdEaFhz",
+      "title": "Serponado - SEO-Contest 2026"
     },
     {
       "position": 7,
       "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+      "url": "https://www.youtube.com/shorts/6hOLJrKDnAw",
+      "title": "Serponado – Mallorca Schlager 2026 von Lena Solé"
     },
     {
       "position": 8,
-      "domain": "www.trustprofile.com",
-      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
-      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
+      "domain": "www.websedit.de",
+      "url": "https://www.websedit.de/serponado",
+      "title": "Serponado Anonymous - SEO Contest 2026"
     },
     {
       "position": 9,
-      "domain": "www.startupmag.de",
-      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
-      "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
+      "title": "Serponado"
     },
     {
       "position": 10,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin"
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
     }
   ],
   "history": [
@@ -4264,6 +4264,21 @@
         "www.trustprofile.com": 8,
         "www.startupmag.de": 9,
         "www.facebook.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-16 19:38 (Berlin)",
+      "positions": {
+        "www.semotion.de": 1,
+        "serponado.org": 2,
+        "www.seo-kueche.de": 3,
+        "www.dockmedia.de": 4,
+        "www.bremen.de": 5,
+        "feelgoodcamper.de": 6,
+        "www.youtube.com": 7,
+        "www.websedit.de": 8,
+        "seobuddha.de": 9,
+        "www.openpr.de": 10
       }
     }
   ]
