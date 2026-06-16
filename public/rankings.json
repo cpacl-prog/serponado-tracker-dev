@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-16 20:38 (Berlin)",
+  "updated_at": "2026-06-16 21:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -16,27 +16,27 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Don Serponado und der SEO Contest 2026"
     },
     {
       "position": 2,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
-    },
-    {
-      "position": 3,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
+      "position": 3,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+    },
+    {
       "position": 4,
-      "domain": "lokalerzeitung.de",
-      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
-      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
       "position": 5,
@@ -52,27 +52,27 @@
     },
     {
       "position": 7,
-      "domain": "www.news24-7.de",
-      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
-      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für ..."
+      "domain": "www.business-branchenbuch.de",
+      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
+      "title": "Serponado - Bremen"
     },
     {
       "position": 8,
-      "domain": "www.serponado.net",
-      "url": "https://www.serponado.net/",
-      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "title": "Serponado"
     },
     {
       "position": 9,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+      "domain": "www.eiswuerfelmaschine24.de",
+      "url": "https://www.eiswuerfelmaschine24.de/serponado",
+      "title": "Serponado: Die evolutionäre Symbiose im modernen SEO"
     },
     {
       "position": 10,
-      "domain": "mein-serponado.de",
-      "url": "https://mein-serponado.de/",
-      "title": "Serponado - Mein Serponado"
+      "domain": "isabell-leinhos.de",
+      "url": "https://isabell-leinhos.de/serponado/",
+      "title": "Serponado – Bedeutung, Definition & SEO-Contest 2026"
     }
   ],
   "history": [
@@ -4322,6 +4322,19 @@
         "www.serponado.net": 8,
         "locseo.eu": 9,
         "mein-serponado.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-16 21:08 (Berlin)",
+      "positions": {
+        "taismo.de": 1,
+        "www.youtube.com": 8,
+        "locseo.eu": 4,
+        "www.info8.de": 5,
+        "www.facebook.com": 6,
+        "www.business-branchenbuch.de": 7,
+        "www.eiswuerfelmaschine24.de": 9,
+        "isabell-leinhos.de": 10
       }
     }
   ]
