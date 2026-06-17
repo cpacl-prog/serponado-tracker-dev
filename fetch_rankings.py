@@ -35,14 +35,12 @@ existing_data = {}
 history       = []
 prev_rankings = []
 
-HISTORY_WINDOW = 3  # letzte N Messungen für den Vergleich
-
 if os.path.exists(OUTPUT):
     try:
         with open(OUTPUT, 'r', encoding='utf-8') as f:
             existing_data = json.load(f)
             history       = existing_data.get('history', [])
-            prev_rankings = history[-HISTORY_WINDOW:]  # letzte 3 Messungen
+            prev_rankings = existing_data.get('rankings', [])
     except (json.JSONDecodeError, IOError):
         pass
 
@@ -79,15 +77,12 @@ def fetch_once(run_num):
         for item in organic
     ]
 
-def overlap_score(result, history_entries):
-    """Gewichteter Score: Domain die in allen 3 letzten Messungen vorkam zählt 3×."""
-    if not history_entries:
+def overlap_score(result, reference):
+    """Anzahl Domains aus result, die auch in reference vorkommen."""
+    if not reference:
         return 0
-    domain_freq = {}
-    for entry in history_entries:
-        for domain in (entry.get('positions') or {}).keys():
-            domain_freq[domain] = domain_freq.get(domain, 0) + 1
-    return sum(domain_freq.get(r['domain'], 0) for r in result if r.get('domain'))
+    ref_domains = {r['domain'] for r in reference if r.get('domain')}
+    return sum(1 for r in result if r.get('domain') in ref_domains)
 
 # ── 3 Abfragen durchführen ────────────────────────────────────────────────────
 
@@ -97,7 +92,7 @@ for run_num in range(1, CONSENSUS_RUNS + 1):
     if result is not None:
         score = overlap_score(result, prev_rankings)
         all_runs.append((score, run_num, result))
-        print(f"  Run {run_num}/{CONSENSUS_RUNS}: {len(result)} Ergebnisse | Score (letzte {HISTORY_WINDOW} Messungen): {score}")
+        print(f"  Run {run_num}/{CONSENSUS_RUNS}: {len(result)} Ergebnisse | Übereinstimmung mit Vorherigem: {score}/10")
     if run_num < CONSENSUS_RUNS:
         time.sleep(3)
 
@@ -110,7 +105,7 @@ if not all_runs:
 all_runs.sort(key=lambda x: x[0], reverse=True)
 best_score, best_run_num, rankings = all_runs[0]
 
-print(f"  → Gewählt: Run {best_run_num} (Score {best_score})")
+print(f"  → Gewählt: Run {best_run_num} (Score {best_score}/10)")
 
 # ── Output aufbereiten ────────────────────────────────────────────────────────
 
@@ -184,7 +179,7 @@ with open(OUTPUT, 'w', encoding='utf-8') as f:
 
 stale_note = ' (zuletzt gesehen)' if own_url_data['stale'] else ''
 print(
-    f"✅ {len(rankings)} Ergebnisse gespeichert (Run {best_run_num}, Score {best_score}). "
+    f"✅ {len(rankings)} Ergebnisse gespeichert (Run {best_run_num}, Score {best_score}/10). "
     f"{OWN_DOMAIN}: Position {own_position} | "
     f"/serponado/: Position {own_url_data['position']}{stale_note}"
 )

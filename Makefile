@@ -1,5 +1,5 @@
 GITHUB_TOKEN ?= $(shell cat .github_token 2>/dev/null)
-REPO         := cpacl-prog/serponado-tracker
+REPO         := cpacl-prog/serponado-tracker-dev
 
 trigger:
 	@test -n "$(GITHUB_TOKEN)" || (echo "❌ GITHUB_TOKEN nicht gesetzt" && exit 1)
