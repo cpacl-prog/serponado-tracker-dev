@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 12:38 (Berlin)",
+  "updated_at": "2026-06-17 13:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 2,
@@ -38,15 +38,15 @@
     },
     {
       "position": 4,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
-      "position": 5,
       "domain": "www.amazingh.de",
       "url": "https://www.amazingh.de/serponado/",
       "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 5,
+      "domain": "contunda.de",
+      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
+      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
     },
     {
       "position": 6,
@@ -56,27 +56,27 @@
     },
     {
       "position": 7,
+      "domain": "kexdesign.com",
+      "url": "https://kexdesign.com/serponado-strategie-sichtbarkeit-entsteht/?srsltid=AfmBOoqOn6o55jSTmG6oAn1twSzRuhHKH_VcRwC1OzmcYLa22dTih-OP",
+      "title": "Die Serponado-Strategie – wie Sichtbarkeit wirklich entsteht"
+    },
+    {
+      "position": 8,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+    },
+    {
+      "position": 9,
       "domain": "www.openpr.de",
       "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
       "title": "Serponado im SEO Contest 2026: Warum Markenstärke zum Ranking- ..."
     },
     {
-      "position": 8,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/p/SERPonado-61590894954696/",
-      "title": "SERPonado | Berlin"
-    },
-    {
-      "position": 9,
+      "position": 10,
       "domain": "www.trustprofile.com",
       "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
       "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
-    },
-    {
-      "position": 10,
-      "domain": "www.startupmag.de",
-      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
-      "title": "Serponado: SEO-Contest 2026 als Experiment für Google & KI"
     }
   ],
   "history": [
@@ -4900,6 +4900,21 @@
         "www.facebook.com": 8,
         "www.trustprofile.com": 9,
         "www.startupmag.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-17 13:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "taismo.de": 2,
+        "www.oev-experience.de": 3,
+        "www.amazingh.de": 4,
+        "contunda.de": 5,
+        "www.probandtastisch.de": 6,
+        "kexdesign.com": 7,
+        "www.youtube.com": 8,
+        "www.openpr.de": 9,
+        "www.trustprofile.com": 10
       }
     }
   ]
