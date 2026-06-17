@@ -1,9 +1,9 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 17:38 (Berlin)",
+  "updated_at": "2026-06-17 17:57 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
-    "position": 3,
+    "position": 2,
     "title": "Serponado wirbelt die Google SERPs durcheinander",
     "stale": false
   },
@@ -26,27 +26,27 @@
     },
     {
       "position": 2,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
-    },
-    {
-      "position": 3,
       "domain": "www.optimerch.de",
       "url": "https://www.optimerch.de/serponado/",
       "title": "Serponado wirbelt die Google SERPs durcheinander"
     },
     {
-      "position": 4,
-      "domain": "feelgoodcamper.de",
-      "url": "https://feelgoodcamper.de/pages/serponado?srsltid=AfmBOoql5hdguE3fBnKD2MUpfEkZW9DcKBDHIvDjroTBSmfYuNElRa8A",
-      "title": "SEO-Contest 2026: Das Reisewort des Jahres heißt Serponado"
+      "position": 3,
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
     },
     {
-      "position": 5,
+      "position": 4,
       "domain": "www.seo-kueche.de",
       "url": "https://www.seo-kueche.de/serponado/",
       "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
+    },
+    {
+      "position": 5,
+      "domain": "m.youtube.com",
+      "url": "https://m.youtube.com/shorts/ar2XttBlA8k",
+      "title": "Was ist Serponado SEO? Lena Solé erklärt die Methode von Position One"
     },
     {
       "position": 6,
@@ -56,21 +56,21 @@
     },
     {
       "position": 7,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 8,
       "domain": "kexdesign.com",
-      "url": "https://kexdesign.com/was-ist-der-serponado-effekt/?srsltid=AfmBOor828Khl_mNzAQ4K7uT5xQ4Xx3_QprwZNiHqWx-0CH2mClFXpth",
+      "url": "https://kexdesign.com/was-ist-der-serponado-effekt/?srsltid=AfmBOoohT_Mm76DgKn8wYs15JR120aY399mHY-8pZbw2NDhKCogmXKew",
       "title": "Was ist der Serponado-Effekt? - kexDESIGN Webagentur"
     },
     {
-      "position": 9,
+      "position": 8,
       "domain": "www.position-one.de",
       "url": "https://www.position-one.de/serponado.html",
       "title": "Serponado SEO-Strategie: Maximiere deine Klicks 2026"
+    },
+    {
+      "position": 9,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
     }
   ],
   "history": [
@@ -5038,6 +5038,20 @@
         "www.dockmedia.de": 7,
         "kexdesign.com": 8,
         "www.position-one.de": 9
+      }
+    },
+    {
+      "ts": "2026-06-17 17:57 (Berlin)",
+      "positions": {
+        "serponado.org": 1,
+        "www.optimerch.de": 2,
+        "till-freitag.com": 3,
+        "www.seo-kueche.de": 4,
+        "m.youtube.com": 5,
+        "www.semotion.de": 6,
+        "kexdesign.com": 7,
+        "www.position-one.de": 8,
+        "www.dockmedia.de": 9
       }
     }
   ]
