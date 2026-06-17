@@ -1,9 +1,9 @@
 name: Fetch Serponado Rankings
 
 on:
-  schedule:
-    - cron: '*/30 * * * *'  # alle 30 Minuten
-  workflow_dispatch:         # manueller Start jederzeit möglich
+  repository_dispatch:
+    types: [fetch-rankings]  # Trigger via Make / externer Cron
+  workflow_dispatch:         # manueller Start über GitHub UI
 
 permissions:
   contents: write
