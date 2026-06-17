@@ -35,6 +35,9 @@ existing_data = {}
 history       = []
 prev_rankings = []
 
+HISTORY_WINDOW = 3   # letzte N Messungen für den Vergleich
+OWN_URL_BONUS  = 10  # Bonus wenn optimerch.de/serponado/ im Ergebnis vorkommt
+
 if os.path.exists(OUTPUT):
     try:
         with open(OUTPUT, 'r', encoding='utf-8') as f:
@@ -77,12 +80,17 @@ def fetch_once(run_num):
         for item in organic
     ]
 
-def overlap_score(result, reference):
-    """Anzahl Domains aus result, die auch in reference vorkommen."""
-    if not reference:
-        return 0
-    ref_domains = {r['domain'] for r in reference if r.get('domain')}
-    return sum(1 for r in result if r.get('domain') in ref_domains)
+def overlap_score(result, history_entries):
+    """Gewichteter Score: Domain die in allen 3 letzten Messungen vorkam zählt 3×.
+    Bonus wenn optimerch.de/serponado/ im Ergebnis vorkommt."""
+    domain_freq = {}
+    for entry in (history_entries or []):
+        for domain in (entry.get('positions') or {}).keys():
+            domain_freq[domain] = domain_freq.get(domain, 0) + 1
+    score = sum(domain_freq.get(r['domain'], 0) for r in result if r.get('domain'))
+    if any(r.get('url') and OWN_URL in r['url'] for r in result):
+        score += OWN_URL_BONUS
+    return score
 
 # ── 3 Abfragen durchführen ────────────────────────────────────────────────────
 
