@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 09:39 (Berlin)",
+  "updated_at": "2026-06-17 10:03 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 3,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [
     {
@@ -20,51 +20,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "serponado.org",
-      "url": "https://serponado.org/",
-      "title": "Serponado"
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
       "position": 2,
-      "domain": "www.semotion.de",
-      "url": "https://www.semotion.de/serponado/",
-      "title": "Serponado 2026: Warum Google gerade verrücktspielt - Semotion"
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Don Serponado und der SEO Contest 2026"
     },
     {
       "position": 3,
-      "domain": "www.optimerch.de",
-      "url": "https://www.optimerch.de/serponado/",
-      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da!  (Die Wahrheit)"
     },
     {
       "position": 4,
-      "domain": "www.seo-kueche.de",
-      "url": "https://www.seo-kueche.de/serponado/",
-      "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
-    },
-    {
-      "position": 5,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
-    },
-    {
-      "position": 6,
-      "domain": "seobuddha.de",
-      "url": "https://seobuddha.de/serponado/",
+      "domain": "m.youtube.com",
+      "url": "https://m.youtube.com/hashtag/serponado",
       "title": "Serponado"
     },
     {
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
+    },
+    {
+      "position": 6,
+      "domain": "der-serponado.de",
+      "url": "https://der-serponado.de/",
+      "title": "Serponado – Der Superheld aus Serrano | Schnell wie ein Tornado"
+    },
+    {
       "position": 7,
-      "domain": "www.websedit.de",
-      "url": "https://www.websedit.de/serponado",
-      "title": "Serponado Anonymous - SEO Contest 2026"
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt - info8"
     },
     {
       "position": 8,
-      "domain": "www.position-one.de",
-      "url": "https://www.position-one.de/serponado.html",
-      "title": "Serponado SEO-Strategie: Maximiere deine Klicks 2026"
+      "domain": "www.serponado.io",
+      "url": "https://www.serponado.io/",
+      "title": "Serponado – Das Keyword des SEO Contests 2026"
+    },
+    {
+      "position": 9,
+      "domain": "serponado.de",
+      "url": "https://serponado.de/don-serponado",
+      "title": "Serponado — Die offizielle Seite"
+    },
+    {
+      "position": 10,
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/p/SERPonado-61590894954696/",
+      "title": "SERPonado | Berlin"
     }
   ],
   "history": [
@@ -4787,6 +4799,20 @@
         "seobuddha.de": 6,
         "www.websedit.de": 7,
         "www.position-one.de": 8
+      }
+    },
+    {
+      "ts": "2026-06-17 10:03 (Berlin)",
+      "positions": {
+        "locseo.eu": 5,
+        "taismo.de": 2,
+        "www.youtube.com": 3,
+        "m.youtube.com": 4,
+        "der-serponado.de": 6,
+        "www.info8.de": 7,
+        "www.serponado.io": 8,
+        "serponado.de": 9,
+        "www.facebook.com": 10
       }
     }
   ]
