@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 08:39 (Berlin)",
+  "updated_at": "2026-06-17 08:45 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -16,63 +16,63 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 2,
       "domain": "taismo.de",
       "url": "https://taismo.de/seo-magazin/serponado/",
       "title": "Don Serponado und der SEO Contest 2026"
     },
     {
-      "position": 2,
-      "domain": "probandtastisch.de",
+      "position": 3,
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub"
+    },
+    {
+      "position": 4,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
+      "position": 5,
+      "domain": "www.probandtastisch.de",
       "url": "https://www.probandtastisch.de/serponado",
       "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
-      "position": 3,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+      "position": 6,
+      "domain": "contunda.de",
+      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
+      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
     },
     {
-      "position": 4,
-      "domain": "youtube.com",
+      "position": 7,
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ..."
+    },
+    {
+      "position": 8,
+      "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 5,
-      "domain": "facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin"
-    },
-    {
-      "position": 6,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
-    },
-    {
-      "position": 7,
-      "domain": "info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
-    },
-    {
-      "position": 8,
-      "domain": "youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
-      "title": "Serponado"
-    },
-    {
       "position": 9,
-      "domain": "business-branchenbuch.de",
-      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
-      "title": "Serponado - Bremen"
+      "domain": "www.startupmag.de",
+      "url": "https://www.startupmag.de/serponado-seo-contest-2026/",
+      "title": "Serponado: SEO-Contest 2026 als Experiment für Google ..."
     },
     {
       "position": 10,
-      "domain": "der-serponado.de",
-      "url": "https://der-serponado.de/",
-      "title": "Serponado – Der Superheld aus Serrano | Schnell wie ein ..."
+      "domain": "lokalerzeitung.de",
+      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
+      "title": "Serponado: Das unaufhaltsame Datenphänomen und wie Sie ..."
     }
   ],
   "history": [
@@ -4728,6 +4728,21 @@
         "info8.de": 7,
         "business-branchenbuch.de": 9,
         "der-serponado.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-17 08:45 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "taismo.de": 2,
+        "www.oev-experience.de": 3,
+        "www.amazingh.de": 4,
+        "www.probandtastisch.de": 5,
+        "contunda.de": 6,
+        "www.openpr.de": 7,
+        "www.youtube.com": 8,
+        "www.startupmag.de": 9,
+        "lokalerzeitung.de": 10
       }
     }
   ]
