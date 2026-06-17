@@ -40,8 +40,8 @@
 
 <section class="section-padding container">
     <div class="serponado-explainer">
-        <div class="overline">LIVE – TOP 10 · WIRD ALLE 30 MIN AKTUALISIERT</div>
-        <h2 class="section-title">Serponado <span>Live-Ranking Top 10</span></h2>
+        <div class="overline">SERPONADO · AKTUELLE SUCHERGEBNISSE BEI GOOGLE</div>
+        <h2 class="section-title">Serponado <span>Suchergebnisse – Google Top 10</span></h2>
         <div id="serponado-wrap">
             <p id="serponado-status">Lade Rankings...</p>
         </div>
@@ -133,12 +133,6 @@
       .catch(() => {
         document.getElementById('serponado-status').textContent = 'Rankings konnten nicht geladen werden.';
       });
-  }
-
-  function aggregateDaily(history) {
-    const byDate = {};
-    history.forEach(h => { byDate[h.ts.split(' ')[0]] = h; });
-    return Object.keys(byDate).sort().slice(-30).map(d => byDate[d]);
   }
 
   function buildDatasets(entries) {
@@ -293,7 +287,6 @@
 
     const valid  = (data.history || []).filter(h => h.positions);
     const hourly = valid.slice(-48);
-    const daily  = aggregateDaily(valid);
 
     buildColorMap(valid);
 
@@ -330,12 +323,6 @@
         <div class="sn-legend" id="sn-legend-hourly"></div>
       </div>
 
-      <div class="sn-chart-wrap">
-        <h3>📅 Tagesverlauf (letzte 30 Tage)</h3>
-        <canvas id="sn-chart-daily" height="110"></canvas>
-        <div class="sn-legend" id="sn-legend-daily"></div>
-      </div>
-
       <table>
         <thead><tr><th>Platz</th><th>Domain (Top 10)</th><th>Seite</th></tr></thead>
         <tbody>${rows}</tbody>
@@ -345,8 +332,7 @@
         Tracking powered by <a href="${ATTR_HREF}" rel="noopener" style="color:#666">Serponado-Tracker @ optimerch.de</a>
       </p>`;
 
-    renderChart('sn-chart-hourly', 'sn-legend-hourly', hourly, h => h.ts.replace(' UTC','').split(' ')[1]);
-    renderChart('sn-chart-daily',  'sn-legend-daily',  daily,  h => h.ts.split(' ')[0]);
+    renderChart('sn-chart-hourly', 'sn-legend-hourly', hourly, h => h.ts.replace(' (Berlin)','').split(' ')[1]);
   }
 
   load();
