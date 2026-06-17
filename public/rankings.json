@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 15:08 (Berlin)",
+  "updated_at": "2026-06-17 15:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 1,
     "title": "Serponado wirbelt die Google SERPs durcheinander",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [
     {
@@ -20,57 +20,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.optimerch.de",
-      "url": "https://www.optimerch.de/serponado/",
-      "title": "Serponado wirbelt die Google SERPs durcheinander"
-    },
-    {
-      "position": 2,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
-    },
-    {
-      "position": 3,
-      "domain": "serponado.org",
-      "url": "https://serponado.org/",
-      "title": "Serponado"
-    },
-    {
-      "position": 4,
-      "domain": "www.seo-kueche.de",
-      "url": "https://www.seo-kueche.de/serponado/",
-      "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
-    },
-    {
-      "position": 5,
-      "domain": "m.youtube.com",
-      "url": "https://m.youtube.com/shorts/ar2XttBlA8k",
-      "title": "Was ist Serponado SEO? Lena Solé erklärt die Methode von Position One"
-    },
-    {
-      "position": 6,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
+      "position": 2,
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das digitale Sichtbarkeitsphänomen"
+    },
+    {
+      "position": 3,
+      "domain": "contunda.de",
+      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
+      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
+    },
+    {
+      "position": 4,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Don Serponado und der SEO Contest 2026"
+    },
+    {
+      "position": 5,
+      "domain": "www.probandtastisch.de",
+      "url": "https://www.probandtastisch.de/serponado",
+      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
+    },
+    {
+      "position": 6,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+    },
+    {
       "position": 7,
-      "domain": "seobuddha.de",
-      "url": "https://seobuddha.de/serponado/",
-      "title": "Serponado"
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/watch?v=7NhUXd_ggoM",
+      "title": "Serponado – 3 Minuten Frei (Official Audio)"
     },
     {
       "position": 8,
-      "domain": "kexdesign.com",
-      "url": "https://kexdesign.com/serponado-strategie-sichtbarkeit-entsteht/?srsltid=AfmBOorbt9rFaXFV423wGEg5EeBE38xEktJrfKK3vu4wpfvdbXn2C5jx",
-      "title": "Die Serponado-Strategie – wie Sichtbarkeit wirklich entsteht"
+      "domain": "rahmengeben.de",
+      "url": "https://rahmengeben.de/serponado/",
+      "title": "Serponado: der SERP-Tornado einfach erklärt, mit Contest-Analyse"
     },
     {
       "position": 9,
-      "domain": "www.semotion.de",
-      "url": "https://www.semotion.de/serponado/",
-      "title": "Serponado 2026: Warum Google gerade verrücktspielt - Semotion"
+      "domain": "www.openpr.de",
+      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
+      "title": "Serponado im SEO Contest 2026: Warum Markenstärke zum Ranking- ..."
+    },
+    {
+      "position": 10,
+      "domain": "www.trustprofile.com",
+      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
+      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
     }
   ],
   "history": [
@@ -4964,6 +4970,21 @@
         "seobuddha.de": 7,
         "kexdesign.com": 8,
         "www.semotion.de": 9
+      }
+    },
+    {
+      "ts": "2026-06-17 15:38 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "www.oev-experience.de": 2,
+        "contunda.de": 3,
+        "taismo.de": 4,
+        "www.probandtastisch.de": 5,
+        "www.amazingh.de": 6,
+        "www.youtube.com": 7,
+        "rahmengeben.de": 8,
+        "www.openpr.de": 9,
+        "www.trustprofile.com": 10
       }
     }
   ]
