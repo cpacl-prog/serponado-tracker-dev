@@ -1,7 +1,5 @@
 <!-- BLOCK 14 – SERPONADO LEADERBOARD WIDGET -->
 
-<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
-
 <style>
   #serponado-wrap { max-width: 100%; }
   #serponado-wrap .lb-meta { font-size: 0.9rem; color: #888 !important; margin-bottom: 16px; }
@@ -41,13 +39,14 @@
 <section class="section-padding container">
     <div class="serponado-explainer">
         <div class="overline">SERPONADO · AKTUELLE SUCHERGEBNISSE BEI GOOGLE</div>
-        <h2 class="section-title">Serponado <span>Suchergebnisse – Google Top 10</span></h2>
+        <h2 class="section-title" id="leaderboard">Serponado <span>Suchergebnisse – Google Top 10</span></h2>
         <div id="serponado-wrap">
             <p id="serponado-status">Lade Rankings...</p>
         </div>
     </div>
 </section>
 
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4/dist/chart.umd.min.js"></script>
 <script>
 (function() {
   const GITHUB_USER   = 'cpacl-prog';
