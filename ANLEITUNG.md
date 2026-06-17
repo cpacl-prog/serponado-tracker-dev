@@ -1,8 +1,8 @@
 # Serponado Ranking Tracker – Komplette Anleitung
 
 ## Was das System macht
-- GitHub Action läuft alle 30 Minuten automatisch
-- Sendet **3 identische Anfragen** an DataForSEO und bildet einen **Mehrheitsentscheid** (2 von 3 müssen übereinstimmen)
+- Externer 30-Minuten-Ticker (Make) löst den GitHub-Workflow aus
+- Ruft Google-Rankings für "Serponado" via **Ahrefs SERP Overview API** ab (1 Call pro Lauf)
 - Speichert Top 10 als `rankings.json` im Repo
 - WordPress-Seite liest die JSON-Datei und zeigt das Leaderboard
 
@@ -40,12 +40,11 @@ public/
 
 1. Im Repo auf **Settings** klicken
 2. Links: **Secrets and variables → Actions**
-3. **New repository secret** – zwei Secrets anlegen:
+3. **New repository secret** – ein Secret anlegen:
 
 | Name | Wert |
 |------|------|
-| `DATAFORSEO_LOGIN` | Deine DataForSEO E-Mail |
-| `DATAFORSEO_PASSWORD` | Dein DataForSEO Passwort |
+| `AHREFS_API_KEY` | Dein Ahrefs API Token (Bearer) |
 
 ---
 
@@ -89,9 +88,7 @@ Das Widget zeigt:
 | Was | Kosten |
 |-----|--------|
 | GitHub Actions | kostenlos |
-| DataForSEO (3 Calls/30 min, depth=10) | ~$0.60/Monat* |
-
-*DataForSEO berechnet Live Advanced pauschal pro Task-Call, nicht nach depth. 3 Calls × 48 Läufe/Tag × 30 Tage = 4.320 Calls/Monat. Aktueller Preis Live Advanced: ~$0,00012–$0,00015 pro Call → ca. $0.50–$0.65/Monat.
+| Ahrefs SERP Overview (1 Call/30 min) | je nach Ahrefs-Plan |
 
 ---
 
@@ -101,7 +98,8 @@ Das Widget zeigt:
 → Settings → Actions → Logs prüfen
 
 **JSON leer / keine Rankings?**
-→ DataForSEO Secrets korrekt? → `DATAFORSEO_LOGIN` und `DATAFORSEO_PASSWORD` prüfen
+→ Ahrefs Secret korrekt? → `AHREFS_API_KEY` prüfen (Settings → Secrets → Actions)
+→ Ahrefs API-Plan: SERP Overview ist nur in bestimmten Tarifen verfügbar
 
 **Widget lädt nicht in WordPress?**
 → GitHub-Username in `wordpress-widget.html` korrekt eingetragen?

@@ -31,10 +31,9 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Rankings from DataForSEO (3× Konsens-Abfrage)
+      - name: Fetch Rankings von Ahrefs SERP Overview
         env:
-          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
-          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+          AHREFS_API_KEY: ${{ secrets.AHREFS_API_KEY }}
         run: python fetch_rankings.py
 
       - name: Upload Diagnose-Log als Artifact
