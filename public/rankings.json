@@ -1,13 +1,17 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 09:35 (Berlin)",
+  "updated_at": "2026-06-17 09:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
-    "position": 4,
+    "position": 3,
     "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026",
-    "stale": true
+    "stale": false
   },
   "top3_moments": [
+    {
+      "date": "2026-06-17",
+      "position": 3
+    },
     {
       "date": "2026-06-12",
       "position": 3
@@ -16,63 +20,57 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Don Serponado und der SEO Contest 2026"
-    },
-    {
-      "position": 2,
-      "domain": "www.probandtastisch.de",
-      "url": "https://www.probandtastisch.de/serponado",
-      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
-    },
-    {
-      "position": 3,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
-    },
-    {
-      "position": 4,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 5,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
-    },
-    {
-      "position": 6,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin"
-    },
-    {
-      "position": 7,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
-    },
-    {
-      "position": 8,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "domain": "serponado.org",
+      "url": "https://serponado.org/",
       "title": "Serponado"
     },
     {
-      "position": 9,
-      "domain": "www.business-branchenbuch.de",
-      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
-      "title": "Serponado - Bremen"
+      "position": 2,
+      "domain": "www.semotion.de",
+      "url": "https://www.semotion.de/serponado/",
+      "title": "Serponado 2026: Warum Google gerade verrücktspielt - Semotion"
     },
     {
-      "position": 10,
-      "domain": "der-serponado.de",
-      "url": "https://der-serponado.de/",
-      "title": "Serponado – Der Superheld aus Serrano | Schnell wie ein ..."
+      "position": 3,
+      "domain": "www.optimerch.de",
+      "url": "https://www.optimerch.de/serponado/",
+      "title": "Serponado: Wer bändigt ihn? | SEO Contest 2026"
+    },
+    {
+      "position": 4,
+      "domain": "till-freitag.com",
+      "url": "https://till-freitag.com/blog/serponado",
+      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
+    },
+    {
+      "position": 5,
+      "domain": "feelgoodcamper.de",
+      "url": "https://feelgoodcamper.de/pages/serponado?srsltid=AfmBOoqTlQ1Q9qkP8caD0-OvMyx3FBw2q4ZhK-f_NkTk6CG6FI214Kpl",
+      "title": "SEO-Contest 2026: Das Reisewort des Jahres heißt Serponado"
+    },
+    {
+      "position": 6,
+      "domain": "www.seo-kueche.de",
+      "url": "https://www.seo-kueche.de/serponado/",
+      "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
+    },
+    {
+      "position": 7,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 8,
+      "domain": "www.websedit.de",
+      "url": "https://www.websedit.de/serponado",
+      "title": "Serponado Anonymous - SEO Contest 2026"
+    },
+    {
+      "position": 9,
+      "domain": "seobuddha.de",
+      "url": "https://seobuddha.de/serponado/",
+      "title": "Serponado"
     }
   ],
   "history": [
@@ -4768,6 +4766,20 @@
         "www.info8.de": 7,
         "www.business-branchenbuch.de": 9,
         "der-serponado.de": 10
+      }
+    },
+    {
+      "ts": "2026-06-17 09:38 (Berlin)",
+      "positions": {
+        "serponado.org": 1,
+        "www.semotion.de": 2,
+        "www.optimerch.de": 3,
+        "till-freitag.com": 4,
+        "feelgoodcamper.de": 5,
+        "www.seo-kueche.de": 6,
+        "www.dockmedia.de": 7,
+        "www.websedit.de": 8,
+        "seobuddha.de": 9
       }
     }
   ]
