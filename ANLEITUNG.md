@@ -1,9 +1,9 @@
 # Serponado Ranking Tracker – Komplette Anleitung
 
 ## Was das System macht
-- GitHub Action läuft täglich automatisch um 11:00 Uhr (DE-Zeit)
-- Ruft Google-Rankings für "Serponado" via DataForSEO ab
-- Speichert Top 50 als `rankings.json` im Repo
+- GitHub Action läuft alle 30 Minuten automatisch
+- Sendet **3 identische Anfragen** an DataForSEO und bildet einen **Mehrheitsentscheid** (2 von 3 müssen übereinstimmen)
+- Speichert Top 10 als `rankings.json` im Repo
 - WordPress-Seite liest die JSON-Datei und zeigt das Leaderboard
 
 ---
@@ -54,7 +54,7 @@ public/
 1. Im Repo auf **Actions** klicken
 2. Links: **Fetch Serponado Rankings** auswählen
 3. **Run workflow** → **Run workflow** klicken
-4. Nach ~30 Sekunden sollte `public/rankings.json` mit echten Daten gefüllt sein
+4. Nach ~60 Sekunden (3 Abfragen à ~15 s) sollte `public/rankings.json` mit echten Daten gefüllt sein
 
 > Prüfen: Repo → `public/rankings.json` anklicken → Rankings sichtbar?
 
@@ -89,7 +89,9 @@ Das Widget zeigt:
 | Was | Kosten |
 |-----|--------|
 | GitHub Actions | kostenlos |
-| DataForSEO (1x täglich, 21 Tage) | ~$0.05 gesamt |
+| DataForSEO (3 Calls/30 min, depth=10) | ~$0.60/Monat* |
+
+*DataForSEO berechnet Live Advanced pauschal pro Task-Call, nicht nach depth. 3 Calls × 48 Läufe/Tag × 30 Tage = 4.320 Calls/Monat. Aktueller Preis Live Advanced: ~$0,00012–$0,00015 pro Call → ca. $0.50–$0.65/Monat.
 
 ---
 
@@ -106,5 +108,14 @@ Das Widget zeigt:
 → Repo ist **Public**?
 
 **Zeitzone falsch?**
-→ In `fetch-rankings.yml`: `cron: '0 9 * * *'` = 11:00 Uhr MEZ / `0 8 * * *` = 11:00 Uhr MESZ (Sommerzeit)
-→ Aktuell (Juni) ist MESZ aktiv → `0 9 * * *` ist korrekt
+→ System läuft dauerhaft alle 30 Minuten (UTC-Cron), Zeitstempel werden in Berlin-Zeit gespeichert
+
+**`uncertain: true` bei einer Domain – was bedeutet das?**
+→ Alle 3 DataForSEO-Abfragen haben für diese Domain unterschiedliche Positionen zurückgegeben
+→ Das System hat stattdessen den letzten bekannten stabilen Wert aus der vorherigen `rankings.json` beibehalten
+→ Bei Häufung: unter **Actions → Artifacts** die `rankings-log-*.db`-Datei herunterladen und mit einem SQLite-Viewer (z. B. DB Browser for SQLite) die 3 Rohwerte vergleichen
+
+**Diagnose-Log / Nachweis für Contest-Veranstalter**
+→ Jeder der 3 API-Requests pro Lauf wird in `rankings_log.db` gespeichert (Felder: `ts`, `run_num`, `check_url`, `results_json`)
+→ Die DB ist **nicht im Repo** (würde als Binary-Commit anfallen), sondern wird unter **Actions → [Run auswählen] → Artifacts → rankings-log-[Run-ID]** für 90 Tage als Download bereitgestellt
+→ Inhalt zeigt: Zeitstempel, welcher Proxy/Datacenter (`check_url`) und vollständige Top-10-Rohdaten pro Request
