@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 15:38 (Berlin)",
+  "updated_at": "2026-06-17 16:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 1,
@@ -32,51 +32,51 @@
     },
     {
       "position": 3,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
-      "position": 4,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Don Serponado und der SEO Contest 2026"
-    },
-    {
-      "position": 5,
       "domain": "www.probandtastisch.de",
       "url": "https://www.probandtastisch.de/serponado",
       "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
+      "position": 4,
+      "domain": "www.sagemedia.de",
+      "url": "https://www.sagemedia.de/glossar/serponado/",
+      "title": "Serponado: Bedeutung, Ursachen und richtige Reaktion - sagemedia"
+    },
+    {
+      "position": 5,
+      "domain": "serponado.de",
+      "url": "https://serponado.de/",
+      "title": "Serponado – Die offizielle Website"
+    },
+    {
       "position": 6,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
+      "domain": "www.serponado.net",
+      "url": "https://www.serponado.net/",
+      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
     },
     {
       "position": 7,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/watch?v=7NhUXd_ggoM",
-      "title": "Serponado – 3 Minuten Frei (Official Audio)"
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt - info8"
     },
     {
       "position": 8,
-      "domain": "rahmengeben.de",
-      "url": "https://rahmengeben.de/serponado/",
-      "title": "Serponado: der SERP-Tornado einfach erklärt, mit Contest-Analyse"
+      "domain": "mein-serponado.de",
+      "url": "https://mein-serponado.de/",
+      "title": "Serponado - Mein Serponado"
     },
     {
       "position": 9,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke zum Ranking- ..."
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/p/SERPonado-61590894954696/",
+      "title": "SERPonado | Berlin"
     },
     {
       "position": 10,
-      "domain": "www.trustprofile.com",
-      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
-      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel"
+      "domain": "www.news24-7.de",
+      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
+      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für Aufmerksamkeit"
     }
   ],
   "history": [
@@ -4985,6 +4985,21 @@
         "rahmengeben.de": 8,
         "www.openpr.de": 9,
         "www.trustprofile.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-17 16:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "www.oev-experience.de": 2,
+        "www.probandtastisch.de": 3,
+        "www.sagemedia.de": 4,
+        "serponado.de": 5,
+        "www.serponado.net": 6,
+        "www.info8.de": 7,
+        "mein-serponado.de": 8,
+        "www.facebook.com": 9,
+        "www.news24-7.de": 10
       }
     }
   ]
