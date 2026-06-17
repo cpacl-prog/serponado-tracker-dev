@@ -58,27 +58,21 @@ def fetch_rankings():
         sys.exit(1)
 
     try:
-        if isinstance(data, list):
-            raw_positions = data
-        elif 'serp' in data:
-            raw_positions = data['serp']
-        elif 'serp_overview' in data:
-            raw_positions = data['serp_overview']
-        else:
-            raise KeyError(f"Unbekannte Struktur: {list(data.keys())}")
-    except (KeyError, AttributeError, TypeError) as e:
+        raw_positions = data['positions']
+    except (KeyError, TypeError) as e:
         print(f"❌ Unerwartete Ahrefs-Antwort: {e}", file=sys.stderr)
         print(json.dumps(data, indent=2), file=sys.stderr)
         sys.exit(1)
 
     rankings = []
     for item in raw_positions:
-        if item.get('type', 'organic') != 'organic':
+        types = item.get('type', [])
+        if 'organic' not in types:
             continue
         url    = item.get('url', '')
         domain = item.get('domain') or urlparse(url).netloc.lstrip('www.')
         rankings.append({
-            'position': item.get('position') or item.get('rank'),
+            'position': item.get('position'),
             'domain':   domain,
             'url':      url,
             'title':    item.get('title', ''),
