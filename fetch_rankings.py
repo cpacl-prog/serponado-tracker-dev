@@ -35,27 +35,35 @@ def init_db():
 def fetch_rankings():
     try:
         resp = requests.get(
-            'https://api.ahrefs.com/v3/serp-overview',
+            'https://api.ahrefs.com/v3/keywords-explorer/serp-overview',
             headers={
                 'Authorization': f'Bearer {AHREFS_TOKEN}',
                 'Accept':        'application/json',
             },
             params={
-                'keyword': KEYWORD,
-                'country': 'de',
-                'select':  'keyword,positions',
+                'keywords[]': KEYWORD,
+                'country':    'de',
+                'select':     'keyword,serp_overview',
             },
             timeout=30
         )
-        resp.raise_for_status()
+        if not resp.ok:
+            print(f"❌ Ahrefs HTTP {resp.status_code}: {resp.text[:500]}", file=sys.stderr)
+            sys.exit(1)
         data = resp.json()
     except requests.RequestException as e:
         print(f"❌ Ahrefs API-Fehler: {e}", file=sys.stderr)
         sys.exit(1)
 
+    # Debug: zeigt Rohstruktur wenn Parsing fehlschlägt
     try:
-        raw_positions = data['serp_overview']['positions']
-    except (KeyError, TypeError) as e:
+        raw_positions = (
+            data.get('serp_overview', data)
+                .get('positions', data.get('positions', []))
+        )
+        if not raw_positions:
+            raise KeyError('positions nicht gefunden')
+    except (KeyError, AttributeError) as e:
         print(f"❌ Unerwartete Ahrefs-Antwort: {e}", file=sys.stderr)
         print(json.dumps(data, indent=2), file=sys.stderr)
         sys.exit(1)
