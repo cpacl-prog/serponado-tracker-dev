@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 11:38 (Berlin)",
+  "updated_at": "2026-06-17 12:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 2,
@@ -20,63 +20,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.seo-kueche.de",
-      "url": "https://www.seo-kueche.de/serponado/",
-      "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
-    },
-    {
-      "position": 2,
       "domain": "www.dockmedia.de",
       "url": "https://www.dockmedia.de/serponado.html",
       "title": "Serponado: Der SERP-Tornado einfach erklärt"
     },
     {
-      "position": 3,
+      "position": 2,
       "domain": "www.oev-experience.de",
       "url": "https://www.oev-experience.de/serponado.html",
       "title": "Serponado: Das digitale Sichtbarkeitsphänomen"
     },
     {
-      "position": 4,
+      "position": 3,
       "domain": "www.probandtastisch.de",
       "url": "https://www.probandtastisch.de/serponado",
       "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
+      "position": 4,
+      "domain": "serponado.de",
+      "url": "https://serponado.de/",
+      "title": "Serponado – Die offizielle Website"
+    },
+    {
       "position": 5,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
-    },
-    {
-      "position": 6,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Don Serponado und der SEO Contest 2026"
-    },
-    {
-      "position": 7,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
-    },
-    {
-      "position": 8,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
-    },
-    {
-      "position": 9,
-      "domain": "lokalerzeitung.de",
-      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
-      "title": "Das unaufhaltsame Datenphänomen und wie Sie Ihre Infrastruktur schützen"
-    },
-    {
-      "position": 10,
       "domain": "www.serponado.net",
       "url": "https://www.serponado.net/",
       "title": "Serponado: W&S Digital beim SEO-Contest 2026"
+    },
+    {
+      "position": 6,
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt - info8"
+    },
+    {
+      "position": 7,
+      "domain": "mein-serponado.de",
+      "url": "https://mein-serponado.de/",
+      "title": "Serponado - Mein Serponado"
+    },
+    {
+      "position": 8,
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/p/SERPonado-61590894954696/",
+      "title": "SERPonado | Berlin"
+    },
+    {
+      "position": 9,
+      "domain": "www.news24-7.de",
+      "url": "https://www.news24-7.de/serponado-neuer-begriff-sorgt-in-der-seo-welt-fuer-aufmerksamkeit/",
+      "title": "Serponado: Neuer Begriff sorgt in der SEO-Welt für Aufmerksamkeit"
+    },
+    {
+      "position": 10,
+      "domain": "www.serponado-seo.de",
+      "url": "https://www.serponado-seo.de/",
+      "title": "Serponado | Mehr als ein SEO-Tornado"
     }
   ],
   "history": [
@@ -4870,6 +4870,21 @@
         "www.youtube.com": 8,
         "lokalerzeitung.de": 9,
         "www.serponado.net": 10
+      }
+    },
+    {
+      "ts": "2026-06-17 12:08 (Berlin)",
+      "positions": {
+        "www.dockmedia.de": 1,
+        "www.oev-experience.de": 2,
+        "www.probandtastisch.de": 3,
+        "serponado.de": 4,
+        "www.serponado.net": 5,
+        "www.info8.de": 6,
+        "mein-serponado.de": 7,
+        "www.facebook.com": 8,
+        "www.news24-7.de": 9,
+        "www.serponado-seo.de": 10
       }
     }
   ]
