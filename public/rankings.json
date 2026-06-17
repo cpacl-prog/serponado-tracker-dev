@@ -1,11 +1,11 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 13:38 (Berlin)",
+  "updated_at": "2026-06-17 14:08 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 2,
     "title": "Serponado wirbelt die Google SERPs durcheinander",
-    "stale": false
+    "stale": true
   },
   "top3_moments": [
     {
@@ -20,51 +20,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "serponado.org",
-      "url": "https://serponado.org/",
-      "title": "Serponado"
-    },
-    {
-      "position": 2,
-      "domain": "www.optimerch.de",
-      "url": "https://www.optimerch.de/serponado/",
-      "title": "Serponado wirbelt die Google SERPs durcheinander"
-    },
-    {
-      "position": 3,
-      "domain": "till-freitag.com",
-      "url": "https://till-freitag.com/blog/serponado",
-      "title": "Serponado – Was ist das? Der SEO-Contest 2026 erklärt"
-    },
-    {
-      "position": 4,
-      "domain": "feelgoodcamper.de",
-      "url": "https://feelgoodcamper.de/pages/serponado?srsltid=AfmBOorNPdIb3M3VyxQJ-3P14eP7CLpCY8jjmX-Ewsv5yst2-D8PA5oW",
-      "title": "SEO-Contest 2026: Das Reisewort des Jahres heißt Serponado"
-    },
-    {
-      "position": 5,
       "domain": "www.seo-kueche.de",
       "url": "https://www.seo-kueche.de/serponado/",
       "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
     },
     {
+      "position": 2,
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Don Serponado und der SEO Contest 2026"
+    },
+    {
+      "position": 3,
+      "domain": "www.probandtastisch.de",
+      "url": "https://www.probandtastisch.de/serponado",
+      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
+    },
+    {
+      "position": 4,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
+    },
+    {
+      "position": 5,
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+    },
+    {
       "position": 6,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+      "domain": "www.sagemedia.de",
+      "url": "https://www.sagemedia.de/glossar/serponado/",
+      "title": "Serponado: Bedeutung, Ursachen und richtige Reaktion - sagemedia"
     },
     {
       "position": 7,
-      "domain": "seobuddha.de",
-      "url": "https://seobuddha.de/serponado/",
-      "title": "Serponado"
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
       "position": 8,
-      "domain": "www.semotion.de",
-      "url": "https://www.semotion.de/serponado/",
-      "title": "Serponado 2026: Warum Google gerade verrücktspielt - Semotion"
+      "domain": "www.facebook.com",
+      "url": "https://www.facebook.com/p/SERPonado-61590894954696/",
+      "title": "SERPonado | Berlin"
+    },
+    {
+      "position": 9,
+      "domain": "www.youtube.com",
+      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "title": "Serponado"
+    },
+    {
+      "position": 10,
+      "domain": "www.info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt - info8"
     }
   ],
   "history": [
@@ -4916,6 +4928,19 @@
         "www.dockmedia.de": 6,
         "seobuddha.de": 7,
         "www.semotion.de": 8
+      }
+    },
+    {
+      "ts": "2026-06-17 14:08 (Berlin)",
+      "positions": {
+        "www.seo-kueche.de": 1,
+        "taismo.de": 2,
+        "www.probandtastisch.de": 3,
+        "www.youtube.com": 9,
+        "locseo.eu": 7,
+        "www.sagemedia.de": 6,
+        "www.facebook.com": 8,
+        "www.info8.de": 10
       }
     }
   ]
