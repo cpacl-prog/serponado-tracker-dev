@@ -1,7 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 07:38 (Berlin)",
-  "consensus_runs": 3,
+  "updated_at": "2026-06-17 08:25 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 4,
@@ -17,73 +16,63 @@
   "rankings": [
     {
       "position": 1,
-      "domain": "www.dockmedia.de",
-      "url": "https://www.dockmedia.de/serponado.html",
-      "title": "Serponado: Der SERP-Tornado einfach erklärt",
-      "uncertain": false
+      "domain": "taismo.de",
+      "url": "https://taismo.de/seo-magazin/serponado/",
+      "title": "Don Serponado und der SEO Contest 2026"
     },
     {
       "position": 2,
-      "domain": "taismo.de",
-      "url": "https://taismo.de/seo-magazin/serponado/",
-      "title": "Don Serponado und der SEO Contest 2026",
-      "uncertain": false
+      "domain": "probandtastisch.de",
+      "url": "https://www.probandtastisch.de/serponado",
+      "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
       "position": 3,
-      "domain": "www.oev-experience.de",
-      "url": "https://www.oev-experience.de/serponado.html",
-      "title": "Serponado: Das Sichtbarkeitsphänomen - OEV Experience Hub",
-      "uncertain": false
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-geschichte",
+      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
     },
     {
       "position": 4,
-      "domain": "www.amazingh.de",
-      "url": "https://www.amazingh.de/serponado/",
-      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh",
-      "uncertain": false
+      "domain": "youtube.com",
+      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
+      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
       "position": 5,
-      "domain": "contunda.de",
-      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
-      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs",
-      "uncertain": false
+      "domain": "facebook.com",
+      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
+      "title": "SERPonado | Berlin"
     },
     {
       "position": 6,
-      "domain": "www.probandtastisch.de",
-      "url": "https://www.probandtastisch.de/serponado",
-      "title": "Serponado: Was ist das? Definition, Symptome & Studie",
-      "uncertain": false
+      "domain": "locseo.eu",
+      "url": "https://locseo.eu/serponado-bedeutung",
+      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
     },
     {
       "position": 7,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
-      "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)",
-      "uncertain": false
+      "domain": "info8.de",
+      "url": "https://www.info8.de/serponado-definition-bedeutung/",
+      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt"
     },
     {
       "position": 8,
-      "domain": "www.openpr.de",
-      "url": "https://www.openpr.de/news/1314232/Serponado-im-SEO-Contest-2026-Warum-Markenstaerke-zum-Ranking-Faktor-wird.html",
-      "title": "Serponado im SEO Contest 2026: Warum Markenstärke ...",
-      "uncertain": false
+      "domain": "youtube.com",
+      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
+      "title": "Serponado"
     },
     {
       "position": 9,
-      "domain": "www.trustprofile.com",
-      "url": "https://www.trustprofile.com/de/webshop/Serponado_4215169",
-      "title": "Ist Serponado vertrauenswürdig? Bewertungen & Prüfsiegel",
-      "uncertain": false
+      "domain": "business-branchenbuch.de",
+      "url": "https://www.business-branchenbuch.de/Serponado-47725377.html",
+      "title": "Serponado - Bremen"
     },
     {
       "position": 10,
-      "domain": "www.facebook.com",
-      "url": "https://www.facebook.com/people/SERPonado/61590894954696/",
-      "title": "SERPonado | Berlin",
-      "uncertain": false
+      "domain": "der-serponado.de",
+      "url": "https://der-serponado.de/",
+      "title": "Serponado – Der Superheld aus Serrano | Schnell wie ein ..."
     }
   ],
   "history": [
@@ -4700,6 +4689,19 @@
         "www.openpr.de": 8,
         "www.trustprofile.com": 9,
         "www.facebook.com": 10
+      }
+    },
+    {
+      "ts": "2026-06-17 08:25 (Berlin)",
+      "positions": {
+        "taismo.de": 1,
+        "probandtastisch.de": 2,
+        "locseo.eu": 6,
+        "youtube.com": 8,
+        "facebook.com": 5,
+        "info8.de": 7,
+        "business-branchenbuch.de": 9,
+        "der-serponado.de": 10
       }
     }
   ]
