@@ -1,120 +1,80 @@
 import os
 import json
 import sys
-import sqlite3
 import requests
-from urllib.parse import urlparse
 from datetime import datetime
 from zoneinfo import ZoneInfo
 
-AHREFS_TOKEN = os.environ['AHREFS_API_KEY']
-KEYWORD      = 'Serponado'
-OUTPUT       = 'public/rankings.json'
-OWN_DOMAIN   = 'optimerch.de'
-OWN_URL      = 'optimerch.de/serponado'
-MAX_DISPLAY  = 10
-MAX_HISTORY  = 1440   # 30 Tage à 48 Halbstunden
-LOG_DB       = 'rankings_log.db'
+LOGIN    = os.environ['DATAFORSEO_LOGIN']
+PASSWORD = os.environ['DATAFORSEO_PASSWORD']
+KEYWORD  = 'Serponado'
+OUTPUT   = 'public/rankings.json'
+OWN_DOMAIN  = 'optimerch.de'
+OWN_URL     = 'optimerch.de/serponado'
+MAX_DISPLAY = 10
+MAX_HISTORY = 1440  # 30 Tage à 48 Halbstunden
 
-# ── SQLite Setup ──────────────────────────────────────────────────────────────
+payload = [{
+    "keyword":                    KEYWORD,
+    "location_name":              "Dortmund,North Rhine-Westphalia,Germany",
+    "language_code":              "de",
+    "se_domain":                  "google.de",
+    "device":                     "desktop",
+    "os":                         "windows",
+    "depth":                      100,
+    "browser_screen_width":       1920,
+    "browser_screen_height":      1080,
+    "browser_screen_scale_factor": 1
+}]
 
-def init_db():
-    conn = sqlite3.connect(LOG_DB)
-    conn.execute('''
-        CREATE TABLE IF NOT EXISTS runs (
-            id           INTEGER PRIMARY KEY AUTOINCREMENT,
-            ts           TEXT    NOT NULL,
-            results_json TEXT    NOT NULL
-        )
-    ''')
-    conn.commit()
-    return conn
+try:
+    response = requests.post(
+        'https://api.dataforseo.com/v3/serp/google/organic/live/advanced',
+        auth=(LOGIN, PASSWORD),
+        json=payload,
+        timeout=60
+    )
+    response.raise_for_status()
+    data = response.json()
+except requests.RequestException as e:
+    print(f"❌ API-Fehler: {e}", file=sys.stderr)
+    sys.exit(1)
 
-# ── Ahrefs SERP Overview ──────────────────────────────────────────────────────
+try:
+    items   = data['tasks'][0]['result'][0]['items']
+    organic = [i for i in items if i.get('type') == 'organic']
+except (KeyError, IndexError, TypeError) as e:
+    print(f"❌ Unerwartete API-Antwort: {e}", file=sys.stderr)
+    print(json.dumps(data, indent=2), file=sys.stderr)
+    sys.exit(1)
 
-def fetch_rankings():
-    date_str = datetime.now(ZoneInfo('UTC')).strftime('%Y-%m-%dT%H:%M:%SZ')
-    try:
-        resp = requests.get(
-            'https://api.ahrefs.com/v3/serp-overview/serp-overview',
-            headers={
-                'Authorization': f'Bearer {AHREFS_TOKEN}',
-                'Accept':        'application/json',
-            },
-            params={
-                'keyword': KEYWORD,
-                'country': 'de',
-                'date':    date_str,
-                'select':  'url,title,position,type',
-            },
-            timeout=30
-        )
-        if not resp.ok:
-            print(f"❌ Ahrefs HTTP {resp.status_code}: {resp.text[:500]}", file=sys.stderr)
-            sys.exit(1)
-        data = resp.json()
-    except requests.RequestException as e:
-        print(f"❌ Ahrefs API-Fehler: {e}", file=sys.stderr)
-        sys.exit(1)
+rankings = [
+    {
+        'position': item.get('rank_group'),
+        'domain':   item.get('domain'),
+        'url':      item.get('url'),
+        'title':    item.get('title', ''),
+    }
+    for item in organic
+]
 
-    try:
-        raw_positions = data['positions']
-    except (KeyError, TypeError) as e:
-        print(f"❌ Unerwartete Ahrefs-Antwort: {e}", file=sys.stderr)
-        print(json.dumps(data, indent=2), file=sys.stderr)
-        sys.exit(1)
+now = datetime.now(ZoneInfo('Europe/Berlin')).strftime('%Y-%m-%d %H:%M (Berlin)')
 
-    rankings = []
-    for item in raw_positions:
-        types = item.get('type', [])
-        if 'organic' not in types:
-            continue
-        url    = item.get('url', '')
-        domain = item.get('domain') or urlparse(url).netloc.lstrip('www.')
-        rankings.append({
-            'position': item.get('position'),
-            'domain':   domain,
-            'url':      url,
-            'title':    item.get('title', ''),
-        })
+top20 = rankings[:MAX_DISPLAY]
+positions = {r['domain']: r['position'] for r in top20 if r['domain']}
 
-    return rankings
-
-# ── Hauptlauf ─────────────────────────────────────────────────────────────────
-
-now  = datetime.now(ZoneInfo('Europe/Berlin')).strftime('%Y-%m-%d %H:%M (Berlin)')
-conn = init_db()
-
-rankings = fetch_rankings()
-print(f"  Ahrefs: {len(rankings)} organische Ergebnisse")
-
-conn.execute(
-    'INSERT INTO runs (ts, results_json) VALUES (?, ?)',
-    (now, json.dumps(rankings, ensure_ascii=False))
-)
-conn.commit()
-conn.close()
-
-# ── Bestehende Daten laden ────────────────────────────────────────────────────
-
+# Bestehende Daten laden (History + letzter own_url-Stand)
 existing_data = {}
-history       = []
-
+history = []
 if os.path.exists(OUTPUT):
     try:
         with open(OUTPUT, 'r', encoding='utf-8') as f:
             existing_data = json.load(f)
-            history       = existing_data.get('history', [])
+            history = existing_data.get('history', [])
     except (json.JSONDecodeError, IOError):
         pass
 
-# ── Top 10 aufbereiten ────────────────────────────────────────────────────────
-
-top10     = rankings[:MAX_DISPLAY]
-positions = {r['domain']: r['position'] for r in top10 if r['domain']}
-
-# ── Eigene URL tracken ────────────────────────────────────────────────────────
-
+# Spezifische URL separat tracken
 own_url_result = next(
     (r for r in rankings if r['url'] and OWN_URL in r['url']),
     None
@@ -128,6 +88,7 @@ if own_url_result:
         'stale':    False,
     }
 else:
+    # Letzte bekannte Position behalten statt leer anzuzeigen
     last = existing_data.get('own_url', {})
     own_url_data = {
         'url':      'https://www.optimerch.de/serponado/',
@@ -141,15 +102,12 @@ own_position = next(
     None
 )
 
-# ── History ───────────────────────────────────────────────────────────────────
-
 history.append({'ts': now, 'positions': positions})
 history = history[-MAX_HISTORY:]
 
-# ── Top-3-Momente ─────────────────────────────────────────────────────────────
-
+# Top-3-Momente: beste Position des Tages, nur wenn Top 3
 top3_moments = existing_data.get('top3_moments', [])
-today        = now.split(' ')[0]
+today = now.split(' ')[0]
 
 if not own_url_data['stale'] and own_url_data['position'] and own_url_data['position'] <= 3:
     today_entry = next((m for m in top3_moments if m['date'] == today), None)
@@ -160,16 +118,14 @@ if not own_url_data['stale'] and own_url_data['position'] and own_url_data['posi
         top3_moments.append({'date': today, 'position': own_url_data['position']})
 
 top3_moments.sort(key=lambda m: m['date'], reverse=True)
-top3_moments = top3_moments[:90]
-
-# ── Output schreiben ──────────────────────────────────────────────────────────
+top3_moments = top3_moments[:90]  # max 90 Tage aufbewahren
 
 output = {
     'keyword':      KEYWORD,
     'updated_at':   now,
     'own_url':      own_url_data,
     'top3_moments': top3_moments,
-    'rankings':     top10,
+    'rankings':     top20,
     'history':      history,
 }
 
@@ -178,8 +134,4 @@ with open(OUTPUT, 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
 stale_note = ' (zuletzt gesehen)' if own_url_data['stale'] else ''
-print(
-    f"✅ {len(rankings)} Ergebnisse gespeichert. "
-    f"{OWN_DOMAIN}: Position {own_position} | "
-    f"/serponado/: Position {own_url_data['position']}{stale_note}"
-)
+print(f"✅ {len(rankings)} Ergebnisse gespeichert. {OWN_DOMAIN}: Position {own_position} | /serponado/: Position {own_url_data['position']}{stale_note}")

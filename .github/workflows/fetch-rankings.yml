@@ -31,18 +31,11 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Fetch Rankings von Ahrefs SERP Overview
+      - name: Fetch Rankings from DataForSEO
         env:
-          AHREFS_API_KEY: ${{ secrets.AHREFS_API_KEY }}
+          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
         run: python fetch_rankings.py
-
-      - name: Upload Diagnose-Log als Artifact
-        if: always()
-        uses: actions/upload-artifact@v4
-        with:
-          name: rankings-log-${{ github.run_id }}
-          path: rankings_log.db
-          retention-days: 90
 
       - name: Commit & Push rankings.json
         run: |
