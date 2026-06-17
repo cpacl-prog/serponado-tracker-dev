@@ -21,7 +21,7 @@ payload = [{
     "se_domain":                  "google.de",
     "device":                     "desktop",
     "os":                         "windows",
-    "depth":                      100,
+    "depth":                      10,
     "browser_screen_width":       1920,
     "browser_screen_height":      1080,
     "browser_screen_scale_factor": 1
