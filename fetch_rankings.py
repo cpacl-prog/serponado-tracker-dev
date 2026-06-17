@@ -1,6 +1,7 @@
 import os
 import json
 import sys
+import time
 import requests
 from datetime import datetime
 from zoneinfo import ZoneInfo
@@ -9,72 +10,111 @@ LOGIN    = os.environ['DATAFORSEO_LOGIN']
 PASSWORD = os.environ['DATAFORSEO_PASSWORD']
 KEYWORD  = 'Serponado'
 OUTPUT   = 'public/rankings.json'
-OWN_DOMAIN  = 'optimerch.de'
-OWN_URL     = 'optimerch.de/serponado'
-MAX_DISPLAY = 10
-MAX_HISTORY = 1440  # 30 Tage à 48 Halbstunden
+OWN_DOMAIN     = 'optimerch.de'
+OWN_URL        = 'optimerch.de/serponado'
+MAX_DISPLAY    = 10
+MAX_HISTORY    = 1440   # 30 Tage à 48 Halbstunden
+CONSENSUS_RUNS = 3
 
-payload = [{
-    "keyword":                    KEYWORD,
-    "location_name":              "Dortmund,North Rhine-Westphalia,Germany",
-    "language_code":              "de",
-    "se_domain":                  "google.de",
-    "device":                     "mobile",
-    "os":                         "android",
-    "depth":                      10,
-    "browser_screen_width":       1920,
-    "browser_screen_height":      1080,
+PAYLOAD = [{
+    "keyword":                     KEYWORD,
+    "location_name":               "Dortmund,North Rhine-Westphalia,Germany",
+    "language_code":               "de",
+    "se_domain":                   "google.de",
+    "device":                      "mobile",
+    "os":                          "android",
+    "depth":                       10,
+    "browser_screen_width":        1920,
+    "browser_screen_height":       1080,
     "browser_screen_scale_factor": 1
 }]
 
-try:
-    response = requests.post(
-        'https://api.dataforseo.com/v3/serp/google/organic/live/advanced',
-        auth=(LOGIN, PASSWORD),
-        json=payload,
-        timeout=60
-    )
-    response.raise_for_status()
-    data = response.json()
-except requests.RequestException as e:
-    print(f"❌ API-Fehler: {e}", file=sys.stderr)
-    sys.exit(1)
+# ── Bestehende Daten laden (vor den API-Abfragen, für den Vergleich) ──────────
 
-try:
-    items   = data['tasks'][0]['result'][0]['items']
-    organic = [i for i in items if i.get('type') == 'organic']
-except (KeyError, IndexError, TypeError) as e:
-    print(f"❌ Unerwartete API-Antwort: {e}", file=sys.stderr)
-    print(json.dumps(data, indent=2), file=sys.stderr)
-    sys.exit(1)
-
-rankings = [
-    {
-        'position': item.get('rank_group'),
-        'domain':   item.get('domain'),
-        'url':      item.get('url'),
-        'title':    item.get('title', ''),
-    }
-    for item in organic
-]
-
-now = datetime.now(ZoneInfo('Europe/Berlin')).strftime('%Y-%m-%d %H:%M (Berlin)')
-
-top20 = rankings[:MAX_DISPLAY]
-positions = {r['domain']: r['position'] for r in top20 if r['domain']}
-
-# Bestehende Daten laden (History + letzter own_url-Stand)
 existing_data = {}
-history = []
+history       = []
+prev_rankings = []
+
 if os.path.exists(OUTPUT):
     try:
         with open(OUTPUT, 'r', encoding='utf-8') as f:
             existing_data = json.load(f)
-            history = existing_data.get('history', [])
+            history       = existing_data.get('history', [])
+            prev_rankings = existing_data.get('rankings', [])
     except (json.JSONDecodeError, IOError):
         pass
 
-# Spezifische URL separat tracken
+# ── API-Helfer ────────────────────────────────────────────────────────────────
+
+def fetch_once(run_num):
+    try:
+        resp = requests.post(
+            'https://api.dataforseo.com/v3/serp/google/organic/live/advanced',
+            auth=(LOGIN, PASSWORD),
+            json=PAYLOAD,
+            timeout=60
+        )
+        resp.raise_for_status()
+        data = resp.json()
+    except requests.RequestException as e:
+        print(f"  ⚠️  Run {run_num} API-Fehler: {e}", file=sys.stderr)
+        return None
+
+    try:
+        items   = data['tasks'][0]['result'][0]['items']
+        organic = [i for i in items if i.get('type') == 'organic']
+    except (KeyError, IndexError, TypeError) as e:
+        print(f"  ⚠️  Run {run_num} Parsing-Fehler: {e}", file=sys.stderr)
+        return None
+
+    return [
+        {
+            'position': item.get('rank_group'),
+            'domain':   item.get('domain'),
+            'url':      item.get('url'),
+            'title':    item.get('title', ''),
+        }
+        for item in organic
+    ]
+
+def overlap_score(result, reference):
+    """Anzahl Domains aus result, die auch in reference vorkommen."""
+    if not reference:
+        return 0
+    ref_domains = {r['domain'] for r in reference if r.get('domain')}
+    return sum(1 for r in result if r.get('domain') in ref_domains)
+
+# ── 3 Abfragen durchführen ────────────────────────────────────────────────────
+
+all_runs = []
+for run_num in range(1, CONSENSUS_RUNS + 1):
+    result = fetch_once(run_num)
+    if result is not None:
+        score = overlap_score(result, prev_rankings)
+        all_runs.append((score, run_num, result))
+        print(f"  Run {run_num}/{CONSENSUS_RUNS}: {len(result)} Ergebnisse | Übereinstimmung mit Vorherigem: {score}/10")
+    if run_num < CONSENSUS_RUNS:
+        time.sleep(3)
+
+if not all_runs:
+    print("❌ Alle Abfragen fehlgeschlagen.", file=sys.stderr)
+    sys.exit(1)
+
+# ── Bestes Ergebnis wählen ────────────────────────────────────────────────────
+
+all_runs.sort(key=lambda x: x[0], reverse=True)
+best_score, best_run_num, rankings = all_runs[0]
+
+print(f"  → Gewählt: Run {best_run_num} (Score {best_score}/10)")
+
+# ── Output aufbereiten ────────────────────────────────────────────────────────
+
+now      = datetime.now(ZoneInfo('Europe/Berlin')).strftime('%Y-%m-%d %H:%M (Berlin)')
+top10    = rankings[:MAX_DISPLAY]
+positions = {r['domain']: r['position'] for r in top10 if r['domain']}
+
+# ── Eigene URL tracken ────────────────────────────────────────────────────────
+
 own_url_result = next(
     (r for r in rankings if r['url'] and OWN_URL in r['url']),
     None
@@ -88,7 +128,6 @@ if own_url_result:
         'stale':    False,
     }
 else:
-    # Letzte bekannte Position behalten statt leer anzuzeigen
     last = existing_data.get('own_url', {})
     own_url_data = {
         'url':      'https://www.optimerch.de/serponado/',
@@ -102,12 +141,15 @@ own_position = next(
     None
 )
 
+# ── History ───────────────────────────────────────────────────────────────────
+
 history.append({'ts': now, 'positions': positions})
 history = history[-MAX_HISTORY:]
 
-# Top-3-Momente: beste Position des Tages, nur wenn Top 3
+# ── Top-3-Momente ─────────────────────────────────────────────────────────────
+
 top3_moments = existing_data.get('top3_moments', [])
-today = now.split(' ')[0]
+today        = now.split(' ')[0]
 
 if not own_url_data['stale'] and own_url_data['position'] and own_url_data['position'] <= 3:
     today_entry = next((m for m in top3_moments if m['date'] == today), None)
@@ -118,14 +160,16 @@ if not own_url_data['stale'] and own_url_data['position'] and own_url_data['posi
         top3_moments.append({'date': today, 'position': own_url_data['position']})
 
 top3_moments.sort(key=lambda m: m['date'], reverse=True)
-top3_moments = top3_moments[:90]  # max 90 Tage aufbewahren
+top3_moments = top3_moments[:90]
+
+# ── Schreiben ─────────────────────────────────────────────────────────────────
 
 output = {
     'keyword':      KEYWORD,
     'updated_at':   now,
     'own_url':      own_url_data,
     'top3_moments': top3_moments,
-    'rankings':     top20,
+    'rankings':     top10,
     'history':      history,
 }
 
@@ -134,4 +178,8 @@ with open(OUTPUT, 'w', encoding='utf-8') as f:
     json.dump(output, f, ensure_ascii=False, indent=2)
 
 stale_note = ' (zuletzt gesehen)' if own_url_data['stale'] else ''
-print(f"✅ {len(rankings)} Ergebnisse gespeichert. {OWN_DOMAIN}: Position {own_position} | /serponado/: Position {own_url_data['position']}{stale_note}")
+print(
+    f"✅ {len(rankings)} Ergebnisse gespeichert (Run {best_run_num}, Score {best_score}/10). "
+    f"{OWN_DOMAIN}: Position {own_position} | "
+    f"/serponado/: Position {own_url_data['position']}{stale_note}"
+)
