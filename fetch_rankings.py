@@ -33,17 +33,19 @@ def init_db():
 # ── Ahrefs SERP Overview ──────────────────────────────────────────────────────
 
 def fetch_rankings():
+    date_str = datetime.now(ZoneInfo('UTC')).strftime('%Y-%m-%dT%H:%M:%SZ')
     try:
         resp = requests.get(
-            'https://api.ahrefs.com/v3/keywords-explorer/serp-overview',
+            'https://api.ahrefs.com/v3/serp-overview/serp-overview',
             headers={
                 'Authorization': f'Bearer {AHREFS_TOKEN}',
                 'Accept':        'application/json',
             },
             params={
-                'keywords[]': KEYWORD,
-                'country':    'de',
-                'select':     'keyword,serp_overview',
+                'keyword': KEYWORD,
+                'country': 'de',
+                'date':    date_str,
+                'select':  'url,title,position,type',
             },
             timeout=30
         )
@@ -55,15 +57,16 @@ def fetch_rankings():
         print(f"❌ Ahrefs API-Fehler: {e}", file=sys.stderr)
         sys.exit(1)
 
-    # Debug: zeigt Rohstruktur wenn Parsing fehlschlägt
     try:
-        raw_positions = (
-            data.get('serp_overview', data)
-                .get('positions', data.get('positions', []))
-        )
-        if not raw_positions:
-            raise KeyError('positions nicht gefunden')
-    except (KeyError, AttributeError) as e:
+        if isinstance(data, list):
+            raw_positions = data
+        elif 'serp' in data:
+            raw_positions = data['serp']
+        elif 'serp_overview' in data:
+            raw_positions = data['serp_overview']
+        else:
+            raise KeyError(f"Unbekannte Struktur: {list(data.keys())}")
+    except (KeyError, AttributeError, TypeError) as e:
         print(f"❌ Unerwartete Ahrefs-Antwort: {e}", file=sys.stderr)
         print(json.dumps(data, indent=2), file=sys.stderr)
         sys.exit(1)
