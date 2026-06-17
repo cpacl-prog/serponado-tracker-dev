@@ -1,6 +1,6 @@
 {
   "keyword": "Serponado",
-  "updated_at": "2026-06-17 11:08 (Berlin)",
+  "updated_at": "2026-06-17 11:38 (Berlin)",
   "own_url": {
     "url": "https://www.optimerch.de/serponado/",
     "position": 2,
@@ -20,63 +20,63 @@
   "rankings": [
     {
       "position": 1,
+      "domain": "www.seo-kueche.de",
+      "url": "https://www.seo-kueche.de/serponado/",
+      "title": "Serponado – Der SERP-Wirbelsturm einfach erklärt"
+    },
+    {
+      "position": 2,
+      "domain": "www.dockmedia.de",
+      "url": "https://www.dockmedia.de/serponado.html",
+      "title": "Serponado: Der SERP-Tornado einfach erklärt"
+    },
+    {
+      "position": 3,
+      "domain": "www.oev-experience.de",
+      "url": "https://www.oev-experience.de/serponado.html",
+      "title": "Serponado: Das digitale Sichtbarkeitsphänomen"
+    },
+    {
+      "position": 4,
       "domain": "www.probandtastisch.de",
       "url": "https://www.probandtastisch.de/serponado",
       "title": "Serponado: Was ist das? Definition, Symptome & Studie"
     },
     {
-      "position": 2,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-geschichte",
-      "title": "Serponado Geschichte – Entstehung, Contest 2026 & Akte"
+      "position": 5,
+      "domain": "www.amazingh.de",
+      "url": "https://www.amazingh.de/serponado/",
+      "title": "Serponado | Die Flucht aus dem Alltag - Amazingh"
     },
     {
-      "position": 3,
+      "position": 6,
       "domain": "taismo.de",
       "url": "https://taismo.de/seo-magazin/serponado/",
       "title": "Don Serponado und der SEO Contest 2026"
     },
     {
-      "position": 4,
+      "position": 7,
+      "domain": "contunda.de",
+      "url": "https://contunda.de/blog/serponado-seo-tornado-google-serp/",
+      "title": "▷ Serponado: SEO-Tornado in den Google-SERPs"
+    },
+    {
+      "position": 8,
       "domain": "www.youtube.com",
       "url": "https://www.youtube.com/shorts/KC_SOm_ZJUI",
       "title": "Der Serponado ist da! 🌪️ (Die Wahrheit)"
     },
     {
-      "position": 5,
-      "domain": "locseo.eu",
-      "url": "https://locseo.eu/serponado-bedeutung",
-      "title": "Serponado Bedeutung – Wortart, Definition & Semantik"
-    },
-    {
-      "position": 6,
-      "domain": "der-serponado.de",
-      "url": "https://der-serponado.de/",
-      "title": "Serponado – Der Superheld aus Serrano | Schnell wie ein Tornado"
-    },
-    {
-      "position": 7,
-      "domain": "www.info8.de",
-      "url": "https://www.info8.de/serponado-definition-bedeutung/",
-      "title": "Serponado: Definition, Herkunft und Bedeutung einfach erklärt - info8"
-    },
-    {
-      "position": 8,
-      "domain": "www.serponado.io",
-      "url": "https://www.serponado.io/",
-      "title": "Serponado – Das Keyword des SEO Contests 2026"
-    },
-    {
       "position": 9,
-      "domain": "serponado.de",
-      "url": "https://serponado.de/don-serponado",
-      "title": "Serponado — Die offizielle Seite"
+      "domain": "lokalerzeitung.de",
+      "url": "https://lokalerzeitung.de/nachrichten/serponado-infrastruktur-schuetzen",
+      "title": "Das unaufhaltsame Datenphänomen und wie Sie Ihre Infrastruktur schützen"
     },
     {
       "position": 10,
-      "domain": "www.youtube.com",
-      "url": "https://www.youtube.com/playlist?list=OLAK5uy_np9OJsOIY8X9gB-rBwIA74R73RdtrOL_8",
-      "title": "Serponado"
+      "domain": "www.serponado.net",
+      "url": "https://www.serponado.net/",
+      "title": "Serponado: W&S Digital beim SEO-Contest 2026"
     }
   ],
   "history": [
@@ -4855,6 +4855,21 @@
         "www.info8.de": 7,
         "www.serponado.io": 8,
         "serponado.de": 9
+      }
+    },
+    {
+      "ts": "2026-06-17 11:38 (Berlin)",
+      "positions": {
+        "www.seo-kueche.de": 1,
+        "www.dockmedia.de": 2,
+        "www.oev-experience.de": 3,
+        "www.probandtastisch.de": 4,
+        "www.amazingh.de": 5,
+        "taismo.de": 6,
+        "contunda.de": 7,
+        "www.youtube.com": 8,
+        "lokalerzeitung.de": 9,
+        "www.serponado.net": 10
       }
     }
   ]
